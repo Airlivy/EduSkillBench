@@ -1,0 +1,46 @@
+{
+  "version": "1",
+  "skill_name": "project-brief-designer",
+  "defaults": {
+    "timeout_sec": 300,
+    "judge_model": "qwen3.7-plus"
+  },
+  "cases": [
+    {
+      "id": "project-brief-designer__01",
+      "question": "A 5th-grade class is studying ecosystems and the vital role of pollinators. The school wants to start a new garden but needs a plan that specifically supports local bees and butterflies. The teacher wants to use a project-based approach to teach plant-pollinator relationships and basic experimental design.\n\nDesign a project-based learning brief for my 5th-grade science class. The project topic is creating a pollinator-friendly school garden. The learning objectives are for students to understand plant-pollinator relationships, identify local pollinator species and their habitat needs, and design a basic garden layout. The project will last for 3 weeks (about 9 lessons). Please include a driving question, a student-facing scenario, milestones with explicit teacher instruction points, assessment criteria, and an instruction map.",
+      "ground_truth": "A complete project brief including a driving question, student scenario, 3-5 milestones with explicit instruction points and formative checks, process and product assessment criteria, an explicit instruction map, differentiation notes, and known design choices.",
+      "expected_behavior": [
+        "The driving question is open-ended, authentic, and requires students to apply their knowledge of plant-pollinator relationships. The scenario is engaging, age-appropriate for 5th graders, and establishes a clear real-world purpose and audience.",
+        "Provides 3-5 clear milestones. Each milestone includes a deliverable, required knowledge/skills, a specific point for explicit teacher instruction (not just facilitation), a formative check, and structured student choice.",
+        "Assessment criteria are transparent and divided into process and product. The criteria explicitly prioritize scientific understanding and application over the visual aesthetics of the garden design.",
+        "Includes a teacher-facing explicit instruction map detailing when and how direct teaching occurs. Provides practical differentiation notes for varying learner needs while maintaining the core learning objectives.",
+        "The project is feasible within the 3-week timeframe. It includes opportunities for reflection and revision. The design ensures students cannot complete the project successfully without genuinely understanding the ecological concepts."
+      ]
+    },
+    {
+      "id": "project-brief-designer__02",
+      "question": "A 10th-grade history class is studying the expansion of the United States in the 19th century. The teacher wants to move beyond the traditional narrative of the transcontinental railroad to explore its profound impact on Indigenous communities. Students need to analyze primary sources and construct historical arguments.\n\nI need a project-based learning brief for my 10th-grade history class. The topic is the impact of the transcontinental railroad on Indigenous communities. The learning objectives are to analyze primary and secondary sources, evaluate multiple historical perspectives, and construct an evidence-based historical argument. The project duration is 4 weeks (12 lessons). The final product should be a digital museum exhibit. Please provide the driving question, scenario, milestones with teacher instruction points, assessment criteria, and an explicit instruction map.",
+      "ground_truth": "A comprehensive PBL brief featuring an open-ended driving question, a compelling historical scenario, 3-5 milestones integrating explicit instruction on historical thinking skills, transparent assessment criteria prioritizing historical argumentation, an explicit instruction map, differentiation notes, and design choices.",
+      "expected_behavior": [
+        "The driving question is genuinely open-ended, historically authentic, and requires the evaluation of multiple perspectives. The scenario provides a compelling, real-world context for 10th graders to act as historians or curators.",
+        "Details 3-5 milestones. Each includes a deliverable, historical skills to be learned, a specific explicit instruction point (e.g., teaching source sourcing, contextualization, or corroboration), a formative check, and structured student choice regarding their exhibit focus.",
+        "Assessment criteria clearly distinguish between process (research, historical thinking) and product (exhibit quality). The rubric heavily weights the strength of the historical argument and use of evidence over digital design skills.",
+        "The explicit instruction map clearly schedules direct teaching of historical thinking skills alongside the project work. Differentiation notes address how to support students struggling with complex primary sources.",
+        "The project fits the 4-week timeline and includes structured reflection and revision phases. It ensures that producing the digital exhibit requires deep historical understanding and cannot be achieved merely by summarizing textbook information."
+      ]
+    },
+    {
+      "id": "project-brief-designer__03",
+      "question": "A 12th-grade physics class is concluding their unit on thermodynamics and heat transfer. The teacher wants a rigorous, real-world engineering challenge where students design a passive cooling system to store temperature-sensitive medical supplies in an off-grid, high-temperature environment. The project must integrate complex physics calculations with practical design.\n\nCreate a project-based learning brief for my 12th-grade physics class. The project topic is designing a passive cooling system for off-grid medical storage. The learning objectives are to apply thermodynamics and heat transfer principles, calculate thermal loads, design a physical prototype, and write a technical engineering proposal. The project will run for 6 weeks (18 lessons). Please include the driving question, scenario, milestones with explicit instruction points for the physics concepts, assessment criteria, and an explicit instruction map.",
+      "ground_truth": "A rigorous PBL brief with a complex, open-ended driving question, a high-stakes engineering scenario, 3-5 milestones that explicitly map physics instruction to design phases, assessment criteria prioritizing physics accuracy and engineering logic, an explicit instruction map, differentiation notes, and known design choices.",
+      "expected_behavior": [
+        "The driving question is open-ended, authentic, and requires the application of advanced physics principles. The scenario establishes a high-stakes, real-world engineering context appropriate for 12th graders.",
+        "Provides 3-5 milestones. Each milestone includes a deliverable, required physics knowledge, a specific explicit instruction point (e.g., teaching Fourier's law, calculating thermal resistance), a formative check, and structured student choice in design parameters.",
+        "Assessment criteria are transparent and heavily prioritize the accuracy of physics calculations, thermodynamic reasoning, and engineering logic over the physical aesthetics or craftsmanship of the prototype.",
+        "The explicit instruction map strategically sequences direct instruction of complex mathematical and physical concepts exactly when needed for the design phases. Differentiation notes provide scaffolds for complex calculations without reducing the cognitive demand.",
+        "The project is feasible within 6 weeks and includes mandatory reflection and revision cycles based on prototype testing. It ensures that a successful design is impossible without a deep, calculable understanding of heat transfer, preventing trial-and-error guessing."
+      ]
+    }
+  ]
+}

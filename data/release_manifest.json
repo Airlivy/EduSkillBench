@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "total_tasks": 54,
+  "files": {
+    "single_turn": {
+      "tasks": 42,
+      "sha256": "51514add06cf06f74be36b5dd2f2606a5b4c62489febec8fecf3458a2c9eb710"
+    },
+    "multi_turn": {
+      "tasks": 12,
+      "sha256": "55cc1df427ae44ab7539e34e8231a7253341a58b6781b8b95aea06ca222b7707"
+    }
+  }
+}

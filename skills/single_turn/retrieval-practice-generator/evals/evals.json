@@ -1,0 +1,46 @@
+{
+  "version": "1",
+  "skill_name": "retrieval-practice-generator",
+  "defaults": {
+    "timeout_sec": 300,
+    "judge_model": "qwen3.7-plus"
+  },
+  "cases": [
+    {
+      "id": "retrieval-practice-generator__01",
+      "question": "A fifth-grade teacher recently finished a two-week unit on adding and subtracting fractions with unlike denominators. The class has a mix of students—some grasp the concept quickly while others still struggle with finding common denominators. The teacher wants to create a short retrieval activity to help students practice recalling the procedure from memory before moving on to multiplying fractions next week.\n\nI need 6 practice questions on adding and subtracting fractions with unlike denominators for my Grade 5 class. We covered this topic about a week ago. Some students still mix up when to find common denominators versus when they can add straight across. Please create the questions and include guidance on what correct answers should contain, common mistakes to watch for, and brief instructions for how I should run this activity in class.",
+      "ground_truth": "A set of 6 retrieval practice questions on fraction operations with unlike denominators, each labeled with a retrieval type (free recall, cued recall, or recognition), accompanied by answer notes identifying key points and common errors, plus a brief implementation script for classroom use.",
+      "expected_behavior": [
+        "Output contains exactly 6 questions, and each question is explicitly labeled with a retrieval type (free recall, cued recall, or recognition).",
+        "The mix of retrieval types is weighted toward free recall and cued recall rather than recognition, appropriate for Grade 5 students who learned the material approximately one week ago.",
+        "Each question requires students to reconstruct procedural or conceptual knowledge from memory rather than simply recognizing a correct answer from options or matching surface patterns. Questions cannot be answered from the question text alone without prior knowledge.",
+        "Answer notes are provided that identify the key points for correct answers and explicitly name common errors or misconceptions students are likely to make (e.g., adding numerators and denominators directly).",
+        "A brief implementation script or guidance is included that addresses how to run the activity, including whether notes should be allowed, approximate timing, and what to do after completion (e.g., discussion, identifying gaps)."
+      ]
+    },
+    {
+      "id": "retrieval-practice-generator__02",
+      "question": "A high school biology teacher taught cellular respiration (glycolysis, Krebs cycle, electron transport chain, and ATP production) three weeks ago. The class is preparing for a unit test, and the teacher wants a retrieval practice session to strengthen long-term retention. The teacher has noticed two persistent misconceptions: (1) students confuse cellular respiration with breathing/pulmonary respiration, and (2) students believe ATP is only produced in the mitochondria and that glycolysis does not produce ATP. The teacher wants questions that specifically surface and address these misconceptions.\n\nCreate 8 retrieval practice questions on cellular respiration for my Grade 10 biology class. We covered this three weeks ago. I've noticed two big misconceptions: students think cellular respiration is the same as breathing, and they think ATP is only made in the mitochondria. I need questions that will help expose these misunderstandings. Include a recommendation for when to use these questions again for spacing, detailed answer notes highlighting the key points and errors, and a script for running the activity.",
+      "ground_truth": "A set of 8 retrieval practice questions on cellular respiration with retrieval type labels, a spacing recommendation for re-use, answer notes that specifically address the two stated misconceptions, and an implementation script for classroom delivery.",
+      "expected_behavior": [
+        "Output contains exactly 8 questions, each explicitly labeled with a retrieval type (free recall, cued recall, or recognition), with the distribution weighted toward free and cued recall.",
+        "At least 2 questions are specifically designed to surface the stated misconceptions: (1) confusion between cellular respiration and breathing, and (2) the belief that ATP is only produced in mitochondria. These questions require students to articulate distinctions or correct errors.",
+        "Question difficulty and retrieval type distribution are calibrated appropriately for material learned 3 weeks ago, with increased emphasis on free recall questions that strengthen retrieval during the forgetting phase.",
+        "A spacing recommendation is provided that specifies when to re-use these questions or a subset of them for optimal long-term retention, referencing appropriate intervals beyond the initial 3-week delay.",
+        "Answer notes identify key points and explicitly address the two target misconceptions as common errors. The implementation script includes guidance on timing, the low-stakes nature of the activity (no grading), whether notes are permitted, and post-activity discussion focus."
+      ]
+    },
+    {
+      "id": "retrieval-practice-generator__03",
+      "question": "An A-Level Economics teacher taught monetary policy (interest rates, quantitative easing, money supply, and the transmission mechanism to inflation and output) five weeks ago to a mixed-ability class that includes several EAL (English as an Additional Language) students. The teacher has identified multiple misconceptions: students conflate monetary policy with fiscal policy, believe interest rate changes affect inflation immediately, and do not understand the transmission mechanism through which central bank actions reach the real economy. The class follows the A-Level Economics specification, which requires students to evaluate the effectiveness of monetary policy in different economic contexts. The teacher needs a comprehensive retrieval activity that challenges advanced students while remaining accessible to EAL learners.\n\nI need 10 retrieval practice questions on monetary policy for my A-Level Economics class. We covered this five weeks ago. My class is mixed ability with some EAL students. The misconceptions I've identified are: confusing monetary and fiscal policy, thinking interest rate changes affect inflation immediately, and not understanding the transmission mechanism. The A-Level spec requires students to evaluate policy effectiveness. Please generate the questions with appropriate retrieval types, a spacing recommendation, detailed answer notes covering key points and errors for each question, and a full implementation script. The questions need to work for both my stronger students and those with language barriers.",
+      "ground_truth": "A set of 10 retrieval practice questions on monetary policy with retrieval type labels, a spacing recommendation, comprehensive answer notes for each question addressing key points and the specified misconceptions, and a detailed implementation script that accounts for mixed ability and EAL learners.",
+      "expected_behavior": [
+        "Output contains exactly 10 questions with explicit retrieval type labels. The distribution is sophisticated and appropriate for advanced pre-university students after a 5-week delay, with substantial emphasis on free recall questions that demand deep reconstruction of complex economic relationships.",
+        "Questions specifically target all three stated misconceptions: (1) confusion between monetary and fiscal policy, (2) misunderstanding of time lags in interest rate effects on inflation, and (3) lack of understanding of the transmission mechanism. Multiple questions address each misconception from different angles.",
+        "Questions demand genuine reconstruction of economic reasoning, causal chains, and evaluative thinking rather than simple recall of definitions. Questions cannot be answered from the question text alone and require students to reconstruct relationships between concepts (e.g., explaining how a rate change propagates through the economy).",
+        "Answer notes for each question identify key points for correct answers, explicitly address the target misconceptions as common errors, and for evaluative questions, indicate what constitutes strong versus weak economic reasoning. Notes are detailed enough to guide teacher feedback.",
+        "The implementation script is detailed and addresses: timing for 10 questions, low-stakes framing, no-notes policy, post-activity discussion strategy, and specific accommodations or considerations for EAL students and mixed-ability learners (e.g., scaffolding, paired discussion, language support)."
+      ]
+    }
+  ]
+}

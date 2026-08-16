@@ -1,0 +1,46 @@
+{
+  "version": "1",
+  "skill_name": "motivation-diagnostic-task-redesign",
+  "defaults": {
+    "timeout_sec": 300,
+    "judge_model": "qwen3.7-plus"
+  },
+  "cases": [
+    {
+      "id": "motivation-diagnostic-task-redesign__01",
+      "question": "A mathematics teacher has assigned a routine practice worksheet on adding and subtracting fractions with unlike denominators. The worksheet contains 30 problems of increasing difficulty. Students work silently at their desks for 25 minutes. The teacher has noticed that students rush through the problems, make careless errors on the later questions, and when the teacher reviews answers the next day, many students cannot explain their work or remember how to solve similar problems. The teacher wants to understand why students are disengaged and how to redesign the task.\n\nI'm a Grade 7 math teacher. My current task is: Students complete a 30-problem worksheet on adding and subtracting fractions with unlike denominators, working silently at their desks for 25 minutes. The learning objective is for students to accurately add and subtract fractions with unlike denominators. I've noticed students rush through, make careless errors, and can't explain their work the next day. Please diagnose what's going wrong motivationally and redesign this task to improve engagement without reducing the mathematical rigor.",
+      "ground_truth": "A diagnosis grounded in the observed student behavior and task design; a redesigned task that preserves the learning objective and rigor while improving meaningful choice, perceived capability, relevance, and engagement; clear rationale for each modification; and practical implementation guidance.",
+      "expected_behavior": [
+        "Identifies multiple plausible motivational problems using concrete evidence from the task and observed student behavior.",
+        "Explains whether students show disengagement, superficial compliance, or meaningful engagement, with evidence rather than requiring theoretical labels.",
+        "Provides a complete, detailed redesigned task that maintains or increases mathematical rigor (students must still demonstrate accurate fraction operations) while addressing the diagnosed motivation gaps.",
+        "Links redesign choices to diagnosed motivational problems, balances student choice with sufficient structure, and avoids relying on extrinsic rewards.",
+        "Provides practical notes on how to introduce the redesigned task, what student responses to anticipate, and how to adjust if the redesign does not work as intended."
+      ]
+    },
+    {
+      "id": "motivation-diagnostic-task-redesign__02",
+      "question": "A high school history teacher assigns a traditional research essay on the causes of the French Revolution. Students choose from a teacher-provided list of five topics (economic crisis, Enlightenment ideas, social inequality, weak leadership, or influence of the American Revolution). The essay must be 5 paragraphs, use at least 3 primary sources from a provided packet, and follow a strict five-paragraph structure. The teacher has observed that students produce formulaic essays that sound similar to each other, few students engage deeply with the primary sources, and many students express that they 'don't see the point' of the assignment. Some students complete the essay but seem to go through the motions without genuine intellectual engagement.\n\nI teach Grade 10 History. My current task is: Students write a 5-paragraph essay on one of five teacher-selected topics about causes of the French Revolution, using at least 3 primary sources from a provided packet, following a strict five-paragraph structure. The learning objective is for students to analyze multiple causes of the French Revolution and support their analysis with historical evidence. Students produce formulaic essays, don't engage deeply with sources, and say they 'don't see the point.' Please diagnose the motivation problems and redesign this task to foster genuine engagement while maintaining or increasing the historical thinking rigor.",
+      "ground_truth": "A diagnosis grounded in the observed student behavior and task design; a redesigned task that preserves the learning objective and rigor while improving meaningful choice, perceived capability, relevance, and engagement; clear rationale for each modification; and practical implementation guidance.",
+      "expected_behavior": [
+        "Identifies multiple plausible motivational problems using concrete evidence from the task and observed student behavior.",
+        "Explains whether students show disengagement, superficial compliance, or meaningful engagement, with evidence rather than requiring theoretical labels.",
+        "Provides a complete redesigned task that maintains or increases historical thinking rigor (analysis, evidence use, argumentation) while addressing motivation gaps through structured choice, meaningful rationale, and authentic audience or purpose.",
+        "Links redesign choices to diagnosed motivational problems, balances student choice with sufficient structure, and avoids relying on extrinsic rewards.",
+        "Provides practical guidance on transitioning from traditional essay format, anticipating student resistance or confusion, scaffolding the new task structure, and adjusting based on student response."
+      ]
+    },
+    {
+      "id": "motivation-diagnostic-task-redesign__03",
+      "question": "An AP Chemistry teacher has designed a lab investigation where students follow detailed step-by-step instructions to determine the molar mass of an unknown gas using the ideal gas law. The lab manual provides exact measurements, procedures, data tables, and calculation steps. Students work in pairs and have 90 minutes to complete the lab and write a brief conclusion. The teacher has observed that students follow instructions mechanically without understanding why they are performing each step, cannot explain their results or connect them to gas law concepts, and treat the lab as a recipe to complete rather than an investigation. When asked to predict what would happen if they changed a variable, students are unable to reason about the system. The teacher wants to redesign the lab to promote deeper conceptual understanding and genuine scientific engagement while still meeting AP curriculum requirements for gas law applications.\n\nI teach AP Chemistry. My current task is: Students follow a detailed step-by-step lab manual to determine the molar mass of an unknown gas using the ideal gas law, working in pairs for 90 minutes with exact measurements and procedures provided. The learning objective is for students to apply the ideal gas law to determine molar mass and understand gas behavior. Students follow instructions mechanically, can't explain their results or connect them to concepts, and can't reason about what would happen if variables changed. Please diagnose the motivation problems and redesign this lab to promote deeper scientific thinking and engagement while meeting AP requirements for gas law applications.",
+      "ground_truth": "A diagnosis grounded in the observed student behavior and task design; a redesigned task that preserves the learning objective and rigor while improving meaningful choice, perceived capability, relevance, and engagement; clear rationale for each modification; and practical implementation guidance.",
+      "expected_behavior": [
+        "Identifies multiple plausible motivational problems using concrete evidence from the task and observed student behavior.",
+        "Explains whether students show disengagement, superficial compliance, or meaningful engagement, with evidence rather than requiring theoretical labels.",
+        "Provides a complete redesigned inquiry-based lab that maintains AP-level rigor (students must still apply ideal gas law, analyze data, and draw conclusions) while promoting genuine scientific thinking, prediction, and reasoning about variables.",
+        "Links redesign choices to diagnosed motivational problems, balances student choice with sufficient structure, and avoids relying on extrinsic rewards.",
+        "Provides detailed guidance on transitioning AP students from procedural compliance to inquiry, scaffolding the shift appropriately, managing time constraints, addressing student anxiety about open-ended investigation, and adjusting based on student readiness levels."
+      ]
+    }
+  ]
+}

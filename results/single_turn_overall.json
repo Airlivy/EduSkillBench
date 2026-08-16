@@ -1,0 +1,9 @@
+{
+  "clean_runs": 84,
+  "total_runs": 84,
+  "tasks": 42,
+  "skills": 14,
+  "with_skill_avg_reward": 0.948,
+  "baseline_avg_reward": 0.767,
+  "reward_lift": 0.180
+}

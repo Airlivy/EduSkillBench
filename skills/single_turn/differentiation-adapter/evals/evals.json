@@ -1,0 +1,46 @@
+{
+  "version": "1",
+  "skill_name": "differentiation-adapter",
+  "defaults": {
+    "timeout_sec": 300,
+    "judge_model": "qwen3.7-plus"
+  },
+  "cases": [
+    {
+      "id": "differentiation-adapter__01",
+      "question": "A 4th-grade math class is working on multi-step word problems. The teacher has a student with ADHD who struggles with sustained focus, gets overwhelmed by dense text, and loses track of steps in multi-part questions.\n\nI have a 4th-grade math class. The original task is: 'Read the following word problem and show your working: Sarah goes to the bakery. She buys 3 loaves of bread for $2 each, 2 cakes for $5 each, and 4 muffins for $1.50 each. She pays with a $50 bill. How much change does she get?' The learning objective is: 'Solve multi-step addition and subtraction word problems.' I have a student with ADHD who struggles with sustained focus on extended text, gets overwhelmed by dense paragraphs, and loses track of steps in multi-part questions. Please adapt this task for this student. Provide the adapted task, explain what changed and what stayed the same, verify the objective is maintained, and give implementation notes for the classroom.",
+      "ground_truth": "An adapted math task that breaks the dense paragraph into bullet points or numbered steps, bolding key numbers. A section explaining what changed (formatting, chunking) and what stayed the same (the math, the objective). An objective check confirming the multi-step calculation requirement is intact. Implementation notes on how to provide this discreetly.",
+      "expected_behavior": [
+        "The adapted task effectively breaks the dense paragraph into smaller, manageable chunks, bullet points, or numbered steps, and highlights key numbers to reduce visual clutter and cognitive load for a student with ADHD.",
+        "The mathematical problem, numbers, and required multi-step calculations remain identical; the adaptation changes the route (formatting) without reducing the destination (mathematical thinking).",
+        "Clearly articulates what was modified (text presentation, chunking) and what was deliberately kept the same (the mathematical operations and learning objective).",
+        "Provides a clear, explicit verification statement confirming that the student still must perform the exact same multi-step addition and subtraction reasoning.",
+        "Offers practical, non-stigmatizing advice for the teacher on how to introduce the chunked task or use tools like highlighters and checklists without singling the student out in the classroom."
+      ]
+    },
+    {
+      "id": "differentiation-adapter__02",
+      "question": "An 8th-grade science class is studying plant biology. The teacher has an EAL (English as an Additional Language) student at an intermediate level who understands the scientific concepts well but struggles with academic vocabulary and constructing complex English sentences.\n\nI teach 8th-grade science. The original task is: 'Write a three-paragraph explanation of photosynthesis. Your explanation must use scientific terminology (e.g., chlorophyll, stomata, glucose) and include a fully labeled diagram showing the inputs and outputs of the process.' The learning objective is: 'Explain the process of photosynthesis and identify its inputs and outputs.' I have a student who is EAL (English as an Additional Language) at an intermediate level. They understand the scientific concepts well but struggle with academic vocabulary and constructing complex English sentences. Adapt this task for this student. Include the adapted task, what changed and stayed the same, an objective check, and implementation notes.",
+      "ground_truth": "An adapted science task providing language scaffolds like a word bank, sentence frames, or a glossary, while retaining the requirement for a labeled diagram and scientific explanation. A section detailing the language supports added and the scientific rigor maintained. An objective check confirming the explanation of photosynthesis is still required. Implementation notes on assessing content versus language proficiency.",
+      "expected_behavior": [
+        "The adapted task provides targeted language supports (e.g., word bank, sentence frames, glossary, or alternative expression modes) that address the EAL student's vocabulary and sentence construction barriers.",
+        "The core scientific concepts, the requirement to explain photosynthesis, and the labeled diagram are fully maintained; the adaptation does not reduce the cognitive demand of the science content.",
+        "Explicitly details the language scaffolds added (changed) and the scientific rigor, diagram requirement, and learning objective maintained (stayed the same).",
+        "Verifies that the student is still required to explain the process of photosynthesis and identify inputs and outputs, ensuring the scientific objective is unchanged.",
+        "Offers practical classroom strategies, such as how to introduce the scaffolds to the whole class or how to assess scientific understanding separately from English language proficiency."
+      ]
+    },
+    {
+      "id": "differentiation-adapter__03",
+      "question": "An 11th-grade History class is studying the French Revolution. The teacher has a gifted student who finishes standard tasks very quickly, finds the standard essay format repetitive, and needs deeper intellectual challenge rather than just more of the same work.\n\nI teach 11th-grade History. The original task is: 'Read Source A (a speech by Robespierre) and Source B (a letter from a Parisian baker). Write a five-paragraph essay evaluating the reliability and utility of each source in explaining the causes of the French Revolution.' The learning objective is: 'Evaluate the reliability and utility of primary sources regarding the causes of the French Revolution.' I have a gifted student who finishes standard tasks very quickly, finds the standard essay format repetitive, and needs deeper intellectual challenge rather than just more work. Adapt this task for this student. Provide the adapted task, what changed and stayed the same, an objective check, and implementation notes.",
+      "ground_truth": "An adapted history task that increases depth and complexity, such as adding a third conflicting source, requiring synthesis of historiography, or evaluating the sources through a specific theoretical lens, without just assigning more pages. A section explaining the increased cognitive demand and maintained core objective. An objective check confirming source evaluation is still the focus. Implementation notes on managing the extension.",
+      "expected_behavior": [
+        "The adapted task increases intellectual challenge through depth and complexity (e.g., adding a conflicting source, requiring historiographical synthesis, or applying a specific analytical lens) rather than simply assigning more writing volume.",
+        "The fundamental learning objective of evaluating the reliability and utility of primary sources regarding the French Revolution remains the exact same destination.",
+        "Clearly explains that the cognitive demand and analytical complexity increased (changed) while the core skill of source evaluation and historical context remained the focus (stayed the same).",
+        "Confirms that the student is still evaluating reliability and utility, but at a deeper, more abstract level of analysis, explicitly linking the adaptation back to the original objective.",
+        "Provides advice on managing the extension task, ensuring the student is appropriately challenged, and how to integrate this work without alienating them from the rest of the class or creating a separate track."
+      ]
+    }
+  ]
+}

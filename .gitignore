@@ -1,0 +1,14 @@
+jobs/
+logs/
+third_party/
+skill_pool/
+task_specs/
+.env
+.env.*
+__pycache__/
+*.pyc
+*.log
+.venv/
+data/*_generated.csv
+data/raw_generations/
+data/generation_meta.json

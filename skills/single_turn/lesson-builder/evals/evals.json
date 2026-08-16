@@ -1,0 +1,46 @@
+{
+  "version": "1",
+  "skill_name": "lesson-builder",
+  "defaults": {
+    "timeout_sec": 300,
+    "judge_model": "qwen3.7-plus"
+  },
+  "cases": [
+    {
+      "id": "lesson-builder__01",
+      "question": "An introductory biology professor needs a specific active-learning component for a large, tiered lecture hall to help students visualize and sequence the phases of mitosis.\n\nI need an in-class activity for my intro bio class (150 students, fixed tiered lecture hall) to help them understand the phases of mitosis. The learning outcome is: 'Students will be able to sequence and identify the key events of mitosis.' Please design the activity and provide the instructor logistics.",
+      "ground_truth": "A detailed activity sheet that includes the timing, group size, required materials, a verbatim launch script for the instructor, potential failure modes with corresponding fixes, and accessibility/UDL considerations for the physical space.",
+      "expected_behavior": [
+        "The activity directly targets the stated learning outcome of sequencing and identifying the key events of mitosis.",
+        "The output explicitly states the timing, group size, and required materials for the activity.",
+        "The output includes a verbatim launch script detailing exactly what the instructor should say to initiate the activity.",
+        "The output identifies at least one potential failure mode for the activity and provides a concrete fix or contingency.",
+        "The output includes accessibility considerations, such as physical navigation in a tiered hall, visual aid descriptions, or colorblind-safe material notes."
+      ]
+    },
+    {
+      "id": "lesson-builder__02",
+      "question": "A business ethics professor is preparing a case study on global supply chains and rare-earth mineral sourcing, requiring a synthetic scenario and careful handling of real-world data.\n\nPrepare a teaching case for my undergraduate business ethics class on the topic of rare-earth mineral sourcing in consumer electronics. The learning outcomes are: 1) Analyze stakeholder conflicts in global supply chains, and 2) Evaluate ethical frameworks for supplier selection. Include the case narrative and teaching notes with a discussion arc. I don't have specific company data, so use a synthetic scenario. However, if you include any real-world statistics about rare-earth mining or global market share, make sure to flag them if you aren't absolutely certain of the exact current figures.",
+      "ground_truth": "A teaching case with a clearly labeled synthetic narrative, accompanied by teaching notes featuring a structured discussion arc and board plan. Any uncertain real-world statistics must be marked with inline [VERIFY] tags, and the discussion notes should include facilitation tactics.",
+      "expected_behavior": [
+        "The case narrative is explicitly labeled as a synthetic or fictional scenario, ensuring it is not passed off as real-world fact.",
+        "The case and teaching notes directly address both learning outcomes: analyzing stakeholder conflicts and evaluating ethical frameworks.",
+        "The teaching notes include a structured discussion arc and a clear board plan outlining how the discussion will be facilitated and recorded.",
+        "Any specific real-world statistics or data points included in the text are marked with inline [VERIFY: <claim> — <why uncertain>] tags.",
+        "The teaching notes include specific equity-of-voice tactics or facilitation moves to manage the classroom discussion effectively."
+      ]
+    },
+    {
+      "id": "lesson-builder__03",
+      "question": "A graduate seminar professor is building a full lesson package for Week 6 on infectious disease modeling. The professor has requested a historical discussion segment that does not map to the confirmed quantitative learning outcomes, requiring the system to flag the orphaned content while still building the full package.\n\nI'm teaching a graduate seminar in Epidemiology (25 students, seminar room). The confirmed learning outcomes for Week 6 are: 1) Formulate basic SIR compartmental models, and 2) Calculate the basic reproduction number (R0) from incidence data. I want to cover the standard SIR derivation, do a worked example of calculating R0, and then I also want to spend 15 minutes discussing the historical impact of the 1918 influenza pandemic on modern public health policy. Please build the full lesson package (lesson plan with timings, lecture notes, slide outline, and an active learning segment). Note: I don't have the exact historical mortality rates for the 1918 flu in different US cities memorized, so flag those if you use them.",
+      "ground_truth": "A complete lesson package including a timed lesson plan, prose lecture notes with worked examples, a slide outline with assertion titles and alt-text, and an active learning segment. The lesson plan must explicitly flag the 1918 flu discussion as an orphaned segment that does not map to the stated outcomes. Lecture notes must use [VERIFY] tags for the historical mortality rates.",
+      "expected_behavior": [
+        "The output explicitly flags the 15-minute 1918 flu historical discussion as an orphaned segment that does not map to the confirmed learning outcomes, prompting professor confirmation.",
+        "The lesson plan includes a detailed meeting arc with minute-by-minute timings, including the placement of the active learning segment and the orphaned discussion.",
+        "The lecture notes include worked examples for the SIR derivation/R0 calculation, and any uncertain historical mortality statistics are marked with [VERIFY: <claim> — <why uncertain>] tags.",
+        "The slide outline uses assertion titles for each slide and includes figure specifications with alt-text notes for accessibility.",
+        "The active learning segment includes complete logistics: timing, group size, materials, a verbatim launch script, and failure modes with fixes."
+      ]
+    }
+  ]
+}

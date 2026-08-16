@@ -1,0 +1,46 @@
+{
+  "version": "1",
+  "skill_name": "ruler-emotional-literacy-sequence",
+  "defaults": {
+    "timeout_sec": 300,
+    "judge_model": "qwen3.7-plus"
+  },
+  "cases": [
+    {
+      "id": "ruler-emotional-literacy-sequence__01",
+      "question": "Students are experiencing frustration and interpersonal conflict during a collaborative group project in Science class.\n\nI teach Grade 4 Science. During our recent bridge-building project, students got highly frustrated when their designs kept collapsing. They started blaming each other, calling the project 'stupid,' and some just gave up and put their heads on the desk. I need a structured emotional literacy sequence to help them handle this frustration and work together better. We have about 15 minutes at the start of the next lesson. Please design a sequence that includes how I should model the skills, the specific steps for the students, how to build their emotional vocabulary, and how to tie this into our Science curriculum.",
+      "ground_truth": "A structured emotional-literacy plan appropriate to the stated age and context, including teacher modelling, recognition and understanding of emotions, precise labelling, appropriate expression, regulation strategies, concrete activities, and integration into classroom routines.",
+      "expected_behavior": [
+        "Selects concrete emotional-awareness, regulation, or conflict-repair strategies appropriate to the situation and clearly explains why they fit.",
+        "Award 20 points if the output includes a specific, realistic script or detailed description of the teacher modeling the emotional skill first, demonstrating appropriate vulnerability and using precise emotional vocabulary before asking students to participate.",
+        "Award 20 points if the output provides a clear, step-by-step sequence covering Recognize, Understand, Label, Express, and Regulate, with specific activities, teacher scripts, and observable indicators of success for each step.",
+        "Award 20 points if the output explicitly moves students beyond basic emotion words (e.g., 'mad', 'sad', 'stupid') to nuanced, age-appropriate vocabulary, and frames regulation as managing responses and choosing behaviors rather than suppressing or ignoring the frustration.",
+        "Award 20 points if the output provides concrete examples of how to embed the emotional literacy sequence into the Grade 4 Science curriculum (e.g., during experiments or group work) and outlines practical routines to sustain the emotional literacy practice in future lessons."
+      ]
+    },
+    {
+      "id": "ruler-emotional-literacy-sequence__02",
+      "question": "A heated classroom debate escalated into personal conflicts, leaving the classroom climate tense, divided, and anxious.\n\nI teach Grade 8 Social Studies. Yesterday, we had a class debate on a controversial historical policy. It got out of hand—students started interrupting, raising their voices, and making personal comments. Today, the classroom feels tense; half the class is angry and the other half is withdrawn and afraid to speak. I need a structured emotional literacy plan to repair the classroom climate, help them understand what happened, and give them tools to express themselves respectfully in future discussions. We have a 20-minute homeroom period, and I want to integrate this into our ongoing Social Studies units. Outline the sequence, the specific tools to use, how I should model my own feelings about the incident, and how to sustain this moving forward.",
+      "ground_truth": "A structured emotional-literacy plan appropriate to the stated age and context, including teacher modelling, recognition and understanding of emotions, precise labelling, appropriate expression, regulation strategies, concrete activities, and integration into classroom routines.",
+      "expected_behavior": [
+        "Selects concrete emotional-awareness, regulation, or conflict-repair strategies appropriate to the situation and clearly explains why they fit.",
+        "Award 20 points if the output includes a specific script or description of the teacher modeling their own emotional experience regarding the previous day's incident, demonstrating vulnerability and showing students how an adult processes conflict and disappointment.",
+        "Award 20 points if the output provides a clear, step-by-step sequence covering Recognize, Understand, Label, Express, and Regulate, tailored to middle schoolers, with specific activities, teacher scripts, and observable indicators of success for each step.",
+        "Award 20 points if the output explicitly guides students to use precise emotional vocabulary to describe their reactions to the debate, and clearly frames regulation as choosing respectful responses and managing impulses rather than suppressing their strong opinions or feelings.",
+        "Award 20 points if the output provides concrete examples of how to embed these emotional literacy practices into ongoing Social Studies units (e.g., analyzing historical figures' conflicts) and outlines sustainable routines for maintaining a respectful classroom climate during future debates."
+      ]
+    },
+    {
+      "id": "ruler-emotional-literacy-sequence__03",
+      "question": "High-achieving students are exhibiting emotional suppression, perfectionism, and deflection when engaging with emotionally heavy or tragic literary texts.\n\nI teach Grade 12 Advanced Literature. My students are high achievers but they are bottling up immense stress and perfectionism. When we read emotionally heavy or tragic texts, they give overly clinical, detached analyses because they are uncomfortable with the emotional weight, or they make cynical jokes to deflect. They view showing stress as a weakness. I need a comprehensive emotional literacy sequence to help them recognize and regulate their academic stress without suppressing it, and to help them engage authentically with the emotional themes in our literature. We have a 45-minute block once a week dedicated to seminar prep. Provide a detailed sequence, specify the tools, explain exactly how I should model vulnerability as their teacher, detail the steps to expand their emotional vocabulary beyond 'stressed' or 'fine,' and show how to integrate this directly into our literary analysis routines.",
+      "ground_truth": "A structured emotional-literacy plan appropriate to the stated age and context, including teacher modelling, recognition and understanding of emotions, precise labelling, appropriate expression, regulation strategies, concrete activities, and integration into classroom routines.",
+      "expected_behavior": [
+        "Selects concrete emotional-awareness, regulation, or conflict-repair strategies appropriate to the situation and clearly explains why they fit.",
+        "Award 20 points if the output includes a highly specific, authentic script for the teacher to model vulnerability regarding academic stress and emotional engagement, explicitly countering the students' belief that showing stress is a weakness.",
+        "Award 20 points if the output provides a detailed, age-appropriate 5-step sequence (Recognize, Understand, Label, Express, Regulate) that specifically targets the transition from clinical detachment/cynicism to authentic emotional engagement.",
+        "Award 20 points if the output elevates emotional vocabulary to a high-school/advanced level (moving far beyond 'stressed' or 'fine' to nuanced terms) and rigorously enforces the principle that regulation means processing and responding to emotions, not suppressing them or using cynicism as a shield.",
+        "Award 20 points if the output provides deep, concrete examples of how to integrate emotional literacy directly into advanced literary analysis (e.g., analyzing character motivations, thematic emotional weight) and outlines sustainable seminar routines that normalize emotional engagement in academic discourse."
+      ]
+    }
+  ]
+}

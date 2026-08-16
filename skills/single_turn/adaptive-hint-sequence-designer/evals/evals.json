@@ -1,0 +1,46 @@
+{
+  "version": "1",
+  "skill_name": "adaptive-hint-sequence-designer",
+  "defaults": {
+    "timeout_sec": 300,
+    "judge_model": "qwen3.7-plus"
+  },
+  "cases": [
+    {
+      "id": "adaptive-hint-sequence-designer__01",
+      "question": "A teacher is creating a scaffolded worksheet for students learning to calculate net force when multiple forces act along a single axis in opposite directions.\n\nI am creating a scaffolded worksheet for my Grade 7 physics students. They are learning to calculate net force when multiple forces act along a single axis in opposite directions. Students typically get stuck because they add the forces instead of subtracting them, they ignore the directional signs, or they forget to include units. Please design a cascading hint sequence for this problem type. Include 4 levels of hints, from general strategy to a bottom-out hint. Explain the cognitive function of each hint, specify when each hint should be triggered, and detail what happens when all hints are exhausted.",
+      "ground_truth": "A structured hint sequence containing a Hint Architecture overview, a 4-level Hint Sequence (Strategic, Conceptual, Procedural, Bottom-out) with specific text, cognitive function, trigger conditions, expected student response, and escalation paths for each. It must also include a Bottom-Out Strategy that preserves learning, a Trigger Conditions Summary, and Adaptation Notes for different student profiles.",
+      "expected_behavior": [
+        "Hints must progress logically from general strategic guidance (e.g., identifying the goal of net force) to specific procedural steps without giving away the final numerical answer prematurely.",
+        "Each hint must address exactly one specific sticking point (e.g., directionality, addition vs. subtraction) and target the root cause of the error rather than just stating the correct action.",
+        "Each hint level must include clear, observable trigger conditions (e.g., time elapsed, specific incorrect attempts, request-based) dictating exactly when it should be delivered.",
+        "The final hint must reveal the necessary steps or answer but must include a self-explanation or reflection prompt to ensure the student still engages cognitively and understands the 'why'.",
+        "The response must include all specified sections: Hint Architecture, Hint Sequence (with text, cognitive function, triggers, expected response, and escalation), Bottom-Out Strategy, Trigger Conditions Summary, and Adaptation Notes."
+      ]
+    },
+    {
+      "id": "adaptive-hint-sequence-designer__02",
+      "question": "An instructor is designing an intelligent tutoring module for beginners learning to write nested loops in Python to print visual patterns.\n\nI am designing an intelligent tutoring module for my Grade 11 computer science students. They are learning to write nested loops in Python to print a right-aligned triangle of asterisks. Common sticking points include confusing the row and column variables, making off-by-one errors in loop ranges, and printing the spaces and asterisks in the wrong order. Design a progressive hint sequence to help them unstick. Provide the hint architecture, the specific text and cognitive function for each level, trigger conditions, a bottom-out strategy that still promotes learning, and notes on how to adapt the sequence for different student proficiency levels.",
+      "ground_truth": "A comprehensive hint sequence tailored to nested loop programming. It must detail the cognitive function of each hint, specify error-based and time-based triggers, provide a bottom-out strategy that requires the student to explain loop logic or predict modified output, and include adaptation notes for varying proficiency levels and hint-seeking behaviors.",
+      "expected_behavior": [
+        "The cognitive function for each hint must clearly articulate what mental work is being scaffolded for the student and what productive struggle is being preserved for them to execute.",
+        "Hints must specifically address the conceptual or procedural root causes of nested loop errors (e.g., variable scope confusion, loop bounds, print sequencing) rather than just correcting syntax.",
+        "A clear summary table or list must map specific error patterns, time delays, or student requests to the exact hint level activated, demonstrating a logical escalation path.",
+        "The bottom-out hint must provide the code structure or logic but require the student to explain the loop mechanics or predict the output of a modified scenario to ensure comprehension.",
+        "The response must include specific, actionable adjustments for different student profiles, such as those struggling with basic single loops versus those who just need a nudge on nesting, or strategies for 'hint-abusers'."
+      ]
+    },
+    {
+      "id": "adaptive-hint-sequence-designer__03",
+      "question": "A professor is developing an adaptive learning module for university students learning to solve monopoly profit maximization problems using calculus and algebra.\n\nI need to build an adaptive hint system for my undergraduate microeconomics students. The problem type is calculating the profit-maximizing quantity and price for a monopolist, given a linear demand curve and a total cost function. The common sticking points are: students set Price equal to Marginal Cost instead of Marginal Revenue equal to Marginal Cost; they incorrectly derive the Marginal Revenue curve (forgetting the double slope rule); and they fail to substitute the optimal quantity back into the demand curve to find the price. Please generate a comprehensive hint sequence. Ensure the hints progress from strategic to procedural, address the root cause of the errors, include specific trigger conditions, and feature a bottom-out strategy that requires self-explanation. Format the output with clear sections for the hint architecture, the sequence itself, the bottom-out strategy, a trigger conditions summary, and adaptation notes.",
+      "ground_truth": "A highly detailed hint sequence addressing both the economic misconceptions and the mathematical execution errors. It must include a structured Hint Architecture, a multi-level Hint Sequence with precise cognitive functions and triggers, a Bottom-Out Strategy requiring conceptual self-explanation, a Trigger Conditions Summary table, and Adaptation Notes for diverse learner profiles.",
+      "expected_behavior": [
+        "The sequence must smoothly transition from high-level economic principles (e.g., MR=MC rule) to specific mathematical execution (e.g., deriving MR, solving for Q) without overwhelming the student.",
+        "Hints must clearly distinguish between and appropriately address the economic misconception (setting P=MC instead of MR=MC) and the mathematical execution errors (incorrect MR derivation, failing to substitute Q back into P).",
+        "The trigger conditions must include both time/request-based triggers and specific error-based triggers (e.g., detecting when a student sets P=MC versus when they derive MR incorrectly), mapped to the correct hint level.",
+        "The final hint must reveal the mathematical solution but mandate a conceptual self-explanation about why a monopolist's price exceeds marginal cost, effectively converting answer-giving into understanding-building.",
+        "The response must include all required sections: Hint Architecture, Hint Sequence (with text, cognitive function, triggers, expected response, and escalation for each level), Bottom-Out Strategy, Trigger Conditions Summary table, and Adaptation Notes."
+      ]
+    }
+  ]
+}

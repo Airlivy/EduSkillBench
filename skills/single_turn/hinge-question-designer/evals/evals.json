@@ -1,0 +1,46 @@
+{
+  "version": "1",
+  "skill_name": "hinge-question-designer",
+  "defaults": {
+    "timeout_sec": 300,
+    "judge_model": "qwen3.7-plus"
+  },
+  "cases": [
+    {
+      "id": "hinge-question-designer__01",
+      "question": "The teacher has just introduced the basic equation for photosynthesis, emphasizing that plants use carbon dioxide, water, and light energy to produce glucose and oxygen, and that this occurs in the chloroplasts. The class is about to transition to learning about cellular respiration.\n\nI am teaching a Grade 8 science class. We just covered the basics of photosynthesis, specifically the reactants and where it occurs in the plant cell. I need a quick, multiple-choice checkpoint question to ask the class before we move on to cellular respiration. The question should take less than two minutes to answer. Please provide the question, the options, the correct answer, an explanation of what each wrong answer tells me about their specific misunderstanding, a guide on how to adjust my teaching based on their answers, and a brief rationale for your design.",
+      "ground_truth": "A multiple-choice question about photosynthesis with 4 options, a diagnostic key explaining the specific biological misconception for each distractor, a decision guide for adjusting instruction based on response patterns, and a design rationale.",
+      "expected_behavior": [
+        "The question stem is clear, concise, and tests only the single concept of photosynthesis reactants/location. The four options are parallel in structure and length, avoid negative phrasing, and do not use 'all/none of the above'. The question is answerable in under two minutes.",
+        "All three incorrect options are plausible and each targets a distinct, specific misconception relevant to middle school biology (e.g., confusing reactants with products, confusing the location with the mitochondria). The correct answer cannot be arrived at through flawed reasoning or test-taking shortcuts.",
+        "The output includes a diagnostic key that explicitly states what choosing the correct answer confirms. For each of the three distractors, it clearly names the specific student misconception that would lead them to choose that option.",
+        "The decision guide provides specific, actionable instructional next steps for different response patterns, such as what to do if 80% or more answer correctly, what to re-teach if a specific distractor is heavily chosen, and how to handle split responses.",
+        "The rationale explains why the question effectively tests the target concept and justifies the selection of each distractor based on common student errors, demonstrating alignment with the constraint of rapid, diagnostic assessment."
+      ]
+    },
+    {
+      "id": "hinge-question-designer__02",
+      "question": "The teacher has just instructed the class on the rule for using a comma before a coordinating conjunction (FANBOYS) to connect two independent clauses. Students are about to begin drafting their own compound sentences for an essay.\n\nI'm teaching a 10th-grade English class. I just taught the rule for using a comma before a coordinating conjunction (FANBOYS) to connect two independent clauses. I need a multiple-choice diagnostic question to check if they truly understand this before we start writing their own compound sentences. It needs to be answerable in under two minutes. Give me the question stem, four parallel options, the correct answer, a breakdown of the specific misconception each incorrect option reveals, instructions on what to do next based on the class's response patterns, and the reasoning behind your question design.",
+      "ground_truth": "A multiple-choice question about comma usage with 4 parallel options, a diagnostic key detailing the specific grammar misconception for each distractor, a decision guide for next instructional steps, and a design rationale.",
+      "expected_behavior": [
+        "The question stem presents a clear scenario requiring the application of the compound sentence comma rule. The four options are strictly parallel in structure, length, and grammatical form, avoiding negative phrasing and 'all/none of the above' constructions.",
+        "Each incorrect option represents a plausible, specific grammar error (e.g., placing a comma before a conjunction in a simple sentence, omitting the comma in a compound sentence, or placing a comma before a conjunction linking a compound predicate). The correct answer requires true understanding of independent clauses.",
+        "The diagnostic key accurately identifies the correct answer's confirmation of understanding. For each distractor, it explicitly describes the grammatical misconception (e.g., confusing compound predicates with compound sentences) that would cause a student to select it.",
+        "The decision guide offers concrete, subject-specific teaching adjustments for various outcome distributions, such as moving to practice if mastery is high, or providing targeted mini-lessons on independent vs. dependent clauses if specific distractors are popular.",
+        "The rationale clearly articulates why the chosen sentence structure effectively discriminates between students who understand the rule and those who hold common syntactic misconceptions, and explains the deliberate design of the parallel options."
+      ]
+    },
+    {
+      "id": "hinge-question-designer__03",
+      "question": "The professor has just introduced Newton's Third Law of Motion, focusing on action-reaction pairs and addressing the common student misconception that these forces cancel each other out, thereby preventing motion. The class is about to move on to drawing free-body diagrams.\n\nI am teaching an introductory university physics course. I just introduced Newton's Third Law of Motion, focusing on action-reaction pairs and the common misconception that these forces cancel each other out. I need a rigorous multiple-choice checkpoint question to assess their conceptual grasp before we move to free-body diagrams. The question must be solvable in under two minutes. Provide the question, four options, the correct answer, a diagnostic key explaining the exact misconception each distractor targets, a decision guide for how to proceed based on the distribution of student answers, and a design rationale.",
+      "ground_truth": "A multiple-choice question about Newton's Third Law with 4 options, a diagnostic key identifying the specific physics misconception for each distractor, a decision guide for lecture adjustments, and a design rationale.",
+      "expected_behavior": [
+        "The question stem presents a physically accurate scenario that tests the conceptual understanding of action-reaction pairs without requiring complex calculations. The options are parallel, concise, and avoid test-wiseness cues like 'all of the above' or extreme outliers.",
+        "The distractors target deep, specific physics misconceptions (e.g., believing the larger mass exerts a greater force, believing action-reaction forces act on the same object and thus cancel, or confusing Newton's Third Law with equilibrium/Newton's First Law). The correct answer cannot be guessed without conceptual understanding.",
+        "The diagnostic key precisely maps each distractor to a distinct, advanced physics misconception. It clearly explains the flawed mental model (e.g., conflating force magnitude with force pairs, or misunderstanding the 'different objects' requirement) that leads to each incorrect choice.",
+        "The decision guide provides sophisticated, university-level instructional interventions for different response patterns, such as using physical demonstrations to address mass-dependent force misconceptions or revisiting system boundaries if students confuse Third Law pairs with First Law equilibrium.",
+        "The rationale thoroughly explains the cognitive demand of the question, justifies why the distractors effectively isolate specific conceptual gaps in Newtonian mechanics, and confirms the question's suitability as a rapid diagnostic tool before introducing free-body diagrams."
+      ]
+    }
+  ]
+}

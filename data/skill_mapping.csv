@@ -1,0 +1,19 @@
+skill_id,edubench_scenario,interaction_type
+retrieve-first-gate,Q&A,multi_turn
+stuck-and-error-diagnosis-coach,Error Correction,multi_turn
+progressive-hint-ladder,Personalized Learning Support,multi_turn
+confidence-calibration-check,Personalized Learning Support,multi_turn
+hinge-question-designer,Question Generation,single_turn
+retrieval-practice-generator,Question Generation,single_turn
+socratic-questioning-sequence-generator,Question Generation,single_turn
+differentiation-adapter,Personalized Content Creation,single_turn
+motivation-diagnostic-task-redesign,Personalized Content Creation,single_turn
+self-efficacy-builder-sequence,Personalized Content Creation,single_turn
+backwards-design-unit-planner,Teaching Material Generation,single_turn
+lesson-builder,Teaching Material Generation,single_turn
+adaptive-hint-sequence-designer,Teaching Material Generation,single_turn
+self-explanation-prompt-designer,Teaching Material Generation,single_turn
+emergent-project-design-scaffold,Teaching Material Generation,single_turn
+project-brief-designer,Teaching Material Generation,single_turn
+spaced-practice-scheduler,Teaching Material Generation,single_turn
+ruler-emotional-literacy-sequence,Teaching Material Generation,single_turn
