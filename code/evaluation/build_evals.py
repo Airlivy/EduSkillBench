@@ -1,4 +1,4 @@
-import csv,json,shutil
+import csv,json
 from pathlib import Path
 
 rows=list(csv.DictReader(open("data/single_turn_tasks.csv")))
@@ -6,12 +6,9 @@ root=Path("skills/single_turn")
 root.mkdir(exist_ok=True)
 
 for sid in sorted(set(r["skill_id"] for r in rows)):
-    src=list(Path("third_party").rglob(f"{sid}/SKILL.md"))[0].parent
-    dst=root/sid
-
-    if dst.exists():
-        shutil.rmtree(dst)
-    shutil.copytree(src,dst)
+    dst = root / sid
+    if not dst.exists():
+        raise FileNotFoundError(f"Missing released skill: {dst}")
 
     cases=[]
     for r in rows:

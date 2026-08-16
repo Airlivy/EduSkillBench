@@ -93,7 +93,7 @@ run_fields = [
     "total_tokens", "total_time_sec", "source"
 ]
 
-with open(OUT/"single_turn_runs_v1.csv", "w", newline="") as f:
+with open(OUT/"single_turn_runs.csv", "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=run_fields)
     w.writeheader()
     for r in rows:
@@ -134,7 +134,7 @@ for skill, xs in sorted(by_skill.items()):
         ),
     })
 
-with open(OUT/"single_turn_skill_summary_v1.csv", "w", newline="") as f:
+with open(OUT/"single_turn_skill_summary.csv", "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=summaries[0].keys())
     w.writeheader()
     w.writerows(summaries)
@@ -160,7 +160,7 @@ overall = {
     "negative_lift_skills": sum(x["reward_lift"] < 0 for x in summaries),
 }
 
-(OUT/"single_turn_overall_v1.json").write_text(
+(OUT/"single_turn_overall.json").write_text(
     json.dumps(overall, indent=2)
 )
 
@@ -169,6 +169,6 @@ for k,v in overall.items():
     print(f"{k} = {v}")
 
 print("\nSaved:")
-print("results/single_turn_runs_v1.csv")
-print("results/single_turn_skill_summary_v1.csv")
-print("results/single_turn_overall_v1.json")
+print("results/single_turn_runs.csv")
+print("results/single_turn_skill_summary.csv")
+print("results/single_turn_overall.json")
