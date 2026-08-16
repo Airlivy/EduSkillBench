@@ -135,33 +135,90 @@ results/single_turn_overall.json
 results/single_turn_skill_summary.csv
 ```
 
-## Reproduction
+## Quick Start
 
-Task-generation utilities are located in:
+### Requirements
+
+The v1 experiments were conducted with:
+
+* Python 3.12
+* BenchFlow 0.6.7
+* Docker
+* OpenCode
+* Qwen3.7-Plus
+
+Make sure Docker is running and `bench` is available in your environment.
+
+### Configure the model endpoint
+
+API credentials must be provided through environment variables and must not be committed to the repository.
+
+```bash
+export OPENAI_API_KEY="YOUR_API_KEY"
+export OPENAI_BASE_URL="YOUR_OPENAI_COMPATIBLE_ENDPOINT"
+```
+
+If you use a standard provider configuration supported directly by BenchFlow, configure the corresponding environment variables instead.
+
+### BenchFlow compatibility patch
+
+Our experiments used BenchFlow 0.6.7 with an OpenAI-compatible endpoint and a non-OpenAI judge model.
+
+For this configuration, apply the included compatibility patch:
+
+```bash
+bash code/utils/patch_benchflow.sh
+```
+
+The patch forwards the custom endpoint variables to the verifier and prevents the judge model from being replaced by the default OpenAI model.
+
+### Run the single-turn benchmark
+
+Run all 42 single-turn tasks under the released evaluation configuration:
+
+```bash
+bash code/evaluation/run_single_turn_v1.sh
+```
+
+The script evaluates the released Skills with:
+
+* Agent: `opencode`
+* Model: `qwen3.7-plus`
+* Sandbox: `docker`
+* Concurrency: `1`
+
+Runtime artifacts are written under `jobs/` and are intentionally excluded from version control.
+
+### Aggregate results
+
+After evaluation, summarize the completed runs with:
+
+```bash
+python code/evaluation/summarize_single_turn_v1.py
+```
+
+The released aggregate results are stored in:
+
+```text
+results/single_turn_overall.json
+results/single_turn_skill_summary.csv
+```
+
+### Task generation
+
+The task-generation pipeline is provided under:
 
 ```text
 code/generation/
 ```
 
-Evaluation utilities are located in:
+The released benchmark tasks are already available under `data/`; regeneration is not required to reproduce the main evaluation.
 
-```text
-code/evaluation/
-```
+### Multi-turn evaluation
 
-The main single-turn evaluation script is:
+The 12 multi-turn tasks and four associated Skills are included in the benchmark release, but the v1 empirical results cover only the 42 single-turn tasks.
 
-```text
-code/evaluation/run_single_turn_v1.sh
-```
-
-Result aggregation is performed with:
-
-```text
-code/evaluation/summarize_single_turn_v1.py
-```
-
-API credentials are expected to be provided through environment variables and are not included in this repository.
+A dedicated learner-agent multi-turn execution protocol is left for future work.
 
 ## Limitations
 
