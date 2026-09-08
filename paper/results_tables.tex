@@ -1,0 +1,47 @@
+%% Auto-generated five-model results for EduSkillBench (paper). Requires \usepackage{booktabs}.
+%% Table 1 -- overall with-skill / baseline rewards and lift.
+\begin{table}[t]
+  \centering
+  \caption{Overall skill evaluation results (reward = fraction of passing rubric criteria) across five models. Each model is evaluated on 84 rollouts (14 skills $\times$ 3 cases $\times$ {with-skill, baseline}). Lift is the per-skill mean of (with-skill reward $-$ baseline reward).}
+  \label{tab:overall}
+  \begin{tabular}{lccc}
+    \toprule
+    Model & With-skill & Baseline & Lift \\
+    \midrule
+    GLM-5.3 & 0.905 & 0.714 & $+0.190$ \\
+    GLM-5.3-Flash & 0.952 & 0.756 & $+0.196$ \\
+    DeepSeek-V4-Pro & 0.963 & 0.825 & $+0.137$ \\
+    DeepSeek-V4-Flash & 0.533 & 0.314 & $+0.219$ \\
+    Qwen3.7-Plus & 0.948 & 0.767 & $+0.180$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+%% Table 2 -- per-skill lift matrix (with-skill minus baseline reward, per skill).
+\begin{table}[t]
+  \centering
+  \small
+  \caption{Per-skill lift (with-skill reward $-$ baseline reward). Each value is the mean over the three cases of the skill.}
+  \label{tab:per_skill_lift}
+  \begin{tabular}{lccccc}
+    \toprule
+    Skill & GLM-5.3 & GLM-5.3-Flash & DeepSeek-V4-Pro & DeepSeek-V4-Flash & Qwen3.7-Plus \\
+    \midrule
+    adaptive\mbox{-}hint\mbox{-}sequence\mbox{-}designer & ${+0.133}$ & ${+0.067}$ & ${+0.133}$ & ${+0.600}$ & ${+0.067}$ \\
+    backwards\mbox{-}design\mbox{-}unit\mbox{-}planner & ${+0.000}$ & ${+0.000}$ & ${+0.067}$ & ${+0.000}$ & ${+0.000}$ \\
+    differentiation\mbox{-}adapter & ${+0.333}$ & ${+0.067}$ & ${+0.067}$ & ${+0.067}$ & ${+0.000}$ \\
+    emergent\mbox{-}project\mbox{-}design\mbox{-}scaffold & ${+0.667}$ & ${+0.477}$ & ${+0.290}$ & ${+0.000}$ & ${+0.350}$ \\
+    hinge\mbox{-}question\mbox{-}designer & ${+0.000}$ & ${+0.333}$ & ${+0.000}$ & ${+0.000}$ & $-0.400$ \\
+    lesson\mbox{-}builder & $-0.200$ & $-0.467$ & $-0.133$ & $-0.267$ & ${+0.733}$ \\
+    motivation\mbox{-}diagnostic\mbox{-}task\mbox{-}redesign & ${+0.133}$ & ${+0.133}$ & ${+0.200}$ & ${+0.133}$ & ${+0.133}$ \\
+    project\mbox{-}brief\mbox{-}designer & ${+0.067}$ & ${+0.400}$ & ${+0.267}$ & ${+0.333}$ & ${+0.600}$ \\
+    retrieval\mbox{-}practice\mbox{-}generator & ${+0.200}$ & ${+0.533}$ & ${+0.133}$ & ${+0.867}$ & ${+0.267}$ \\
+    ruler\mbox{-}emotional\mbox{-}literacy\mbox{-}sequence & ${+0.333}$ & ${+0.083}$ & ${+0.133}$ & ${+0.667}$ & ${+0.133}$ \\
+    self\mbox{-}efficacy\mbox{-}builder\mbox{-}sequence & ${+0.333}$ & ${+0.390}$ & ${+0.163}$ & ${+0.000}$ & ${+0.110}$ \\
+    self\mbox{-}explanation\mbox{-}prompt\mbox{-}designer & ${+0.000}$ & ${+0.067}$ & ${+0.133}$ & ${+0.000}$ & ${+0.000}$ \\
+    socratic\mbox{-}questioning\mbox{-}sequence\mbox{-}generator & ${+0.667}$ & ${+0.667}$ & ${+0.467}$ & ${+0.333}$ & ${+0.467}$ \\
+    spaced\mbox{-}practice\mbox{-}scheduler & ${+0.000}$ & ${+0.000}$ & ${+0.000}$ & ${+0.333}$ & ${+0.067}$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+

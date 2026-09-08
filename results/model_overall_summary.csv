@@ -1,0 +1,6 @@
+model,clean_runs,total_runs,tasks,skills,with_skill_avg_reward,baseline_avg_reward,reward_lift
+deepseek-v4-flash,84,84,42,14,0.533,0.314,0.219
+deepseek-v4-pro,84,84,42,14,0.963,0.825,0.137
+glm-5.3,84,84,42,14,0.905,0.714,0.19
+glm-5.3-flash,84,84,42,14,0.952,0.756,0.196
+qwen3.7-plus,84,84,42,14,0.948,0.767,0.18

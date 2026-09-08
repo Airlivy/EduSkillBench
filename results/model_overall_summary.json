@@ -1,0 +1,57 @@
+[
+  {
+    "model": "deepseek-v4-flash",
+    "cells": 84,
+    "clean_runs": 84,
+    "total_runs": 84,
+    "tasks": 42,
+    "skills": 14,
+    "with_skill_avg_reward": 0.533,
+    "baseline_avg_reward": 0.314,
+    "reward_lift": 0.219
+  },
+  {
+    "model": "deepseek-v4-pro",
+    "cells": 84,
+    "clean_runs": 84,
+    "total_runs": 84,
+    "tasks": 42,
+    "skills": 14,
+    "with_skill_avg_reward": 0.963,
+    "baseline_avg_reward": 0.825,
+    "reward_lift": 0.137
+  },
+  {
+    "model": "glm-5.3",
+    "cells": 84,
+    "clean_runs": 84,
+    "total_runs": 84,
+    "tasks": 42,
+    "skills": 14,
+    "with_skill_avg_reward": 0.905,
+    "baseline_avg_reward": 0.714,
+    "reward_lift": 0.19
+  },
+  {
+    "model": "glm-5.3-flash",
+    "cells": 84,
+    "clean_runs": 84,
+    "total_runs": 84,
+    "tasks": 42,
+    "skills": 14,
+    "with_skill_avg_reward": 0.952,
+    "baseline_avg_reward": 0.756,
+    "reward_lift": 0.196
+  },
+  {
+    "model": "qwen3.7-plus",
+    "cells": 84,
+    "clean_runs": 84,
+    "total_runs": 84,
+    "tasks": 42,
+    "skills": 14,
+    "with_skill_avg_reward": 0.948,
+    "baseline_avg_reward": 0.767,
+    "reward_lift": 0.18
+  }
+]
