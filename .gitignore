@@ -12,3 +12,8 @@ __pycache__/
 data/*_generated.csv
 data/raw_generations/
 data/generation_meta.json
+
+# Local tooling & runtime archives (never version)
+.claude/
+.nodecache/
+*.zip
