@@ -33,6 +33,12 @@ EduSkillBench/
 │   ├── evaluation/
 │   └── utils/
 ├── results/
+│   ├── model_overall_summary.csv
+│   ├── model_overall_summary.json
+│   └── model_skill_summary.csv
+├── paper/
+├── LICENSE.md
+├── LICENSES/
 ├── README.md
 └── THIRD_PARTY_NOTICES.md
 ```
@@ -90,7 +96,7 @@ The multi-turn tasks are included in the benchmark release but are **not part of
 
 The current v1 evaluation uses:
 
-* **Model:** Qwen3.7-Plus
+* **Models:** glm-5.3, glm-5.3-flash, deepseek-v4-pro, deepseek-v4-flash, and qwen3.7-plus
 * **Agent:** OpenCode
 * **Evaluation framework:** BenchFlow
 * **Execution:** Docker sandbox
@@ -104,35 +110,32 @@ code/utils/patch_benchflow.sh
 
 ## Results
 
-The main experiment evaluates all 42 single-turn tasks under both conditions:
+The main v1 experiment evaluates all 42 single-turn tasks under both With-Skill and No-Skill conditions, for each of five models:
 
 ```text
-42 tasks × 2 settings = 84 runs
+5 models × 42 tasks × 2 settings = 420 runs
 ```
 
-All **84/84 runs** were successfully completed.
+All runs completed successfully (84/84 per model).
 
-| Setting       | Average Reward |
-| ------------- | -------------: |
-| With-Skill    |          0.948 |
-| No-Skill      |          0.767 |
-| Absolute Lift |         +0.180 |
+| Model            | With-Skill | No-Skill | Lift  |
+| ---------------- | ---------- | -------- | ----- |
+| deepseek-v4-flash | 0.533     | 0.314    | +0.219 |
+| deepseek-v4-pro  | 0.963      | 0.825    | +0.137 |
+| glm-5.3          | 0.905      | 0.714    | +0.190 |
+| glm-5.3-flash    | 0.952      | 0.756    | +0.196 |
+| qwen3.7-plus     | 0.948      | 0.767    | +0.180 |
 
-Skill augmentation therefore improves average reward by **18.0 percentage points** in the current single-turn evaluation.
+Lift is the mean over the 14 Skills of the per-Skill With-Skill minus No-Skill difference. Skill augmentation improves mean reward for **all five models**, by **+13.7 to +21.9 percentage points** depending on the model.
 
-Across the 14 evaluated Skills:
+Across the 14 evaluated Skills, the number showing positive lift ranges from **8/14** (deepseek-v4-flash) to **11/14** (deepseek-v4-pro and glm-5.3-flash). Each model has exactly one negative Skill: `lesson-builder` for four of the five models and `hinge-question-designer` for qwen3.7-plus. Several Skills sit at ceiling-level baseline performance and therefore show zero lift.
 
-* **10/14** improve
-* **3/14** remain unchanged
-* **1/14** decreases
-
-The three unchanged Skills have ceiling-level baseline performance, while `hinge-question-designer` is the only Skill showing a negative result.
-
-Detailed results are available in:
+Detailed per-model, per-Skill results are available in:
 
 ```text
-results/single_turn_overall.json
-results/single_turn_skill_summary.csv
+results/model_overall_summary.csv
+results/model_overall_summary.json
+results/model_skill_summary.csv
 ```
 
 ## Quick Start
@@ -145,7 +148,7 @@ The v1 experiments were conducted with:
 * BenchFlow 0.6.7
 * Docker
 * OpenCode
-* Qwen3.7-Plus
+* Access to the evaluated model endpoints: glm-5.3, glm-5.3-flash, deepseek-v4-pro, deepseek-v4-flash, and qwen3.7-plus
 
 Make sure Docker is running and `bench` is available in your environment.
 
@@ -183,7 +186,7 @@ bash code/evaluation/run_single_turn_v1.sh
 The script evaluates the released Skills with:
 
 * Agent: `opencode`
-* Model: `qwen3.7-plus`
+* Model: `qwen3.7-plus` (reference reproduction of the released qwen3.7-plus row)
 * Sandbox: `docker`
 * Concurrency: `1`
 
@@ -191,18 +194,13 @@ Runtime artifacts are written under `jobs/` and are intentionally excluded from 
 
 ### Aggregate results
 
-After evaluation, summarize the completed runs with:
+`code/evaluation/summarize_single_turn_v1.py` is the **reference-model (qwen3.7-plus)** aggregator. It reads the completed run records under `jobs/` and writes runtime aggregates to `jobs/single-model-summary/`, which are git-ignored:
 
 ```bash
 python code/evaluation/summarize_single_turn_v1.py
 ```
 
-The released aggregate results are stored in:
-
-```text
-results/single_turn_overall.json
-results/single_turn_skill_summary.csv
-```
+The released five-model leaderboard lives under `results/` (see [Results](#results)); the script above only reproduces the qwen3.7-plus row of that leaderboard.
 
 ### Task generation
 
@@ -246,6 +244,6 @@ for details.
 
 ## Status
 
-This repository contains the **EduSkillBench v1 benchmark release and single-turn evaluation results**.
+This repository contains the **EduSkillBench v1 benchmark release and single-turn evaluation results across five models**.
 
 Multi-turn execution and larger-scale evaluation are planned as future extensions.

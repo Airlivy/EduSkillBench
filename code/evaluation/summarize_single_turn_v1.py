@@ -2,9 +2,13 @@ import json, csv, re
 from pathlib import Path
 from collections import defaultdict
 
+# Reference (qwen3.7-plus) single-model aggregator. The released five-model
+# leaderboard lives in results/model_overall_summary.* and
+# results/model_skill_summary.csv; this script only reproduces the reference
+# run and writes its runtime aggregates under jobs/ (git-ignored).
 FORMAL = Path("jobs/formal-single-v1")
 RETRY = Path("jobs/spaced-case3-retry")
-OUT = Path("results")
+OUT = Path("jobs/single-model-summary")
 OUT.mkdir(exist_ok=True)
 
 ERR_FIELDS = [
@@ -168,7 +172,7 @@ print()
 for k,v in overall.items():
     print(f"{k} = {v}")
 
-print("\nSaved:")
-print("results/single_turn_runs.csv")
-print("results/single_turn_skill_summary.csv")
-print("results/single_turn_overall.json")
+print("\nSaved (runtime artifacts, git-ignored):")
+print(OUT / "single_turn_runs.csv")
+print(OUT / "single_turn_skill_summary.csv")
+print(OUT / "single_turn_overall.json")
