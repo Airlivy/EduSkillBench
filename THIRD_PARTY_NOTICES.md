@@ -34,6 +34,26 @@ EduBench is released under the MIT License.
 
 EduSkillBench is an independent benchmark project and is not an official extension of EduBench.
 
+## edu_scene_66 — extended task set (263 tasks)
+
+The extended single-turn task set under `data/single_turn_tasks_cn263.csv`,
+`data/single_turn_tasks_cn263_trace.csv`, and `skills/single_turn_cn263/` consists of
+English translations and restructurings of Chinese teaching-case documents sourced from:
+
+`edu_scene_66` (commit `467fcaf`)
+
+The snapshot used for conversion contained **no LICENSE or README file**, so the
+redistribution terms of the upstream materials could not be verified. These tasks are
+included for research and reproducibility. If you hold the rights to this material and
+object to its inclusion, please open an issue and it will be removed.
+
+Contributor names have been replaced with anonymous labels (`作者A`–`作者E`) in the
+released traceability file. The tasks retain no personal names, institutional names, or
+identifying place names; the rubric and question text were reviewed for this.
+
+The 263 tasks are mapped onto the nine existing single-turn Skills; no new Skill was
+created for them, and the Skills themselves are unchanged.
+
 ## Licensing Scope
 
 Third-party Skills contained under `skills/` are **not relicensed by EduSkillBench**.

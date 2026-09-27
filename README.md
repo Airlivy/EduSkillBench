@@ -24,9 +24,12 @@ EduSkillBench/
 │   ├── single_turn_tasks.csv
 │   ├── multi_turn_tasks.csv
 │   ├── skill_mapping.csv
-│   └── release_manifest.json
+│   ├── release_manifest.json
+│   ├── single_turn_tasks_cn263.csv          # extended set (263 tasks)
+│   └── single_turn_tasks_cn263_trace.csv
 ├── skills/
 │   ├── single_turn/
+│   ├── single_turn_cn263/                   # extended set eval cases
 │   └── multi_turn/
 ├── code/
 │   ├── generation/
@@ -217,6 +220,43 @@ The released benchmark tasks are already available under `data/`; regeneration i
 The 12 multi-turn tasks and four associated Skills are included in the benchmark release, but the v1 empirical results cover only the 42 single-turn tasks.
 
 A dedicated learner-agent multi-turn execution protocol is left for future work.
+
+### Extended task set (263 tasks)
+
+In addition to the released 42 single-turn tasks, the repository ships an **extended task set** of 263 single-turn tasks derived from a corpus of Chinese teaching-case documents (see `THIRD_PARTY_NOTICES.md`).
+
+This set is **kept separate from v1 on purpose**, so that the published v1 numbers stay reproducible:
+
+```text
+data/single_turn_tasks_cn263.csv        263 tasks, same 11-column schema as v1
+data/single_turn_tasks_cn263_trace.csv  task -> source record / scene index
+skills/single_turn_cn263/               9 Skills x evals.json (263 cases)
+```
+
+Build the runnable eval cases:
+
+```bash
+python code/evaluation/build_evals_cn263.py
+```
+
+This writes `skills/single_turn_cn263/<skill>/evals/evals.json` and **does not touch** `skills/single_turn/`, so the v1 configuration — and the `run_single_turn_v1.sh` reproduction path — is unaffected.
+
+Run the extended set with the same command shape as v1, pointed at the new directory:
+
+```bash
+for d in skills/single_turn_cn263/*; do
+  [ -f "$d/evals/evals.json" ] || continue
+  bench skills eval "$d" --agent opencode --model qwen3.7-plus --sandbox docker --concurrency 1
+done
+```
+
+Three properties of this set should be kept in mind when reporting results on it:
+
+* **Rubrics are shared per source record.** Each of the 30 source records carries one rubric, and the tasks derived from it share that rubric (about nine tasks per rubric on average). This differs from v1, where every task has its own rubric.
+* **Questions are close translations** of the source questions, so prompt length follows the source and ranges from 8 to 91 words (median 32) — shorter than the v1 prompts, which run from 49 to 267 words.
+* **The set is unevenly distributed across Skills:** `lesson-builder` accounts for 154 of the 263 cases, so a per-Skill mean over this set is not comparable to the v1 per-Skill mean.
+
+No results on this extended set are reported in the paper; it is released as data and tooling only.
 
 ## Limitations
 
