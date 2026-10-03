@@ -1,3 +1,5 @@
+> **当前305题（2026-10-03）**：[题库与说明](data/exports/eduskillbench-305-20261003/README.md) · [逐题审阅TXT](data/exports/eduskillbench-305-20261003/305题运行审阅.txt)。包含42题core与263题advisory；答案和评分的适用范围、已知限制见说明。
+
 # EduSkillBench
 
 **EduSkillBench** is a benchmark for evaluating whether reusable educational agent Skills improve the performance of large language models on realistic education tasks.

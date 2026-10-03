@@ -1,0 +1,17 @@
+{
+  "snapshot_date": "2026-10-03",
+  "counts": {
+    "core": 42,
+    "advisory": 263,
+    "all": 305
+  },
+  "source_local_release": "source-native-20261001",
+  "matches_formal_run_dataset": true,
+  "expert_certified": false,
+  "files": {
+    "305题运行审阅.txt": "c5bbfe60f4581d067460b2e62addfa75c04b36bf2df9b8b2f559ca73f0e678f5",
+    "README.md": "a0e6fdbd343710894d8b9d02ed9b7ee6c94b63b7ed71771282af41fa8e4914c4",
+    "cases.json": "ab0eeee5246679373d7ceb23bd87f80630c87698150d0fc49085ec7fc369f777",
+    "scope_and_changes.json": "56e222753abe4c718a1fe9cf409fc1ac249bf00953405246200be74d68098a26"
+  }
+}
