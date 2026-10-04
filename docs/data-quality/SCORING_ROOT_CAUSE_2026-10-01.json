@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-01",
+  "engineering_tests": 69,
+  "data_tests": 27,
+  "live": {
+    "samples": [
+      {
+        "task": "self-explanation-prompt-designer__03",
+        "variant": "factual_error",
+        "status": "scored",
+        "score": 0.64,
+        "critical_pass": false,
+        "matches_expectation": true,
+        "seconds": 36.125
+      }
+    ],
+    "requests": 1,
+    "failures": 0,
+    "metadata": {
+      "trace_version": 1,
+      "started_utc": "2026-09-30T18:48:43Z",
+      "model": "deepseek-v4-pro",
+      "prompt_chars": 8790,
+      "prompt_bytes": 8824,
+      "prompt_sha256": "1b4b2052aff091e4a7ba6e8679bd48904ec14bad07970e56244cfc550f31e961",
+      "request_settings": {
+        "max_tokens": 4096,
+        "thinking": {
+          "type": "enabled",
+          "budget_tokens": 1024
+        },
+        "stream": true,
+        "output_config": {
+          "effort": "low"
+        },
+        "output_format": {
+          "type": "json_schema",
+          "schema": {
+            "type": "object",
+            "properties": {
+              "items": {
+                "type": "array",
+                "minItems": 6,
+                "maxItems": 6,
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "enum": [
+                        "C1",
+                        "C2",
+                        "C3",
+                        "C4",
+                        "C5",
+                        "C6"
+                      ]
+                    },
+                    "pass": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "pass"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "items"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "stage": "message_complete",
+      "status": "response_received",
+      "events": {
+        "message_start": 1,
+        "ping": 1,
+        "content_block_start": 2,
+        "content_block_delta": 611,
+        "content_block_stop": 2,
+        "message_delta": 1,
+        "message_stop": 1
+      },
+      "received_bytes": 90586,
+      "thinking_chars": 14024,
+      "text_chars": 157,
+      "max_line_gap_seconds": 0.393,
+      "max_content_gap_seconds": 0.393,
+      "transport_route": "direct_ark",
+      "timeouts_seconds": {
+        "headers": 90.0,
+        "idle": 60.0,
+        "content_idle": 180.0,
+        "total": 120.0
+      },
+      "headers_seconds": 1.697,
+      "http_status": 200,
+      "content_type": "text/event-stream",
+      "x-request-id": "0217907941238115e054c6d0ba743fab13ed8d72af4b8b229a544",
+      "first_line_seconds": 1.7,
+      "last_line_seconds": 36.097,
+      "first_event_seconds": 1.7,
+      "request_id": "0217907941238115e054c6d0ba743fab13ed8d72af4b8b229a544",
+      "usage": {
+        "input_tokens": 1134,
+        "output_tokens": 3359,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 1024
+      },
+      "first_content_seconds": 1.701,
+      "first_thinking_seconds": 1.701,
+      "last_content_seconds": 36.069,
+      "first_text_seconds": 35.867,
+      "elapsed_seconds": 36.103,
+      "since_last_line_seconds": 0.006,
+      "since_last_content_seconds": 0.034,
+      "stop_reason": "end_turn",
+      "block_types": [
+        "thinking",
+        "text"
+      ]
+    }
+  },
+  "sandbox_attempt": "DNS resolution failed before provider access; rerun outside sandbox in a separate directory",
+  "replay": "docs/data-quality/SCORING_RETRY_REPLAY_2026-10-01.json",
+  "limits": [
+    "One live sample is not full calibration.",
+    "No independent parallel scoring queue implemented.",
+    "DeepSeek official documentation does not establish Ark internal parameter mapping."
+  ],
+  "code_sha256": {
+    "repro/judge.py": "fe978e85920e999dca5c957e74cb708f2db587858a4aeae4927ce6cd12aab267",
+    "repro/runner.py": "2c6428c60ed866c40548f80f5c27994497712621e23c2f699e13fdf9c3e73adf",
+    "repro/tests/test_recovery.py": "48eae1b638fa9c463e8f13ef6047764d4bc965e0848c2283293c1efa1c940d3e"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "release": "run-ready-20260930",
+  "counts": {
+    "core": 42,
+    "advisory": 263,
+    "all": 305
+  },
+  "source_manifest_sha256": "899b32ae786adb69aea3838d3035a54cfe29b84fd19e8e5a781c8c337c8b0d7a",
+  "builder_sha256": "b1b586cecc496f93950af419654352c24c2aa94f57d6e50394a4deb91aff9ecc",
+  "artifacts": {
+    "core.csv": "d058b63845f9816f257b99bd0a9c006ce0125c16400f99725b0de3c2fcf28996",
+    "advisory.csv": "7b53c386526d30c77a890eb97c3523dfa4d817cee053f2d3ff82727c82c31b7c",
+    "all.csv": "e0d7683cee807007b330ccff1b5c5441ad1c68efe584575c099fd5eea8aa9023",
+    "evals.json": "0a6b4281511373d14b2a0ff2d1d58ad26140237e3f290be8f5f8b8582d482790",
+    "changes.json": "7b2099703846c40e677b359a420df0061dcb1c6107dfaf52fb06e33ecd380ab5",
+    "review_ledger.json": "ef7d47aa98d3f28730632a3d8fd8198c9b0518ab874ae626757939eda3dffa75",
+    "source_bindings.json": "fe157618f7479fc8f66913072a6b48da03b7efd764a01a57a4a4faf6002cc350",
+    "release_gate.json": "f7f4d8374c739c041e3fdbd71d67fe041fb2f24eecf66791c1f86f27b3de5d12",
+    "README.md": "51d87f5f69e319bbd9d2bab21e17bd5a1582cf46f16d8a144623280512be6bcb"
+  },
+  "skill_files": {
+    "skills/single_turn/adaptive-hint-sequence-designer/SKILL.md": "4f59e3a5e681dbeb72db4c703a96f1dc53c44c4c9ec18df534071fcd7972882a",
+    "skills/single_turn/backwards-design-unit-planner/SKILL.md": "1436d874e706d5cb7ed01df8755af87ad221322baf853ca4306c964882ef686f",
+    "skills/single_turn/differentiation-adapter/SKILL.md": "6545b55ca01e6eea998b9c1c808f6327a3dee87c91a4c313c4c7e6e163c35c5f",
+    "skills/single_turn/emergent-project-design-scaffold/SKILL.md": "4e9abec96bbaad5bd68809b55b7146ef1b878684f36b9119e572e8e947e9729f",
+    "skills/single_turn/hinge-question-designer/SKILL.md": "a3d862c13b6d86065bebc8f1266d643e127c736a2e071107e35b3389da662fc6",
+    "skills/single_turn/lesson-builder/SKILL.md": "203e98006386f1d405c8bd48a9f0d6b0614e54627e59d36a6f57239592f6da8c",
+    "skills/single_turn/lesson-builder/agents/activity_designer_agent.md": "b7c150252264098ce437b3a8c3a3e150174f390c42f615fa3d09611e81e3bf1f",
+    "skills/single_turn/lesson-builder/agents/case_study_writer_agent.md": "65e130e57b1ef0b6b84529362829f857a8594851d46e4101e49c1eed5ea4fc79",
+    "skills/single_turn/lesson-builder/agents/discussion_designer_agent.md": "b9dfe96b3b985b5ae258a45d5037eca54c7118eb6431a033936fc0ea5b19b1ee",
+    "skills/single_turn/lesson-builder/agents/lecture_writer_agent.md": "081b6922e61303d2d596121078b174024f6628e51ffb97290cdb5b5079d96435",
+    "skills/single_turn/lesson-builder/agents/lesson_planner_agent.md": "7a77d487dd7fcef03069fe8fa8c70e03a7edddab3a0856ad5eb9ce9c14f11f6d",
+    "skills/single_turn/lesson-builder/agents/slide_outliner_agent.md": "b43fd439d2ffd4ac94a80d716dc45f1d7e4c039d94a6caf4acb328b07eb1a2d9",
+    "skills/single_turn/lesson-builder/references/active_learning_catalog.md": "325e0ff0b96c352ef30e1cfdb25e6d2ca1820858f1ba357c7274050dedeee37c",
+    "skills/single_turn/lesson-builder/references/lesson_anatomy.md": "e733681c1fb82afef54f532d574c74ba6f815bb5ea10b0d49145bccdfc88b5cb",
+    "skills/single_turn/lesson-builder/templates/activity_sheet_template.md": "474e046b73c281a6b383e61dc9457b9dc1d83846005c23a04a8efb153c80d07b",
+    "skills/single_turn/lesson-builder/templates/lesson_plan_template.md": "c329627b01af8892828aad2ec5b12f6d62d43897c6a8265d42bf366a3d2e34c2",
+    "skills/single_turn/motivation-diagnostic-task-redesign/SKILL.md": "1b4717de6826f4cf803ef32f63cd4e854d3629165a28fc0e192aad38d358528e",
+    "skills/single_turn/project-brief-designer/SKILL.md": "14f314ee2575140998e26edf22d5e1818172353d9e150431be91e722c40a5345",
+    "skills/single_turn/retrieval-practice-generator/SKILL.md": "01182f519b7dfc6a5a204b3e49b26282f879f8b59d233fcaf1daafc3d7e43516",
+    "skills/single_turn/ruler-emotional-literacy-sequence/SKILL.md": "c6a079ba16320268ee52493686cbcd6dd9077ab72d88aaa850a47d5f92d36257",
+    "skills/single_turn/self-efficacy-builder-sequence/SKILL.md": "3b66bdaef032d90bd840043301ba6454105e90d5c5de711a7a8310d031405a9c",
+    "skills/single_turn/self-explanation-prompt-designer/SKILL.md": "d0e4c730e64be5e5a3718647f942ea99f3a5f201ff9ad20269884dec67126e32",
+    "skills/single_turn/socratic-questioning-sequence-generator/SKILL.md": "e7988cfff9a39d777a44fbc5c38f6d0684ae0a5d8a02c5037dbda3bdbd50a6dc",
+    "skills/single_turn/spaced-practice-scheduler/SKILL.md": "2718ed5b78cf3c4457a12aa5bfe53a9894f55c69d4a655049eee3f8413899bff"
+  }
+}

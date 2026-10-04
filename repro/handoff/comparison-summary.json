@@ -1,0 +1,74 @@
+{
+  "counts": {
+    "local_only": 105023,
+    "different": 9,
+    "identical": 406,
+    "publication_only": 103
+  },
+  "different_files": [
+    ".gitignore",
+    "README.md",
+    "paper/fig1_overview.png",
+    "paper/figure_4.pdf",
+    "paper/figure_5.pdf",
+    "paper/figure_6.pdf",
+    "paper/main.tex",
+    "repro/API_CONFIG.md",
+    "repro/README.md"
+  ],
+  "local_only_by_top_directory": {
+    ".claude": [
+      1,
+      250
+    ],
+    ".local-artifacts": [
+      9,
+      22491883
+    ],
+    ".nodecache": [
+      5046,
+      1120759210
+    ],
+    "code": [
+      22,
+      307278
+    ],
+    "jobs": [
+      22249,
+      971288566
+    ],
+    "logs": [
+      70,
+      1904534
+    ],
+    "paper": [
+      5,
+      2697520
+    ],
+    "repro": [
+      59,
+      687862
+    ],
+    "results_v2": [
+      77036,
+      355998225
+    ],
+    "skill_pool": [
+      3,
+      415611
+    ],
+    "task_specs": [
+      20,
+      353923
+    ],
+    "third_party": [
+      503,
+      7927191
+    ]
+  },
+  "scope": "All project regular files except .git metadata; publication means Git index in isolated worktree. Local-only contents are NOT read or hashed. External OS/venv/container files are covered by separate environment records. Self-report files excluded.",
+  "frozen_run_comparison": {
+    "compared_files": 80,
+    "different": []
+  }
+}

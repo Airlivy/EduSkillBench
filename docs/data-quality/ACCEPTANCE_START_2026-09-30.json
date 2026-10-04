@@ -1,0 +1,6 @@
+{
+  "revision": "case-review-v4-20260930",
+  "manifest_sha256": "b2c09ab6765b984710da596b36159015872c71b57be4e4447d27d93551af812f",
+  "issue": "self-efficacy-builder-sequence__01: expected_output bans generic praise while rubric permits supportive encouragement not used as the main intervention",
+  "decision": "needs_alignment_before_acceptance"
+}

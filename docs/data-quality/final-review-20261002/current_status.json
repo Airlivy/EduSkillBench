@@ -1,0 +1,15 @@
+{
+  "release_manifest_sha256": "1fb184336efa007ad17b2fc4e3d3480511e327a2eec0d35929da4e1e37819a57",
+  "dataset_content_unchanged": true,
+  "engineering_tests": 102,
+  "data_tests": 42,
+  "known_content_disagreements_pending": 0,
+  "semantic_stability": {
+    "passed": 31,
+    "total": 33,
+    "false_positive": 1,
+    "blocked_inconsistent_grade": 1
+  },
+  "fully_automatic_scoring_certified": false,
+  "full_benchmark_started": false
+}

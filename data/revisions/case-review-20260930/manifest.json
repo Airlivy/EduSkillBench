@@ -1,0 +1,40 @@
+{
+  "revision": "case-review-20260930",
+  "status": "candidate_not_released",
+  "scope": "42 original and 263 expanded tasks; targeted corrections, not full semantic acceptance",
+  "source_sha256": {
+    "single_turn_tasks.csv": "51514add06cf06f74be36b5dd2f2606a5b4c62489febec8fecf3458a2c9eb710",
+    "single_turn_tasks_cn263.csv": "05c12f470c84ce27f9d95711af4e1dc4b68734fb8cdeed08859cca9a3ad0ae30",
+    "single_turn_tasks_cn263_trace.csv": "0054d64b2732905d9eac4f88693bbdd79cd95e1e039ee881f1dfdd95cbd259b7"
+  },
+  "counts": {
+    "original42": {
+      "total": 42,
+      "revised": 27,
+      "unchanged": 15
+    },
+    "cn263": {
+      "total": 263,
+      "revised": 70,
+      "unchanged": 193
+    }
+  },
+  "artifacts_sha256": {
+    "README.md": "869a6c7e6247bc8a803d8b2ab2d9f83f1d2d9568b63c1488d03f30f10d24a7ee",
+    "result_evidence.json": "314671fe9a04acfd5aa82f946eb774bf9cfd5302965c3336e6a7395314569aa3",
+    "changes.json": "01d50ee7a3594618aa5aafe002bd6f6f8e2b4e96c4cbed2ff05f7037a1db0435",
+    "acceptance_cases.json": "642275e6a63bd26f6c647afec188cdc384e3ee28f599d5b57d72f1cfb0543ee9",
+    "review_inventory.csv": "d0d134ed2204d56ae95181948d932e63ab0226b6297012be00811cccbcd0edb2",
+    "truncation_case_evidence.json": "e19b6e2c818a6c9e93c28e905ac7b69534a5c707f9d3fc0629c0c8a7e8581991",
+    "single_turn_tasks_cn263_trace.csv": "0054d64b2732905d9eac4f88693bbdd79cd95e1e039ee881f1dfdd95cbd259b7",
+    "single_turn_tasks_cn263.csv": "ea505c1eeb43d5b2cf98a70db2ddd455b03a0c2caa1b5f380c5dd30c26bffa0f",
+    "single_turn_tasks.csv": "b1b9c9fa08c888ab547e4197bbc873741d828551a125815e115ba314afd222e5"
+  },
+  "builder_sha256": "cd4f7856881be773f05e3d60d00d90e5b801c7e523bc470174f37c534e3f7bad",
+  "limitations": [
+    "Independent subject review pending.",
+    "No model or judge calls performed.",
+    "Historical answers and scores do not become revised-case results.",
+    "Contrast examples are authored acceptance anchors, not independently passed judge tests."
+  ]
+}

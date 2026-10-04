@@ -1,0 +1,578 @@
+[
+  {
+    "dataset": "original42",
+    "task_id": "self-explanation-prompt-designer__03",
+    "positive_answer_anchor": "Phi=0.008 Wb, |emf|=0.12 V, |I|=0.06 A, counterclockwise.",
+    "negative_answer_example": "Phi=L*w*B(leading edge)=0.012 Wb is the exact nonuniform-field integral.",
+    "acceptance_method": "analytic integral and independent numerical quadrature; direction from explicit convention",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "original42",
+    "task_id": "lesson-builder__03",
+    "positive_answer_anchor": "r=ln(2)/3, gamma=.25, R0 approximately 1.924; estimate is conditional.",
+    "negative_answer_example": "R0 is 2 because case counts double, regardless of the infectious period.",
+    "acceptance_method": "symbolic SIR linearization and numerical substitution",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn24_01",
+    "positive_answer_anchor": "A line perpendicular to two intersecting lines in a plane is perpendicular to the plane. Perpendicularity to just one in-plane line is insufficient; for plane z=0, the x-axis is perpendicular to the y-axis but lies in the plane. Work backward from the goal, identify two intersecting in-plane lines, ask students which perpendicular relations are known or need construction, then verify both before invoking the theorem.",
+    "negative_answer_example": "Using the line-plane parallel criterion, or using only one perpendicular line.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn24_02",
+    "positive_answer_anchor": "Two distinct planes are parallel if two intersecting lines of one plane are respectively parallel to two intersecting lines of the other. One pair alone is insufficient: planes z=0 and y=0 share an x-direction but intersect. Ask students to locate two independent directions and prove the corresponding relations; explicitly rule out coincident planes.",
+    "negative_answer_example": "Claiming one parallel line pair alone proves planes parallel.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn24_03",
+    "positive_answer_anchor": "If one plane contains a line perpendicular to the other plane, the planes are perpendicular. Perpendicular planes do not make every line in one perpendicular to the other. Work backward to a perpendicular line, construct or identify it and verify its line-plane criterion; use planes x=0 and z=0 to show a shared in-plane direction is not a normal.",
+    "negative_answer_example": "Answering with plane parallelism or claiming all lines in perpendicular planes are mutually perpendicular.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn24_04",
+    "positive_answer_anchor": "Let A lie outside plane alpha, O be its orthogonal projection, B be in alpha with B!=O, and l be an in-plane line through B. Then l is perpendicular to AB iff l is perpendicular to OB. OA is perpendicular to alpha and OB is the nonzero projection of AB. Draw and label A,O,B,l, verify the projection conditions before using either implication, and justify via vector decomposition or a valid geometric proof.",
+    "negative_answer_example": "Using the theorem without the projection or nonzero-projection conditions.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn24_05",
+    "positive_answer_anchor": "For sides a,b,c opposite A,B,C, c^2=a^2+b^2-2ab*cos(C). SAS selects the included angle; SSS gives cos(C)=(a^2+b^2-c^2)/(2ab). For a=3,b=4,C=90 degrees, c=5. Contrast SAS and SSS, let students choose the target side/angle and formula, check triangle feasibility and verify the numerical example.",
+    "negative_answer_example": "Proving line-plane parallelism instead of choosing a triangle-solving formula.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn24_06",
+    "positive_answer_anchor": "a/sin(A)=b/sin(B)=c/sin(C)=2R for a nondegenerate triangle. Use opposite side-angle pairs, known angle sums and the sine rule; SSA can have two solutions and inverse sine alone is insufficient. Use A=30 degrees,a=5,b=8: sin(B)=0.8, so test both B about 53.13 and 126.87 degrees against the angle sum.",
+    "negative_answer_example": "Always treating arcsin as the unique SSA solution.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn24_07",
+    "positive_answer_anchor": "For a triangle with longest side c, if a^2+b^2=c^2, the angle opposite c is right. Verify positive sides and triangle inequality; 3,4,5 qualifies while 2,3,4 does not. Choose the longest side, calculate both sides of the equality and state the exact opposite angle; use a counterexample to an arbitrary side ordering.",
+    "negative_answer_example": "Checking the equality against a non-longest side or treating the direct theorem as a proof of its converse.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn24_08",
+    "positive_answer_anchor": "In triangle ABC, if M,N are the midpoints of AB,AC then MN is parallel to BC and MN=BC/2. The required midpoint hypotheses must be established; being points on the sides is not enough. Work backward from the desired parallel/half-length relation, locate the relevant triangle and midpoints, connect them, and prove before invoking the theorem.",
+    "negative_answer_example": "Declaring any segment joining two side points a midsegment.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn24_09",
+    "positive_answer_anchor": "For b!=0, vectors a and b are linearly dependent iff a=lambda*b for some scalar lambda. In 2D the determinant a_x*b_y-a_y*b_x=0 avoids invalid divisions by zero; distinguish nonzero direction vectors of lines from the zero vector. Use (0,2) and (0,5) as a valid vertical example, and (1,0),(0,1) as a nonexample; translate endpoint coordinates into direction vectors before testing.",
+    "negative_answer_example": "Using component ratios that divide by zero or treating zero as a usable line direction.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn25_01",
+    "positive_answer_anchor": "Here principal-variable method means treating a multivariable expression as a function of one chosen variable while other variables act as parameters. For x,y>=0 and x+y=6, xy=x*(6-x)=9-(x-3)^2 on 0<=x<=6, so the maximum is 9 at x=y=3. The constraint and chosen variable must be explicit. For average Grade 12 students compare a familiar trial/table approach with completing the square, explain why choosing x helps, check endpoints and give a nearby transfer example. This is one introductory illustration, not a claim that every multivariable problem reduces this way.",
+    "negative_answer_example": "Teaching Menelaus or segment ratios without addressing principal-variable selection.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "retrieval-practice-generator__cn23_01",
+    "positive_answer_anchor": "For (x-2)/(x^2-4), the original domain excludes both -2 and 2 even after cancellation. For sqrt(x-1)/(x-2), require x>=1 and x!=2. State all original denominator/radical/log conditions before simplifying. Provide one three-item set about function domains: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "negative_answer_example": "Canceling a factor and reinstating an excluded input.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "retrieval-practice-generator__cn23_02",
+    "positive_answer_anchor": "For a,b>=0, (a+b)/2>=sqrt(ab), with equality iff a=b. For x>0, x+4/x>=4 with equality at x=2. Applying the square-root form to arbitrary negative terms is invalid. Provide one three-item set about AM-GM equality: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "negative_answer_example": "Claiming equality without testing attainability, or applying the stated inequality outside its domain.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "retrieval-practice-generator__cn23_03",
+    "positive_answer_anchor": "Assume a!=0. A discriminant establishes real roots, not their positions. To locate roots use roots/vertex/endpoints with boundary cases. x^2-5x+6 has roots 2,3, so Delta>0 alone does not imply roots in (0,1). x^2-x+3/16 has roots 1/4,3/4 in (0,1). Provide one three-item set about quadratic root location: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "negative_answer_example": "Using only Delta>0 to certify an interval location.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "retrieval-practice-generator__cn23_04",
+    "positive_answer_anchor": "sin(pi-theta)=sin(theta), cos(pi-theta)=-cos(theta), sin(-theta)=-sin(theta). Track function, quadrant and sign; for theta=pi/6, cos(5*pi/6)=-sqrt(3)/2. Provide one three-item set about trigonometric signs: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "negative_answer_example": "Dropping the quadrant sign or treating every trigonometric function as odd.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "retrieval-practice-generator__cn23_05",
+    "positive_answer_anchor": "For a real sequence compare a_(n+1)-a_n on the stated index domain. Ratio tests require sign assumptions; a_n=-1/n for n>=1 increases although a_(n+1)/a_n=n/(n+1)<1. Provide one three-item set about sequence monotonicity: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "negative_answer_example": "Inferring decrease from ratio<1 for a negative sequence.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "retrieval-practice-generator__cn23_06",
+    "positive_answer_anchor": "For line Ax+By+C=0 with A^2+B^2>0 and circle center (h,k),radius r>0, compare |Ah+Bk+C|/sqrt(A^2+B^2) with r. For center (1,2),r=3, x=4 is tangent and x=1 is secant. Provide one three-item set about line-circle position: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "negative_answer_example": "Using the distance from the origin when the center is not the origin, or omitting absolute value.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "retrieval-practice-generator__cn23_07",
+    "positive_answer_anchor": "In (2x-1)^3=8x^3-12x^2+6x-1, the x^2 term has coefficient -12 whereas its binomial coefficient is C(3,1)=3. Include sign and scalar powers. Provide one three-item set about binomial versus term coefficient: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "negative_answer_example": "Giving 3 as the x^2 coefficient or ignoring the negative factor.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "retrieval-practice-generator__cn23_08",
+    "positive_answer_anchor": "For planar vectors, determinant zero tests linear dependence and dot product zero tests orthogonality. (0,2),(0,5) are dependent, while (0,2),(3,0) have zero dot product. Distinguish algebraic zero-vector cases from angles or directions of nonzero geometric vectors. Provide one three-item set about vector conditions: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "negative_answer_example": "Dividing by a zero component or equating dot product zero with parallelism.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn28_01",
+    "positive_answer_anchor": "For a nondegenerate triangle a/sin(A)=b/sin(B)=c/sin(C). Motivate it by an oblique triangle and relate the ratio to an altitude or circumcircle. AAA fixes shape but not size; SSA can give zero, one or two triangles. Use an oblique triangle with known opposite side-angle pair, compare an altitude-based solution with the new relationship, then check a second triangle and an SSA ambiguity.",
+    "negative_answer_example": "A compulsory derivative/complex-number/logarithm lesson or a claim that every SSA triangle is unique.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn28_02",
+    "positive_answer_anchor": "Instantaneous rate is the limit of difference quotients, not substitution h=0 into a 0/0 expression. For s(t)=t^2, (s(t+h)-s(t))/h=2t+h for h!=0, whose limit is 2t. Have students calculate shrinking-interval average rates at t=2, articulate the limit and distinguish average rate from instantaneous rate; use a transfer check.",
+    "negative_answer_example": "Dividing by zero to compute the derivative or grading the lesson by triangle-congruence checks.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn28_03",
+    "positive_answer_anchor": "x^2+1=0 has no real solution; extending the number system with i^2=-1 gives solutions i and -i. This is an extension of real numbers, not evidence that the original real solution set was nonempty. Create the real-number impasse, define i consistently, verify both roots and compare with x^2-1=0.",
+    "negative_answer_example": "Claiming one real solution or requiring sine-law SSA examples for this topic.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn28_04",
+    "positive_answer_anchor": "For a>0,a!=1,b>0, log_a(b) is the exponent x satisfying a^x=b. For 2^x=7, 2<x<3; the logarithm names the exact exponent without promising an elementary integer expression. Compare solvable integer powers with 2^x=7, motivate inverse reasoning, state domain/base restrictions and check log_2(8)=3.",
+    "negative_answer_example": "Using zero/negative log arguments in the real setting or requiring a four-topic lesson.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn31_01",
+    "positive_answer_anchor": "For n>=0,k>=1, allowing empty boxes gives C(n+k-1,k-1); requiring every box nonempty gives C(n-1,k-1) when n>=k, otherwise zero. For n=4,k=3 the counts are 15 and 3. Use stars and separators to explain a bijection, explicitly separate empty/nonempty cases and compare with labelled balls.",
+    "negative_answer_example": "Using k^n for identical balls or silently assuming all boxes are nonempty.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn31_02",
+    "positive_answer_anchor": "Partitioning n labelled objects into exactly k nonempty unlabelled groups gives S(n,k); into at most k gives sum from j=0 to k of S(n,j). For n=3,k=2 there are 3 exact-two partitions and 4 at-most-two partitions. List the small partitions and explain why permuting group labels does not create a new partition; state whether empty boxes are allowed.",
+    "negative_answer_example": "Multiplying by k! for identical boxes or confusing exactly k with at most k.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn31_03",
+    "positive_answer_anchor": "For n labelled items and n matching labelled positions with no fixed point, D_n=n!*sum from j=0 to n of (-1)^j/j!. D_3=2 and D_4=9. Other restrictions require their own counting model. List all n=3 permutations, identify forbidden fixed points, then motivate inclusion-exclusion; explain why subtracting n from n! fails.",
+    "negative_answer_example": "Using n!-n or applying the derangement formula to unspecified unrelated restrictions.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn31_04",
+    "positive_answer_anchor": "With n labelled balls and k labelled boxes, empty boxes allowed and no capacity restriction, every ball independently chooses one of k boxes: k^n. For n=3,k=2 there are 8 assignments. Use a choice tree or function mapping and contrast with indistinguishable balls and with a nonempty-box requirement.",
+    "negative_answer_example": "Using stars-and-bars or requiring each box to be nonempty without stating it.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn31_05",
+    "positive_answer_anchor": "For five distinct objects A,B,C,D,E in a line, A and B adjacent gives 2*4!=48; nonadjacent gives 5!-48=72. Block internal order and gap counts depend on which objects are labelled. Explain the block method and complement or gap method, and include a small transfer variation with the constraints stated.",
+    "negative_answer_example": "Forgetting the AB/BA order or treating every nonadjacency problem as the same formula.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn31_06",
+    "positive_answer_anchor": "For n distinct objects around an oriented circle where rotations are equivalent but reflections are distinct, count (n-1)!; for n=4, 6 versus 24 in a line. A reflection-equivalent necklace or a table with labelled seats is a different problem. Fix a reference object to justify rotation equivalence, draw examples of rotations and reflections, then test the changed convention.",
+    "negative_answer_example": "Dividing by 2 without a reflection convention or applying (n-1)! to labelled seats.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn31_07",
+    "positive_answer_anchor": "Partition six labelled people into two unlabelled groups of three: C(6,3)/2=10. Assign those groups to two labelled rooms: 10*2!=20=C(6,3). Dividing by a factorial is justified only for genuine symmetry. Represent one concrete allocation both ways and explain exactly what is counted twice before division.",
+    "negative_answer_example": "Blindly dividing by k! when groups already have distinct labels or sizes.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn31_08",
+    "positive_answer_anchor": "In (2x-1)^3 the coefficients are 8,-12,6,-1, while the binomial coefficients are 1,3,3,1. The x^2 coefficient is C(3,1)*2^2*(-1)=-12. Choose a term from each factor, connect the count of choices to C(n,k) and keep scalar/sign factors separate.",
+    "negative_answer_example": "Reporting the binomial coefficient as the whole term coefficient.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "adaptive-hint-sequence-designer__cn59_01",
+    "positive_answer_anchor": "A sinking paper clip is an observation, not a failed student. Surface support depends on placement, surface condition and wetting; flotation is not guaranteed. Say what was observed, invite one testable explanation, and compare gentle placement in clean water with the original attempt.",
+    "negative_answer_example": "Promising every paper clip floats or replacing observations with the textbook result.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "adaptive-hint-sequence-designer__cn59_02",
+    "positive_answer_anchor": "Immobile earthworms do not establish a moisture preference. Acclimation, lighting, temperature and moisture can affect behavior. Allow observation time, compare conditions while changing one factor and protect the organisms; record no movement honestly.",
+    "negative_answer_example": "Forcing movement, drying organisms deliberately or interpreting immobility as a clear choice.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "adaptive-hint-sequence-designer__cn59_03",
+    "positive_answer_anchor": "Check whether the facing ends really are like poles and whether both objects are magnets before revising the claim about poles. Label ends consistently and use a known magnet to check the pole identification, then repeat and document.",
+    "negative_answer_example": "Declaring magnetism disproved or changing the recorded result to match a textbook.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "adaptive-hint-sequence-designer__cn59_04",
+    "positive_answer_anchor": "Failure to extinguish the candle does not identify a unique cause: gas quantity, mixing and delivery are hypotheses, not observed facts. Acknowledge uncertainty, record setup and propose one controlled comparison; any flame demonstration is teacher-managed and gas is not trapped in a sealed vessel.",
+    "negative_answer_example": "Inventing a certain cause or requiring children to reproduce flames at home.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "adaptive-hint-sequence-designer__cn59_05",
+    "positive_answer_anchor": "One week without visible bending does not show that plants never respond to light. Directional light, growth and observation conditions need checking. Compare documented light conditions and growth over time with otherwise similar plants; make a prediction before observing.",
+    "negative_answer_example": "Guaranteeing a bend by a fixed date or dismissing the observation.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "adaptive-hint-sequence-designer__cn59_06",
+    "positive_answer_anchor": "Touch may damp a tuning fork and weak vibration can be hard to feel. A teacher can state the scientific explanation while distinguishing it from the evidence students observed. Pair the explanation with a visible vibration indicator or an appropriate demonstration and a short follow-up check.",
+    "negative_answer_example": "Claiming an unfelt vibration disproves sound vibration, or banning all direct explanation.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "adaptive-hint-sequence-designer__cn59_07",
+    "positive_answer_anchor": "For a small-amplitude ideal pendulum, T=2*pi*sqrt(L/g), independent of bob mass. Length runs from pivot to the center of mass. Control effective length and release amplitude, time several oscillations and repeat before comparing masses; discuss measurement uncertainty.",
+    "negative_answer_example": "Using bob mass as the ideal-period cause or altering measurements to match theory.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "adaptive-hint-sequence-designer__cn59_08",
+    "positive_answer_anchor": "A bulb needs an intact closed low-voltage circuit connecting its two contacts to the source. Contacts, bulb and battery are separate possible faults. Offer graduated checks of one component at a time, beginning with the complete path; use only classroom low-voltage equipment and avoid short circuits.",
+    "negative_answer_example": "Inferring inability from failure or recommending mains electricity.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "adaptive-hint-sequence-designer__cn59_09",
+    "positive_answer_anchor": "Rust rates depend on exposure and material conditions, including moisture, oxygen and coatings; identical rates are not guaranteed. Compare the groups' condition records, identify confounds and agree on a controlled follow-up while retaining the different observations.",
+    "negative_answer_example": "Discarding slow-rusting samples as wrong or assuming one universal rate.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "adaptive-hint-sequence-designer__cn59_10",
+    "positive_answer_anchor": "A ketchup volcano is a model whose behavior depends on its stated mechanism; do not assume an unspecified acid-base reaction. Assign a drawing, prediction and one safe unsealed model comparison with an adult where needed; distinguish the model from real magma.",
+    "negative_answer_example": "Increasing pressure in a sealed container or equating ketchup flow with real volcanic mechanisms.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn51_01",
+    "positive_answer_anchor": "A paper-and-pencil process record can track prediction, observation and evidence-based explanation of changes of state. Give a one-page third-grade checklist with a concrete observation field, a short feedback box and a revision opportunity; respect the no-computer constraint.",
+    "negative_answer_example": "Requiring an online platform or scoring only the final result.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn51_02",
+    "positive_answer_anchor": "The simplest useful template links a learning target to an observable action, recorded evidence, feedback and a next attempt. Provide a reusable small table and one completed example, beyond Excellent/Good/Average labels.",
+    "negative_answer_example": "Giving only a rank with no evidence or improvement step.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn51_03",
+    "positive_answer_anchor": "Self-assessment needs shared criteria and examples; a high self-score alone is not proof of dishonesty. Calibrate one sample together, require students to cite their work and choose a supported improvement, then compare with a teacher check.",
+    "negative_answer_example": "Automatically subtracting marks from every self-awarded full score.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn51_04",
+    "positive_answer_anchor": "Peer feedback should name observed work, connect it to a criterion and suggest a feasible next step. Model one specific comment, provide a short evidence-based sentence frame and let the recipient try a revision.",
+    "negative_answer_example": "Requiring personal criticism or accepting generic praise as assessment evidence.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn51_05",
+    "positive_answer_anchor": "Useful feedback names an observed strategy or action and a next step related to the goal. Rewrite a generic praise sentence into a concrete example without inventing actual student performance.",
+    "negative_answer_example": "Fixed ability labels or praise unrelated to observed work.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn51_06",
+    "positive_answer_anchor": "Maintain accessible core goals while using scaffolds and individual progress evidence to support students who struggle. Offer a small achievable next step, a supported retry and private progress feedback.",
+    "negative_answer_example": "Fabricating full marks or repeatedly ranking the same students last.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn51_07",
+    "positive_answer_anchor": "Assessment workload can be reduced by focusing on a few important criteria and rotating observation rather than documenting everything every lesson. Give a manageable sampling and self/peer-check routine with targeted teacher review and identify its coverage limits.",
+    "negative_answer_example": "Claiming unobserved pupils were assessed or adding a large daily documentation burden.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn51_08",
+    "positive_answer_anchor": "A four-week lantern project needs evidence at design, construction, testing and revision milestones, not just a final product score. Provide four weekly checkpoints, an individual contribution record and a feasible revision opportunity.",
+    "negative_answer_example": "Returning a water-state experiment checklist without adapting it to the lantern project.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn51_09",
+    "positive_answer_anchor": "Feedback becomes useful when students act on it and compare the revision with the original evidence. Add a bounded identify-correct-explain-recheck cycle and a teacher or peer verification step.",
+    "negative_answer_example": "Collecting corrections without checking them or demanding endless retries.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "lesson-builder__cn51_10",
+    "positive_answer_anchor": "Participation can use multiple accessible presentation formats and rotating responsibilities while retaining individual evidence of learning. Give a schedule, shared criteria and a way for each student to contribute without making polished public speaking the only route.",
+    "negative_answer_example": "Selecting only top performers or equating group quality with every member's learning.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn62_01",
+    "positive_answer_anchor": "No wording guarantees an AI-proof task. Assess authentic context evidence, reasoning and a short follow-up explanation rather than polished definitions alone. Ask students to compare a familiar local service with a cloud service using non-sensitive observations and explain a choice; provide criteria and a checkable process record.",
+    "negative_answer_example": "Guaranteeing AI cannot answer or requiring private school information.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn62_02",
+    "positive_answer_anchor": "Repeated errors should trigger a supportive pause, a smaller diagnostic scaffold and teacher follow-up, not endless harder questions. Describe a bounded automated branch with an accessible exit, neutral feedback, saved progress and an optional supported retry.",
+    "negative_answer_example": "Permanent lockout, humiliation or a claim that one automated action suits every learner.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn62_03",
+    "positive_answer_anchor": "A no-equipment task can assess interpretation and error diagnosis, but cannot certify knife skill. Provide a small synthetic width table, e.g. target 3 mm and samples 2,3,5 mm with deviations -1,0,2; ask for a prediction, likely process cause and improvement in under 15 minutes, with an answer key.",
+    "negative_answer_example": "Requiring knives or potatoes at home, a reflection essay, or claiming demonstrated practical mastery.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn62_04",
+    "positive_answer_anchor": "A question-bank ledger should make responsibility and verification traceable. Give exactly five useful fields: source/permission; learning target; level/prerequisites; verified answer/rationale; owner plus review status/time estimate. Explain the entry acceptance check.",
+    "negative_answer_example": "Accepting unchecked copied questions or omitting the answer reviewer.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn62_05",
+    "positive_answer_anchor": "Student time samples can reduce reliance on teacher estimates but remain noisy observations, not perfect surveillance. Sample voluntary student start/end and active-work records, distinguish interruptions, report a distribution and provide an offline route; compare with the stated school 30-minute rule.",
+    "negative_answer_example": "Claiming exact objective time from a click log or generalizing the school rule to every school.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn62_06",
+    "positive_answer_anchor": "Correction should be bounded and explainable, with support and a pause option. Use three steps: identify and explain an error; attempt one comparable item with support; receive feedback and save a next step or request teacher help.",
+    "negative_answer_example": "Forcing unlimited retries or locking the student in the app until success.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn62_07",
+    "positive_answer_anchor": "Small variations can reduce direct copying but cannot guarantee search or AI failure. Give three low-cost techniques: change parameters and recompute the key; compare or diagnose two methods; require a contextual intermediate step. Show how to validate each new answer.",
+    "negative_answer_example": "Promising apps fail immediately or changing numbers without updating the answer.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn62_08",
+    "positive_answer_anchor": "Core work needs an accessible entry and support, alongside meaningful goals and extensions; difficulty should be informed by evidence, not labels. Provide a firm but respectful staff script using a concrete scaffold and a way to monitor completion and understanding.",
+    "negative_answer_example": "Predicting inevitable catastrophe or lowering every pupil's goal permanently to the current lowest performance.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn62_09",
+    "positive_answer_anchor": "Reusable extension banks and flexible progression can reduce daily preparation, but setup and review still take time. Offer three advanced students an optional deeper task pathway with checkpoint feedback and suitable existing reviewed resources.",
+    "negative_answer_example": "Promising zero teacher workload or merely assigning more repetitive questions.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn62_10",
+    "positive_answer_anchor": "Alignment needs a measurable learning objective and a mapping from task evidence to assessment criteria. Provide exactly two form fields with one filled example showing what performance would demonstrate the stated objective.",
+    "negative_answer_example": "Listing only topic names and question counts.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn63_01",
+    "positive_answer_anchor": "The three estimates total 110 minutes. Coordination requires a stated overall budget and removal of redundant work, not an invented universal time cap. Give a concise table for subject, objective, essential task, estimated/observed time, deadline and coordinating decision, plus a short staff script.",
+    "negative_answer_example": "Reporting the sum incorrectly or declaring an unstated national limit.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn63_02",
+    "positive_answer_anchor": "Four roles can cover operation, procedure checking, safety observation and recording. Actual machine operation is restricted to trained, authorized students under appropriate supervision. Specify individual evidence and rotation within permitted roles; use simulation or demonstration when operational prerequisites are missing.",
+    "negative_answer_example": "Forcing every untrained student to operate a CNC lathe to earn credit.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn63_03",
+    "positive_answer_anchor": "An individual alternative should preserve the assessed core competencies and adapt the interaction format; family background alone does not justify lower expectations. Map the group task objectives to an individual simulation, submitted decisions and private feedback, without requiring a clinical diagnosis.",
+    "negative_answer_example": "Automatically lowering learning goals or forcing public disclosure of family or health details.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn63_04",
+    "positive_answer_anchor": "First check participation evidence and barriers separately, then assign clear individual deliverables with a deadline and interim check. Give a one-week intervention schedule, a support route and evidence-based individual credit; do not promise total prevention of free-riding.",
+    "negative_answer_example": "Punishing based solely on an allegation or guaranteeing compelled participation.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn63_05",
+    "positive_answer_anchor": "A defensible example is 60 percent individual process and 40 percent group outcome; weights need justification rather than a claim of perfect fairness. List three evidence fields: attributable deliverable, version/change record, and a brief explanation or verification question. Explain how evidence supports the individual score.",
+    "negative_answer_example": "Treating timestamps alone as proof of learning or counting all group output as each member's work.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn63_06",
+    "positive_answer_anchor": "Authentic cost estimates may have justified ranges under different stated assumptions, so grading needs calibrated methods and reference examples. Arrange qualified industry review of authorized materials, annotate assumptions and units, develop exemplars and a method/evidence rubric before grading.",
+    "negative_answer_example": "Inventing one universal exact answer or outsourcing judgment without calibration.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn63_07",
+    "positive_answer_anchor": "Progression can move from a supported basic joint to independently checking a circuit and then diagnosing a fault, with explicit prerequisites. Use the same suitable training equipment, supervised unpowered practice where appropriate, common safety expectations and optional extension; assess observable evidence.",
+    "negative_answer_example": "Using derogatory ability labels as fixed tracks or unsafe unsupervised powered work.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn63_08",
+    "positive_answer_anchor": "Two useful required fields are criterion-linked observed evidence and the reason for the score with a specific improvement. Give a completed example and calibrate scores against an anchor before the next peer review; acknowledge that fields alone cannot eliminate favoritism.",
+    "negative_answer_example": "Guaranteeing impartiality merely by adding boxes.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn63_09",
+    "positive_answer_anchor": "Reusable project questions need documented provenance, units, assumptions, cleaned data and a separately verified teacher key or defensible answer range. Archive a versioned student package and teacher package, remove unnecessary personal information and pilot one task before reuse.",
+    "negative_answer_example": "Publishing messy raw data as a validated bank or exposing the answer in the student handout.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  },
+  {
+    "dataset": "cn263",
+    "task_id": "differentiation-adapter__cn63_10",
+    "positive_answer_anchor": "Practical and written tasks serve different objectives; explain their alignment and evidence without asserting all projects are superior. Provide a respectful parent script with a concrete learning-and-assessment example; replace hazardous unsupervised manhole work with an approved safe simulation or observation.",
+    "negative_answer_example": "Dismissing written learning, promising certificate success, or endorsing ordinary unsupervised student manhole opening.",
+    "acceptance_method": "content review and explicit contrast; no LLM judge run",
+    "independent_subject_review": "pending"
+  }
+]

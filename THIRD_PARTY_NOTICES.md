@@ -48,8 +48,7 @@ included for research and reproducibility. If you hold the rights to this materi
 object to its inclusion, please open an issue and it will be removed.
 
 Contributor names have been replaced with anonymous labels (`作者A`–`作者E`) in the
-released traceability file. The tasks retain no personal names, institutional names, or
-identifying place names; the rubric and question text were reviewed for this.
+released traceability file. That historical anonymization statement did not cover all fields: subsequent review found name-like strings in shared contexts. The v3 candidate removes those shared contexts; local source bindings retain original source excerpts for traceability and are not an anonymized public release.
 
 The 263 tasks are mapped onto the nine existing single-turn Skills; no new Skill was
 created for them, and the Skills themselves are unchanged.

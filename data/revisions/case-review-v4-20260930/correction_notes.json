@@ -1,0 +1,3350 @@
+[
+  {
+    "task_id": "self-efficacy-builder-sequence__01",
+    "issue_code": "UNCERTAIN_BARRIER_AND_OPTIONAL_SUPPORT",
+    "reason": "观察只能支持障碍假设；同步取消参考答案中的确定诊断和强制示范，修复条件句拆分造成的误扣分。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__02",
+    "issue_code": "UNCERTAIN_BARRIER_AND_OPTIONAL_SUPPORT",
+    "reason": "观察只能支持障碍假设；同步取消参考答案中的确定诊断和强制示范，修复条件句拆分造成的误扣分。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__03",
+    "issue_code": "UNCERTAIN_BARRIER_AND_OPTIONAL_SUPPORT",
+    "reason": "观察只能支持障碍假设；同步取消参考答案中的确定诊断和强制示范，修复条件句拆分造成的误扣分。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__03",
+    "issue_code": "MONOPOLY_INTERIOR_ASSUMPTIONS",
+    "reason": "原题未给成本函数和可行范围，却把 MR=MC 与 P>MC 当作无条件结论；补可核算实例与边界检查。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "emergent-project-design-scaffold__01",
+    "issue_code": "COUNT_CONSISTENCY",
+    "reason": "参考中的 3–5/4–5 与题面“至少”统一，不因合理增加活动而扣分。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "emergent-project-design-scaffold__02",
+    "issue_code": "COUNT_CONSISTENCY",
+    "reason": "参考中的 3–5/4–5 与题面“至少”统一，不因合理增加活动而扣分。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "emergent-project-design-scaffold__03",
+    "issue_code": "COUNT_CONSISTENCY",
+    "reason": "参考中的 3–5/4–5 与题面“至少”统一，不因合理增加活动而扣分。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "spaced-practice-scheduler__01",
+    "issue_code": "SPACING_CONTRACT",
+    "reason": "将课表可行性恢复为评分解释条件，取消题面未要求的固定扩展间隔；保留第三题明确要求的扩展安排。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "spaced-practice-scheduler__01",
+    "issue_code": "DUPLICATED_QUALIFIER_POINTS",
+    "reason": "通用解释条件曾被拆成五条重复得分项；移回对应评分项，保留各原维度总权重，避免形式合规反复得分。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "spaced-practice-scheduler__02",
+    "issue_code": "SPACING_CONTRACT",
+    "reason": "将课表可行性恢复为评分解释条件，取消题面未要求的固定扩展间隔；保留第三题明确要求的扩展安排。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "spaced-practice-scheduler__02",
+    "issue_code": "DUPLICATED_QUALIFIER_POINTS",
+    "reason": "通用解释条件曾被拆成五条重复得分项；移回对应评分项，保留各原维度总权重，避免形式合规反复得分。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "spaced-practice-scheduler__03",
+    "issue_code": "SPACING_CONTRACT",
+    "reason": "将课表可行性恢复为评分解释条件，取消题面未要求的固定扩展间隔；保留第三题明确要求的扩展安排。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "spaced-practice-scheduler__03",
+    "issue_code": "DUPLICATED_QUALIFIER_POINTS",
+    "reason": "通用解释条件曾被拆成五条重复得分项；移回对应评分项，保留各原维度总权重，避免形式合规反复得分。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "ruler-emotional-literacy-sequence__01",
+    "issue_code": "DUPLICATED_QUALIFIER_POINTS",
+    "reason": "通用解释条件曾被拆成五条重复得分项；移回对应评分项，保留各原维度总权重，避免形式合规反复得分。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "ruler-emotional-literacy-sequence__02",
+    "issue_code": "DUPLICATED_QUALIFIER_POINTS",
+    "reason": "通用解释条件曾被拆成五条重复得分项；移回对应评分项，保留各原维度总权重，避免形式合规反复得分。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "ruler-emotional-literacy-sequence__03",
+    "issue_code": "DUPLICATED_QUALIFIER_POINTS",
+    "reason": "通用解释条件曾被拆成五条重复得分项；移回对应评分项，保留各原维度总权重，避免形式合规反复得分。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn02_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn18_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn21_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn24_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn25_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn25_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn27_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn28_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn28_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn28_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn28_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn28_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn28_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn28_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn28_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn30_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn30_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn30_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn30_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn30_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn30_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn30_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn30_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn30_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn30_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn30_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn30_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn31_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn50_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn51_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn55_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn57_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_01",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_01",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_02",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_02",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_03",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_03",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_04",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_04",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_05",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_05",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_06",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_06",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_07",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_07",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_08",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_08",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_09",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_09",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_10",
+    "issue_code": "ILLUSTRATION_NOT_HIDDEN_REQUIREMENT",
+    "reason": "应用示例中指定的数字、材料或步骤不能成为题面未提出的唯一答案；直接修改交付物评分项，保留知识正确性要求。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_10",
+    "issue_code": "NO_VACUOUS_CREDIT",
+    "reason": "实跑中出现跑题答案仅因未犯指定错误而得到 0.2 分；负向评分增加实质回应本题的条件，避免无关答案获得这部分分数。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_02",
+    "issue_code": "OS_TOPIC_SCOPE",
+    "reason": "题面是 OS 模块教案提纲，不能擅自按文件读写目标判错；先确认目标再评价活动与证据。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn05_02",
+    "issue_code": "OS_TOPIC_SCOPE",
+    "reason": "题面是 OS 模块教案提纲，不能擅自按文件读写目标判错；先确认目标再评价活动与证据。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_10",
+    "issue_code": "TRANSLATION_QUESTION_TO_ASSERTION",
+    "reason": "中文原文在询问现实适配、课标和可行性，英文却把前两项写成已确认事实；恢复三个待评估问题。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_03",
+    "issue_code": "PREMISE_VERSUS_CAUSATION",
+    "reason": "保留题面已经给出的过期信息，区分过期标签与弱反应的因果解释，不否认用户已提供的事实。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn60_03",
+    "issue_code": "PREMISE_VERSUS_CAUSATION",
+    "reason": "保留题面已经给出的过期信息，区分过期标签与弱反应的因果解释，不否认用户已提供的事实。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_02",
+    "issue_code": "MISSING_PROPOSITION_CONCEPT",
+    "reason": "题目要求命题与充分条件，原参考只解释充分条件；补命题定义，明确必要条件的方向。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn26_02",
+    "issue_code": "MISSING_PROPOSITION_CONCEPT",
+    "reason": "题目要求命题与充分条件，原参考只解释充分条件；补命题定义，明确必要条件的方向。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_10",
+    "issue_code": "RECURSION_TERMINATION_SCOPE",
+    "reason": "把终止条件限定在本题的有限教学示例，允许递增索引等能证明终止的等价设计。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn01_10",
+    "issue_code": "RECURSION_TERMINATION_SCOPE",
+    "reason": "把终止条件限定在本题的有限教学示例，允许递增索引等能证明终止的等价设计。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_01",
+    "issue_code": "DEFINE_FOCAL_DISTANCE",
+    "reason": "补充 c 的含义，使非退化条件完整可读。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_01",
+    "issue_code": "DEFINE_FOCAL_DISTANCE",
+    "reason": "补充 c 的含义，使非退化条件完整可读。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_06",
+    "issue_code": "ZERO_VECTOR_EXCEPTION",
+    "reason": "原定义把所有向量都说成有方向，却又禁止给零向量方向；明确非零条件和零向量例外。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "lesson-builder__cn22_06",
+    "issue_code": "ZERO_VECTOR_EXCEPTION",
+    "reason": "原定义把所有向量都说成有方向，却又禁止给零向量方向；明确非零条件和零向量例外。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_05",
+    "issue_code": "CONTROL_VARIABLE_SCOPE",
+    "reason": "控制变量不能一律固定摆长；明确质量实验与摆长实验分别控制哪些条件。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_05",
+    "issue_code": "CONTROL_VARIABLE_SCOPE",
+    "reason": "控制变量不能一律固定摆长；明确质量实验与摆长实验分别控制哪些条件。",
+    "status": "corrected_pending_recheck"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_10",
+    "issue_code": "AMBIGUOUS_QUALIFICATION",
+    "reason": "中文“本科技能证”不是题内明确的考试名称；保留升学或资格考试顾虑并注明未指定，避免编造制度或成功承诺。",
+    "status": "corrected_pending_recheck"
+  }
+]

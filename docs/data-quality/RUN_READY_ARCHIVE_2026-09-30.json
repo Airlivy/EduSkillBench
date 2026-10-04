@@ -1,0 +1,11 @@
+{
+  "archive": "/home/airlivy/EduSkillBench_最终可运行测试集_2026-09-30.zip",
+  "bytes": 457307,
+  "sha256": "e8eb71dc35d98f91924fdf09e093070979bab357da0411ca3fe7e031d7736968",
+  "counts": {
+    "all": 305,
+    "core": 42,
+    "advisory": 263
+  },
+  "zip_crc_and_manifest_verified": true
+}

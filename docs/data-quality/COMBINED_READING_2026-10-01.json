@@ -1,0 +1,13 @@
+{
+  "output": "/home/airlivy/EduSkillBench_305题合并审阅版_42题中文加263题原文_2026-10-01.txt",
+  "sha256": "ec94ae8387c1871def28c866f79439df2ded97cb77f34b6f88619b573d8faa71",
+  "cases": 305,
+  "core_translation_cases": 42,
+  "source_restored_cases": 263,
+  "task_ids_unique": 305,
+  "body_content_preserved_except_continuous_case_numbers": true,
+  "sources": {
+    "/home/airlivy/EduSkillBench_305题中文人工校验版_2026-10-01.txt": "c2d859cd2f137fb506a0037c10638b9c64eea7d2c8f5fef821681d03aec57e46",
+    "/home/airlivy/EduSkillBench_263题原文恢复版_2026-10-01.txt": "a5467389569affccbc7955c3c5b434247c47713b897138077105ac88ecec9c78"
+  }
+}

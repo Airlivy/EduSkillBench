@@ -1,0 +1,12 @@
+{
+  "wheel_name": "benchflow-0.6.7-py3-none-any.whl",
+  "wheel_sha256": "32ca28b7da78d289b8e6761acc3f2bd05525eda1fd21507ae4a9c3705ed12cc1",
+  "comparison": "installed Python source against wheel Python source",
+  "changed_files": [
+    "benchflow/agents/providers.py",
+    "benchflow/agents/registry.py",
+    "benchflow/providers/litellm_runtime.py",
+    "benchflow/rewards/llm.py",
+    "benchflow/skill_eval/_core.py"
+  ]
+}

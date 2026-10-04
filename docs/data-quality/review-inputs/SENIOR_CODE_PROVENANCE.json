@@ -1,0 +1,16 @@
+{
+  "original_file": "build_task_acceptance_ledger.py",
+  "original_sha256": "e8b6c250ff6569fd6de982b0da8ac4c0830958f0db14e1b77d9fa273d15b1aa2",
+  "frozen_copy": "docs/data-quality/review-inputs/SENIOR_ACCEPTANCE_CODE_2026-09-28.py",
+  "adapted_module": "code/evaluation/senior_structure_checks.py",
+  "reused_functions": [
+    "read_csv",
+    "structural"
+  ],
+  "changes": [
+    "tolerate floating-point weight sums",
+    "compare original four eval fields while accepting new metadata",
+    "verify full weighted rubric is retained"
+  ],
+  "not_reused": "classify(): historical task-ID findings are not a current semantic audit"
+}

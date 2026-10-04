@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "unchanged_request_and_answer_files": 12,
+  "new_api_request_traces": 0,
+  "summary": {
+    "expected": 2,
+    "finished": 2,
+    "evaluated": 2,
+    "results": [
+      {
+        "task_id": "differentiation-adapter__cn63_08",
+        "model": "deepseek-v4-pro",
+        "suite": "advisory",
+        "status": "evaluated",
+        "score": null,
+        "score_interval": null,
+        "criterion_levels": {
+          "D3": "优秀（A）"
+        }
+      },
+      {
+        "task_id": "differentiation-adapter__01",
+        "model": "deepseek-v4-pro",
+        "suite": "core",
+        "status": "evaluated",
+        "score": 1.0,
+        "score_interval": null,
+        "critical_pass": true
+      }
+    ],
+    "aggregation": "core数值分与advisory原文等级分开，不混算；pending不当作0分。"
+  }
+}

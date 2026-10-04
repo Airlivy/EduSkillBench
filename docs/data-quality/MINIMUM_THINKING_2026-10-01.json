@@ -1,0 +1,79 @@
+{
+  "policy": "off-if-supported-otherwise-low-v1",
+  "judge_version": "eduskill-judge-2.5-minimal-thinking",
+  "model_options": {
+    "glm-5.3": {
+      "thinking_mode": "enabled",
+      "thinking_budget": 1024,
+      "effort": "low"
+    },
+    "glm-5.3-flash": {
+      "thinking_mode": "enabled",
+      "thinking_budget": 1024,
+      "effort": "low"
+    },
+    "deepseek-v4-pro": {
+      "thinking_mode": "disabled"
+    },
+    "deepseek-v4-flash": {
+      "thinking_mode": "disabled"
+    },
+    "kimi-k2.7-code": {
+      "thinking_mode": "enabled",
+      "thinking_budget": 1024,
+      "effort": "low"
+    }
+  },
+  "parameter_probe": "results_v2/minimal-thinking-probe-20261001/summary.json",
+  "calibration": "results_v2/native-calibration-evidence-ids-20261001/summary.json",
+  "calibration_passed": 15,
+  "end_to_end": {
+    "expected": 5,
+    "finished": 5,
+    "evaluated": 4,
+    "results": [
+      {
+        "task_id": "self-efficacy-builder-sequence__cn35_05",
+        "model": "glm-5.3",
+        "suite": "advisory",
+        "status": "evaluated",
+        "score": null,
+        "score_interval": null
+      },
+      {
+        "task_id": "self-efficacy-builder-sequence__cn35_05",
+        "model": "deepseek-v4-pro",
+        "suite": "advisory",
+        "status": "evaluated",
+        "score": null,
+        "score_interval": null
+      },
+      {
+        "task_id": "self-efficacy-builder-sequence__cn35_05",
+        "model": "glm-5.3-flash",
+        "suite": "advisory",
+        "status": "generation_failed",
+        "score": null,
+        "category": "transport"
+      },
+      {
+        "task_id": "self-efficacy-builder-sequence__cn35_05",
+        "model": "deepseek-v4-flash",
+        "suite": "advisory",
+        "status": "evaluated",
+        "score": null,
+        "score_interval": null
+      },
+      {
+        "task_id": "self-efficacy-builder-sequence__cn35_05",
+        "model": "kimi-k2.7-code",
+        "suite": "advisory",
+        "status": "evaluated",
+        "score": null,
+        "score_interval": null
+      }
+    ],
+    "aggregation": "core数值分与advisory原文等级分开，不混算；pending不当作0分。"
+  },
+  "offline_tests_passed": 121
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "offline replay of captured provider metadata, not a live latency benchmark",
+  "source": "jobs/repair-audit/fixed-pro-v3-validation-20261001/self-explanation-prompt-designer__03/factual_error",
+  "results": [
+    {
+      "category": "output_truncated",
+      "retryable": false,
+      "cause": "thinking_exhausted_output",
+      "suppressed": false
+    },
+    {
+      "category": "output_truncated",
+      "retryable": false,
+      "cause": "thinking_exhausted_output",
+      "suppressed": true
+    }
+  ],
+  "calls_across_two_invocations": 1,
+  "false_reward_created": false,
+  "original_sample_seconds": 136.977,
+  "first_original_request_seconds": 45.688
+}

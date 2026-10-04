@@ -1,0 +1,20 @@
+{
+  "max_output_tokens": 10000,
+  "total_timeout_seconds": 120,
+  "api_protocol": "chat_completions",
+  "thinking_mode": "disabled",
+  "model_overrides": {
+    "glm-5.3": {
+      "thinking_mode": "enabled",
+      "effort": "low"
+    },
+    "glm-5.3-flash": {
+      "thinking_mode": "enabled",
+      "effort": "low"
+    },
+    "kimi-k2.7-code": {
+      "thinking_mode": "enabled",
+      "effort": "low"
+    }
+  }
+}

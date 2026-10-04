@@ -1,0 +1,238 @@
+{
+  "release": "run-ready-20260930",
+  "status": "passed",
+  "editorially_reviewed_tasks": 305,
+  "senior_structure_cases": 305,
+  "numerical_checks": {
+    "bakery_change": {
+      "computed": 28.0,
+      "expected": 28,
+      "passed": true
+    },
+    "SIR_R0": {
+      "computed": 1.9241962407465936,
+      "expected": 1.924196240746594,
+      "passed": true
+    },
+    "flux_integral": {
+      "computed": 0.007999999999999998,
+      "expected": 0.008,
+      "passed": true
+    },
+    "emf_magnitude": {
+      "computed": 0.12000000000000002,
+      "expected": 0.12,
+      "passed": true
+    },
+    "induced_current": {
+      "computed": 0.06000000000000001,
+      "expected": 0.06,
+      "passed": true
+    },
+    "monopoly_integer_optimum": {
+      "computed": [
+        54,
+        8
+      ],
+      "expected": [
+        54,
+        8
+      ],
+      "passed": true
+    },
+    "monopoly_boundaries": {
+      "computed": [
+        -10,
+        -90
+      ],
+      "expected": [
+        -10,
+        -90
+      ],
+      "passed": true
+    },
+    "principal_variable_max": {
+      "computed": 9,
+      "expected": 9,
+      "passed": true
+    },
+    "SSA_valid_angles": {
+      "computed": 2,
+      "expected": 2,
+      "passed": true
+    },
+    "quadratic_roots_2_3": {
+      "computed": [
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "passed": true
+    },
+    "quadratic_roots_quarters": {
+      "computed": [
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "passed": true
+    },
+    "binomial_expansion_-2": {
+      "computed": -125,
+      "expected": -125,
+      "passed": true
+    },
+    "binomial_expansion_-1": {
+      "computed": -27,
+      "expected": -27,
+      "passed": true
+    },
+    "binomial_expansion_0": {
+      "computed": -1,
+      "expected": -1,
+      "passed": true
+    },
+    "binomial_expansion_1": {
+      "computed": 1,
+      "expected": 1,
+      "passed": true
+    },
+    "binomial_expansion_2": {
+      "computed": 27,
+      "expected": 27,
+      "passed": true
+    },
+    "binomial_expansion_3": {
+      "computed": 125,
+      "expected": 125,
+      "passed": true
+    },
+    "boxes_identical_balls_empty": {
+      "computed": 15,
+      "expected": 15,
+      "passed": true
+    },
+    "boxes_identical_balls_nonempty": {
+      "computed": 3,
+      "expected": 3,
+      "passed": true
+    },
+    "labelled_balls_boxes": {
+      "computed": 8,
+      "expected": 8,
+      "passed": true
+    },
+    "unlabelled_groups_exact2": {
+      "computed": 3,
+      "expected": 3,
+      "passed": true
+    },
+    "unlabelled_groups_at_most2": {
+      "computed": 4,
+      "expected": 4,
+      "passed": true
+    },
+    "derangements_3": {
+      "computed": 2,
+      "expected": 2,
+      "passed": true
+    },
+    "derangements_4": {
+      "computed": 9,
+      "expected": 9,
+      "passed": true
+    },
+    "AB_adjacent": {
+      "computed": 48,
+      "expected": 48,
+      "passed": true
+    },
+    "AB_nonadjacent": {
+      "computed": 72,
+      "expected": 72,
+      "passed": true
+    },
+    "six_people_two_rooms": {
+      "computed": 20,
+      "expected": 20,
+      "passed": true
+    },
+    "eleven_groups": {
+      "computed": 45,
+      "expected": 45,
+      "passed": true
+    },
+    "eleven_groups_alternative": {
+      "computed": 45,
+      "expected": 45,
+      "passed": true
+    },
+    "homework_minutes": {
+      "computed": 110,
+      "expected": 110,
+      "passed": true
+    },
+    "dot_product": {
+      "computed": 11,
+      "expected": 11,
+      "passed": true
+    },
+    "complex_modulus": {
+      "computed": 5.0,
+      "expected": 5,
+      "passed": true
+    },
+    "complex_conjugate_product": {
+      "computed": 25.0,
+      "expected": 25,
+      "passed": true
+    },
+    "telescope": {
+      "computed": 0.9444444444444444,
+      "expected": 0.9444444444444444,
+      "passed": true
+    }
+  },
+  "execution_adapter_checks": [
+    {
+      "suite": "core",
+      "mode": "access",
+      "tasks": 42,
+      "models": 5,
+      "conditions": [
+        "baseline",
+        "with-skill"
+      ],
+      "prepared_cells": 420
+    },
+    {
+      "suite": "core",
+      "mode": "forced",
+      "tasks": 42,
+      "models": 5,
+      "conditions": [
+        "baseline",
+        "with-skill"
+      ],
+      "prepared_cells": 420
+    },
+    {
+      "suite": "all",
+      "mode": "access",
+      "tasks": 305,
+      "models": 5,
+      "conditions": [
+        "baseline"
+      ],
+      "prepared_cells": 1525
+    }
+  ],
+  "live_api_test": "recorded separately; not implied by offline checks",
+  "expert_certification": false
+}

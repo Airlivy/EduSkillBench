@@ -1,0 +1,49 @@
+{
+  "engineering": {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "repro/tests",
+      "-q"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "----------------------------------------------------------------------\nRan 91 tests in 1.156s\n\nOK\n"
+  },
+  "data": {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "code/evaluation/tests",
+      "-q"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "----------------------------------------------------------------------\nRan 42 tests in 1.833s\n\nOK\n"
+  },
+  "release": {
+    "command": [
+      "python3",
+      "-m",
+      "repro",
+      "release-check"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"native_release_verified\",\n  \"cases\": 305,\n  \"fixed_case_scopes\": 263,\n  \"core_preserved\": true,\n  \"original_weights_and_level_labels_preserved\": true,\n  \"invented_scalar_scores\": false,\n  \"expert_certified\": false\n}\n",
+    "stderr": ""
+  },
+  "binomial_spot_check": {
+    "n_range": [
+      0,
+      20
+    ],
+    "status": "passed",
+    "scope": "有限整数验算，不替代组合证明"
+  }
+}

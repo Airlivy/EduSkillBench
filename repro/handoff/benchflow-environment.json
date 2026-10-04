@@ -1,0 +1,705 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "benchflow_version": "0.6.7",
+  "installed_packages": [
+    {
+      "name": "agent-client-protocol",
+      "version": "0.12.0"
+    },
+    {
+      "name": "aiohappyeyeballs",
+      "version": "2.7.1"
+    },
+    {
+      "name": "aiohttp",
+      "version": "3.14.3"
+    },
+    {
+      "name": "aiosignal",
+      "version": "1.4.0"
+    },
+    {
+      "name": "annotated-doc",
+      "version": "0.0.5"
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.8.0"
+    },
+    {
+      "name": "anyio",
+      "version": "4.14.2"
+    },
+    {
+      "name": "APScheduler",
+      "version": "3.11.3"
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0"
+    },
+    {
+      "name": "azure-core",
+      "version": "1.41.0"
+    },
+    {
+      "name": "azure-identity",
+      "version": "1.25.3"
+    },
+    {
+      "name": "azure-storage-blob",
+      "version": "12.30.0"
+    },
+    {
+      "name": "backoff",
+      "version": "2.2.1"
+    },
+    {
+      "name": "benchflow",
+      "version": "0.6.7"
+    },
+    {
+      "name": "boto3",
+      "version": "1.43.71"
+    },
+    {
+      "name": "botocore",
+      "version": "1.43.71"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.7.22"
+    },
+    {
+      "name": "cffi",
+      "version": "2.1.1"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.0"
+    },
+    {
+      "name": "click",
+      "version": "8.4.2"
+    },
+    {
+      "name": "croniter",
+      "version": "6.2.4"
+    },
+    {
+      "name": "cryptography",
+      "version": "48.0.1"
+    },
+    {
+      "name": "distro",
+      "version": "1.9.0"
+    },
+    {
+      "name": "dnspython",
+      "version": "2.8.0"
+    },
+    {
+      "name": "email-validator",
+      "version": "2.3.0"
+    },
+    {
+      "name": "Expression",
+      "version": "5.6.0"
+    },
+    {
+      "name": "fastapi",
+      "version": "0.141.1"
+    },
+    {
+      "name": "fastapi-sso",
+      "version": "0.21.1"
+    },
+    {
+      "name": "fastuuid",
+      "version": "0.14.0"
+    },
+    {
+      "name": "filelock",
+      "version": "3.32.3"
+    },
+    {
+      "name": "frozenlist",
+      "version": "1.8.0"
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.7.0"
+    },
+    {
+      "name": "granian",
+      "version": "2.8.1"
+    },
+    {
+      "name": "gunicorn",
+      "version": "23.0.0"
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0"
+    },
+    {
+      "name": "hf-xet",
+      "version": "1.6.0"
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9"
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1"
+    },
+    {
+      "name": "httpx-sse",
+      "version": "0.4.3"
+    },
+    {
+      "name": "huggingface_hub",
+      "version": "1.27.0"
+    },
+    {
+      "name": "idna",
+      "version": "3.18"
+    },
+    {
+      "name": "importlib_metadata",
+      "version": "8.9.0"
+    },
+    {
+      "name": "isodate",
+      "version": "0.7.2"
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6"
+    },
+    {
+      "name": "jiter",
+      "version": "0.16.0"
+    },
+    {
+      "name": "jmespath",
+      "version": "1.1.0"
+    },
+    {
+      "name": "jsonschema",
+      "version": "4.26.0"
+    },
+    {
+      "name": "jsonschema-specifications",
+      "version": "2025.9.1"
+    },
+    {
+      "name": "litellm",
+      "version": "1.91.0"
+    },
+    {
+      "name": "litellm-enterprise",
+      "version": "0.1.44"
+    },
+    {
+      "name": "litellm-proxy-extras",
+      "version": "0.4.74"
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0"
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.3"
+    },
+    {
+      "name": "mcp",
+      "version": "1.29.0"
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2"
+    },
+    {
+      "name": "msal",
+      "version": "1.37.0"
+    },
+    {
+      "name": "msal-extensions",
+      "version": "1.3.1"
+    },
+    {
+      "name": "multidict",
+      "version": "6.7.1"
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.2"
+    },
+    {
+      "name": "oauthlib",
+      "version": "3.3.1"
+    },
+    {
+      "name": "openai",
+      "version": "2.54.0"
+    },
+    {
+      "name": "orjson",
+      "version": "3.11.9"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "name": "polars",
+      "version": "1.43.2"
+    },
+    {
+      "name": "polars-runtime-32",
+      "version": "1.43.2"
+    },
+    {
+      "name": "propcache",
+      "version": "0.5.2"
+    },
+    {
+      "name": "pycparser",
+      "version": "3.0"
+    },
+    {
+      "name": "pydantic",
+      "version": "2.13.4"
+    },
+    {
+      "name": "pydantic-settings",
+      "version": "2.15.0"
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.46.4"
+    },
+    {
+      "name": "Pygments",
+      "version": "2.20.0"
+    },
+    {
+      "name": "PyJWT",
+      "version": "2.13.0"
+    },
+    {
+      "name": "PyNaCl",
+      "version": "1.6.2"
+    },
+    {
+      "name": "pyroscope-io",
+      "version": "0.8.16"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0"
+    },
+    {
+      "name": "python-dotenv",
+      "version": "1.2.2"
+    },
+    {
+      "name": "python-multipart",
+      "version": "0.0.32"
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3"
+    },
+    {
+      "name": "redis",
+      "version": "8.1.0"
+    },
+    {
+      "name": "referencing",
+      "version": "0.37.0"
+    },
+    {
+      "name": "regex",
+      "version": "2026.7.19"
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2"
+    },
+    {
+      "name": "RestrictedPython",
+      "version": "8.4"
+    },
+    {
+      "name": "rich",
+      "version": "13.9.4"
+    },
+    {
+      "name": "rpds-py",
+      "version": "2026.6.3"
+    },
+    {
+      "name": "rq",
+      "version": "2.10.0"
+    },
+    {
+      "name": "s3transfer",
+      "version": "0.19.2"
+    },
+    {
+      "name": "shellingham",
+      "version": "1.5.4"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0"
+    },
+    {
+      "name": "sniffio",
+      "version": "1.3.1"
+    },
+    {
+      "name": "soundfile",
+      "version": "0.14.0"
+    },
+    {
+      "name": "sse-starlette",
+      "version": "3.4.8"
+    },
+    {
+      "name": "starlette",
+      "version": "1.6.0"
+    },
+    {
+      "name": "tiktoken",
+      "version": "0.13.0"
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.23.1"
+    },
+    {
+      "name": "tomli_w",
+      "version": "1.2.0"
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.0"
+    },
+    {
+      "name": "typer",
+      "version": "0.27.1"
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.4"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0"
+    },
+    {
+      "name": "tzlocal",
+      "version": "5.4.4"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.7.0"
+    },
+    {
+      "name": "uvicorn",
+      "version": "0.52.3"
+    },
+    {
+      "name": "uvloop",
+      "version": "0.22.1"
+    },
+    {
+      "name": "websockets",
+      "version": "15.0.1"
+    },
+    {
+      "name": "yarl",
+      "version": "1.24.5"
+    },
+    {
+      "name": "zipp",
+      "version": "4.1.0"
+    }
+  ],
+  "installed_source_sha256": {
+    "benchflow/__init__.py": "684eb22edcdb853c745d7141ff49659b079a6e3aab53c06ea228c922abada71a",
+    "benchflow/_dotenv.py": "bb40776c9b95a807bb907860071d7fefed1d925837a64dde025e1150563fa528",
+    "benchflow/_paths.py": "2dcb3131c9fd11a26a6262640b101b8a7f86aa9e721bef824c25fc3a4c6c4600",
+    "benchflow/_run.py": "f40e0f87c8b14c8db484e79ba565bd79095caecd1f0b5062503163de9f84d48a",
+    "benchflow/_types.py": "c25f9593a345ae740569bca8b03406ba3ea6a414c113ec68a2fa1f9197103198",
+    "benchflow/_utils/__init__.py": "5675ade64be4ecdf41200fb2c6f6fc13e6548ee44d0d0e1e1f20f51f4302ed15",
+    "benchflow/_utils/benchmark_repos.py": "7cc1535b819f79c41a0a2be1482e31b32be3c5f8710729d54d3449aa3b7638dc",
+    "benchflow/_utils/build_context_stage.py": "30334463e28a2b8225a27e8e992e59e7652a0defadfddae04b3af4519d537129",
+    "benchflow/_utils/config.py": "5b3f0848a4c5df024515e97c58dd8e95cee10dcce889f6a6885cf6bfa74307ce",
+    "benchflow/_utils/config_override.py": "c2e4e94ec22da4be5186caf6eca25b0e564735fc20e3f7eda178a98b1d626a59",
+    "benchflow/_utils/content_address.py": "0f5ed2c2be084d76d9625a08697d63fcd25f386ba92392746330a9545c3cf279",
+    "benchflow/_utils/dataset_registry.py": "c66a426b53716057e1f29b9755c4580d3e0f07e92b8d436d4ed0662ef617d3fc",
+    "benchflow/_utils/env_registry.py": "43f47fba135dc47687803c1386497e231f41a5741f870c0a8097b3dc893f56fa",
+    "benchflow/_utils/evaluation_results.py": "00cfde7bdf1868d80888e6f52868285cd979cf0d447ed5ad82a542ab76612f0a",
+    "benchflow/_utils/hf_datasets.py": "8c8d64a57270a77dc463f46f8160df63a8e37bcd790ce3414f89606f2200e4ad",
+    "benchflow/_utils/json_safe.py": "f0c92276429e2b4baf498d6d222ed10f0919248e8319143468615c97a0544ed6",
+    "benchflow/_utils/learner_memory.py": "16d6f5e5bcc92a194fa8cbebca0158bf284a00fc6b717107c8d01cf638c62bb2",
+    "benchflow/_utils/live_activity.py": "fde364bf7c5208c533c4427324cc65516617407be1ad89f6cd6aced42f7dcbfe",
+    "benchflow/_utils/result_metadata.py": "fc060c21c3c2f975d042db55f498ad346631b0df89b0aab710ca7f8e8de081a2",
+    "benchflow/_utils/reward_events.py": "285f5f235addc394bc4afd64eb593c9643e9cab6f301b5d15003e4655e2a2e44",
+    "benchflow/_utils/scoring.py": "b7f303b6108740ee75d0ecb2584a341aa451dece654e45b3ce1d97b8505d328f",
+    "benchflow/_utils/source_provenance.py": "84cd7acc5fb7089d4e5e2b72c5fafb7e3d2b1a2a0d6e71d5ca465f4d698ff097",
+    "benchflow/_utils/task_authoring/__init__.py": "6eb569b103fa449dec9ad4a93816e9258d216a3806e1ba5b18ba0ca5eb92d864",
+    "benchflow/_utils/task_authoring/_evidence_paths.py": "ee3c1d92ceb23716932f61510e9d3323b09a5c430d8a76d57db779fd9f4b5f90",
+    "benchflow/_utils/task_authoring/acceptance_evidence.py": "5179e3f081f43e6db9e79045ebc79709ec237dcb7a074f06907ea2b379c86e02",
+    "benchflow/_utils/task_authoring/scaffolding.py": "401bc59dd902867302bf60ec52a2d688cc9c7cf9ef9527c6b481e328795a1dd6",
+    "benchflow/_utils/task_authoring/structural_checks.py": "6a89372dee2675304ef98b069700d1852afcbb25496816345ceff09aa620a860",
+    "benchflow/_utils/text.py": "6c11940e5cee13a2b7bbd710c652ff9ca748b00004e77e0a95fa844acdd8b3e4",
+    "benchflow/_utils/yaml_loader.py": "c9b2d656c24c0558047d4158830ca83cbadd729c517b2c22f0b946fa593cd495",
+    "benchflow/acp/__init__.py": "7a5b62b06fd4f419a770b741cb3d00216825b0b32eafc5fb95ef1854cb7562dc",
+    "benchflow/acp/client.py": "4bea64b3ddacdcd56798a5c8e6dfb166ad1b4d5a87541bfb0b5f0990b8eab8f3",
+    "benchflow/acp/container_transport.py": "61c7c242828c2171494b7a565d0f003d202449c0248b358fc3717deb2c0e2efb",
+    "benchflow/acp/runtime.py": "e85c76ac2383e9f0e2fe417ac6a815adecf3116fa8a07705e5f1cb9f5e93aa65",
+    "benchflow/acp/selection.py": "ce8cc605704c46b773fbe73c369e209a63e509562c09a641a82ea51d9f6c65e3",
+    "benchflow/acp/session.py": "6529764718a15e4fdcf0f4ae9a446b9de9cb6d05edcaa69625aaad4db16116c3",
+    "benchflow/acp/transport.py": "f34c3a76ffb8b34605a0750b2936cf872c956272fee8ba8b09263bd46d4346dd",
+    "benchflow/acp/types.py": "57723b80ba2cccd7d115aa4b000537916b8d8c76b71a034180c19c304d94864d",
+    "benchflow/adapters/__init__.py": "cfc88ea1f7cc6dfc22bac91798fa49466212d432eb3985d85531b1cb1328692a",
+    "benchflow/adapters/_toolathlon.py": "0ed86d3c13e5bb3bc650492078a61cb72923aec9ab005f742c34b5f508e02f4e",
+    "benchflow/adapters/_toolathlon_container.py": "21d6c8d60af8fbe9552405fd4810c9acc69a3b74377a5aa1666549e302d52c18",
+    "benchflow/adapters/_toolathlon_fake_mail.py": "38b18af07eed83649457879e0888618f3175113e018094ede97f387981917ace",
+    "benchflow/adapters/_toolathlon_services.py": "4a795d9e4c78f79599d69f42c55b7e3af7a02004fce90bf7b8050ecdef3736f2",
+    "benchflow/adapters/harbor.py": "5e625afa17153db5ad476b298ccbcef550243f96d64ddc109b2bca959b121176",
+    "benchflow/adapters/inbound.py": "c5b38007ba0e0bd09f2317d23192aa751867607884c433a6b641dfa08cc90a56",
+    "benchflow/adapters/inspect_ai.py": "0759a6db7f070c51b0570270da3af20195d54c8900b236c972c394be06796ed6",
+    "benchflow/adapters/ors.py": "9695b2402b2910bc6fd3d86e152bfbb9f085d4ac88942cde5db15b9d21ee28be",
+    "benchflow/adapters/resources/__init__.py": "5d6f45140cc91346cbc648251902fa5184042c4c24c6c59202006f19dcbdd834",
+    "benchflow/adapters/resources/mcp_atlas_bridge.py": "0d47ec3b5677713dfb19b364faa868005a31911338a66085f99c3897492915c4",
+    "benchflow/adapters/resources/mcp_atlas_judge.py": "9f858943310585b34fa0a66b25df49a8233a5688d7c76a1f7971e05a8df77193",
+    "benchflow/adapters/source.py": "7bdd0c0ae83d586217ca7f9871cdfac9f47f3ca27f89e5ed8ab2ee27d2dcb71a",
+    "benchflow/agent_router.py": "f621bfb60f38ac0c8ac61d5d6d1bd6e67c146122c16fb0b9db8503e3edfdb0f1",
+    "benchflow/agent_router_guide.py": "c28b27ea6e1739d0a73311549302c16076dd2321cb3bc3a2f60d7aa189c2bd4c",
+    "benchflow/agent_router_parity.py": "5baaeaa90425a72e3e8c07b0d5df9510439e4f25c4e82cf4d2df41f36531c51d",
+    "benchflow/agent_router_scaffold.py": "3b9c257bd931a217bb6f183fe8f813307cf01a2638c32e5f6bd74caa86cf8262",
+    "benchflow/agents/__init__.py": "f12b10fbd5a8a086926e6301db1d56b699d365d6f1f07c9e54c5e8bbd69718f1",
+    "benchflow/agents/codex_config.py": "852cf9182cb9b95d458a8db24daa0f0a27ba3d4f75e751df364ce2b2747d4cc8",
+    "benchflow/agents/credentials.py": "4009f2dd60c8591dbdbf547ccb54b6a0291f3b5401df39c4f0d49cc359c8434c",
+    "benchflow/agents/deepagents_acp_shim.py": "0e44ea10f14d6441c68bfd63aff4c8396207f9234318316a682b11f47a87f8ca",
+    "benchflow/agents/env.py": "d106233e26b52159065b6652e8ce9192a32c319db9f4ce736ea0db30f99a0c23",
+    "benchflow/agents/errors.py": "6cba9e77ab7c66d3443476f1fd7d36b2b764b4178a2b85f360dc56c70b022620",
+    "benchflow/agents/harvey_lab_acp_shim.py": "cd58788e94fb4abe7a7e9b8539f2436d20f79ac01c01cdadea329bb4d9fa8611",
+    "benchflow/agents/install.py": "a3e9a1a8338107bbde2118801a393b9e3aeae0c2fdca784624e1843c462fb87a",
+    "benchflow/agents/manifest.py": "9eca98d547e737129229875fbb0cd048f9bff393ae434897755314c14c261239",
+    "benchflow/agents/openclaw_acp_shim.py": "6e791872923a5d635c38fe56cd6a384af35ead9936a97bfc508821859f699ea8",
+    "benchflow/agents/pi_acp_launcher.py": "a7aed2ede60aa8b491c1f3b371ff9935f581f77baa6b66124450bb3e8c2a7fcb",
+    "benchflow/agents/protocol.py": "8dae3893468561991170942ee256d7dea3487c93e16fc0b7a682d34ff5a1146a",
+    "benchflow/agents/providers.py": "85a550b3d6f9eabcc049b76db67cb0b9c16ee6d78315581e61858f143a938479",
+    "benchflow/agents/registry.py": "c141571b982a7b43a3b5fa473e229b1ac6ca3f283f826b78835ecd33ec0cbeed",
+    "benchflow/agents/remote_manifests.py": "8333fceb48d6a34fcc4b853410453a856d094201a191f739e8efeecf7a713f32",
+    "benchflow/branch.py": "7b56ddd7f320ec2548a74c52612753c2e465f2e752006f843dcdf10946c5bb05",
+    "benchflow/cli/__init__.py": "ed50de8a6a2697de7ba8d7715efd4f2652db273bdf0ed76db7a3d57173f0c69c",
+    "benchflow/cli/_failure_evidence.py": "3a836e598b78a52a99ab8f735c6e7c3dcf377f4762274083e03a1b7d9f3ee708",
+    "benchflow/cli/_hosted_env.py": "454c267884c388308d976ce29b21c9c0434e70592dd76b8f4e658061b3cbddae",
+    "benchflow/cli/_live_progress.py": "ab36410a699f3b4748e6d9bb8ba04434592481d5a48673c7f3d88311f3d55cc4",
+    "benchflow/cli/_options.py": "746d91e7e8e3373bc08f9d770ec723d5315b1f9ba433f38dc5883dbc42e713b3",
+    "benchflow/cli/_shared.py": "804d6c0ae4d4c344b320adc7dd49e98abbecf51b76f1f0da54f0324ba3b285d9",
+    "benchflow/cli/adopt.py": "1dbb13ad03dfc657e7abcf253b73198f5890cf0863ce8afc5c7a073940e7ca3d",
+    "benchflow/cli/agent.py": "0785f7e9520df8a51948e295bdea090489b676c571f43d78d829c2d029487cb3",
+    "benchflow/cli/continue_cmd.py": "23ddc9a2c55bdc7262b4314c24b3a16fbfe38a1cf7505cd3be96e47f5cbe90a4",
+    "benchflow/cli/environment.py": "ab71bc1b68b4aecff0a86216cd42e79dce8db7c4e524b3b5db3b9896ba3ee7e0",
+    "benchflow/cli/eval_artifacts.py": "e026d2f1a21aca70a4d8f51e580e10a37d45f121fbfebc6dc01ee9a3cfcedefe",
+    "benchflow/cli/eval_lift.py": "d13ca7f59548cc021e67dbe6d13ee89c12eb7b8f2096229fd0af0dac3ee6d63d",
+    "benchflow/cli/hub.py": "b97e4efaaffd08c45bf55956d3a1e403911b2946bac4e46734d4cd98c3361ffd",
+    "benchflow/cli/main.py": "e7702b251935c1e7ecb87d9f8335a43e066cf37cb3826e061b8cf642034d6483",
+    "benchflow/cli/monitor.py": "fb40b83b366a8148fb2ef8b9a1b255b0af8cf35399c1a64d1298acef52aaca3e",
+    "benchflow/cli/review.py": "cac47a368f6816ed1381c6ee70d1bd6265d8e4590c507a1b76be85e2b1d0990c",
+    "benchflow/cli/sandbox.py": "42b2c049bb1fccf195a2c5bfb395f1137fe6717a93cdb5366679c2f4c003a573",
+    "benchflow/cli/skills.py": "d80a6fd62aaf9acb5612163a3be3d177129cf1163047a7fb32f6d87e5d9d5a6d",
+    "benchflow/cli/tasks.py": "6f55cfd4467bf59b4aff5b2117ae6a672bf6ec470a285658577e4ce03cf160a2",
+    "benchflow/cli/trace_import.py": "3470e2785762290fb64abd7e185f19e440dc6c6b33daaabf905134ad769c0b6a",
+    "benchflow/cli/train.py": "3083ff271a6d8ad1f7e3c6d6594469716b7e4e60c0c35b3c77e45453b8c16888",
+    "benchflow/continue_run/__init__.py": "75689d9e0ee426985552d6cfd5ad4c6b42f28f18f9c8b81064802968a08951ec",
+    "benchflow/continue_run/batch.py": "f01352227ca9fce97a15cae0e1ecc125d8b77014b5da70bc99ff7adffc787c88",
+    "benchflow/continue_run/orchestrator.py": "527c6b8279b6e8a31e9334580019f2b5887e55dd38283dff938d092197f8557f",
+    "benchflow/continue_run/replay_proxy.py": "447489d92e3cd77b821dd15c3171fc67424897ee7b9797f2d8057e3702731592",
+    "benchflow/continue_run/run_folder.py": "2aebaf9602f30a9182c8d01ffa97312f8ddc3900d09b97e131d59c428b7837a8",
+    "benchflow/continue_run/sandbox_proxy.py": "3cac3e09f1898a16dfeea7c859d228e8ab0e43e185f2eee1eb5df76332b6c7c0",
+    "benchflow/contracts/__init__.py": "a379bfb2a3f67876a3c6cdccd58c1c9acf048ba4441b167faace06cf8e5c24bb",
+    "benchflow/contracts/planes.py": "66d3b5120595ee1a4145e9a383eea31ccc1e7fbfac7b8baa6473a251492cd420",
+    "benchflow/contracts/user.py": "0946dd85e2160e630d238e29adb5370e3c88d1dee43e54defb058d2449a183cf",
+    "benchflow/diagnostics.py": "01622967c10e1c5da47ff4566e04c402b8c2020d35c48d950aa2e5551d51d6bf",
+    "benchflow/environment/__init__.py": "462402b1222b005b3623a832df8b955f7932264a1f0105f3a1328ed219538729",
+    "benchflow/environment/manifest.py": "6828bbbea0801b86059fa6057b858d5d8cc96e0d0037283b50aba213b387f182",
+    "benchflow/environment/manifest_env.py": "c7e30ec418a5b967e920e37850cd20c0206df4383db49fb13888bd12e6d0bec6",
+    "benchflow/environment/protocol.py": "3c3b4d6b6c9cd70c2c052856284c692f27cad360aeee11f6432e503785525986",
+    "benchflow/environment/readiness.py": "22408e5c648bffbc67725d270ac405f93061ba745bf8ecd57a086ac25bb00fa3",
+    "benchflow/eval_artifacts.py": "1070d6593d5162ead98fde7daefff0562ed2581469b993ef6ba4a2b2a75c1b34",
+    "benchflow/eval_lift.py": "fa687754f8ef1cd4cba6260dc7b9362d26b416a8d079ee776fd601b511d43230",
+    "benchflow/eval_plan.py": "941a3197e8b145873af5d1fc25ddfa8f305c6e79a059b13080e4d5e21aba6ff0",
+    "benchflow/eval_sharding.py": "2dc551685c1701ee1aa86cfaa34720aa1556a16b314af3b097343d7d320e38d1",
+    "benchflow/eval_worker.py": "0db163315159228f8778ac0e4abc063b5211f3754435be08a0fb45dbf5ec9b15",
+    "benchflow/evaluation.py": "de3591af107c433b700ea95cb915c36c8c7cbc30e73ad09693217358642fdc34",
+    "benchflow/experimental/__init__.py": "8f62c562b5a927bfbded4e8358f95f39df971feb5f620593e7921f75b23867df",
+    "benchflow/experimental/mcp/__init__.py": "5e4ea7ab1f17fdfd94a833786303011d8fc905fbf7ccf319333a7f12d697a513",
+    "benchflow/experimental/mcp/hooks.py": "5153e1e8919eb9766f24767f67ca5583f1ba347da827e1a43d88bc3a52d5da9f",
+    "benchflow/experimental/mcp/reviewer_server.py": "c5cd40b02ace8662cdd22756ee483c47c707fa9650862c239a2f1273c57d9379",
+    "benchflow/hosted_env.py": "7db1904a1d716477ac1207ec67ca6c2c33199da91488021649a502e5cc23c001",
+    "benchflow/hub/__init__.py": "1ffd495827acb636e18588ef3d946b29ec8f188771b396ccaee757862a9c1caf",
+    "benchflow/hub/harbor_registry.py": "b8186f1c9d9a284679d22546ae8beaee6b883d4a58f880af75ae8d4464c751cf",
+    "benchflow/integrations/__init__.py": "9679e5729d98fc790628fd2d7d13a6b968e2d502b91dac1a613d59b8d42f0c8e",
+    "benchflow/integrations/trl/__init__.py": "0cf852cf4c1c35d0402476fc4c5f2bc10fe116e29710528ea3f4c44e1623866f",
+    "benchflow/integrations/trl/spec.py": "a08cd78a296fbdbd4796afa018553fb3840942f9c6db78e29c62a00fa793b248",
+    "benchflow/learner_skills.py": "498b7b520b43f0533d56da7756c1dd33e179fe5b2b13880dd4b252f5caf2ca43",
+    "benchflow/learner_store.py": "d3aa78f6db553dd825ddaa03c41ecfc4900a39c27b6c89208a6d202214d85414",
+    "benchflow/loop_strategies.py": "4df7d65c34c1eee042de78f445502f87cc14bb9bad41ab30a6e9a15cb52ac3b7",
+    "benchflow/loop_sweep.py": "5423306738ef8ee818798eafca64acd61ba72423dbea17b7ca8e550feee3ed2f",
+    "benchflow/metrics.py": "5adf964d685cd055561e0ef99ab06f999629256b8ddf4bd1470504636e411de5",
+    "benchflow/models.py": "d2959ed2f0da118b7da89c40c518592f4e7cf7c56409a469b4de2b8f285685b9",
+    "benchflow/monitor.py": "55487d45b26df7b3fb20c7bcc6b404e1b4bc9e167cfd59c7d49ba08416fd9493",
+    "benchflow/providers/__init__.py": "475b8e3fe04977d0e58ffc7fcc4ebcc4764b21bfec5cda5ab751ad4bd4dc9c8e",
+    "benchflow/providers/litellm_bedrock_patch.py": "f59b0e48270b6ecc856d4a217ae1a69a403a09dda15e95c67174302068a015f9",
+    "benchflow/providers/litellm_bedrock_preflight.py": "af607aa28e754ce1cbbc3d1040d36ba318434814a3dd8a4e3c3d706676be8b35",
+    "benchflow/providers/litellm_config.py": "e7f0feab847730f99f2be2828251ba6542989120b4f8a9da6f96dff9a1851263",
+    "benchflow/providers/litellm_logging.py": "d7eee932abbfae8162147cdfb278aef73c42fc283954e36029ba5e707191ca48",
+    "benchflow/providers/litellm_runtime.py": "e875301f0652ffb02c058c8d53841da0673c7de5f86c3cd2b5e518771d16d67c",
+    "benchflow/providers/runtime.py": "7565435ab8a60d99a6cbc5f3b46cf02a51aab840f716b191affb44a75369590b",
+    "benchflow/publish/__init__.py": "6a801828827a1a312da23155498c52c79329aba9f446e6a432ab438d824ea8db",
+    "benchflow/publish/huggingface.py": "577e31b9060598bec33e2f56eb62c448a8333c599305d949c4b4d9c469a91813",
+    "benchflow/review/__init__.py": "be5ee39cb9c7186f5a281bb1d85f4d8b9adffc43ec0beb6f6ae1cbf909f245ae",
+    "benchflow/review/config.py": "586c47e1d45dfaa09055ff210dfe00c1728a1953f1db390fa676ba760c3114c9",
+    "benchflow/review/prompts.py": "890e06b1e3b780140a68ce92b44f2a0311e466d339983f65b46d0fb5406186d6",
+    "benchflow/review/runner.py": "6943401b1fdbf4c8b20213bfe9833cf40818b7c78b3a6e8f77748502270e776f",
+    "benchflow/review/wrapper.py": "c846ae4287fa2bf26978ff0fd0da20a80040cc44c0d5febf2c5ce505a442d507",
+    "benchflow/rewards/__init__.py": "b8e13bf53c33fcb28e4f3febfdac4457bb6d56eea7720643005868c4780d3582",
+    "benchflow/rewards/builtins.py": "6885e49a93e8dba80842e858b678eef36bc8748d4183c8b4bbf385b29ff418e9",
+    "benchflow/rewards/events.py": "60695d4e3f8ac0f07cabd0edc0239341a34defef980287ed2180b3fcad754401",
+    "benchflow/rewards/file_readers.py": "ad814a6c5a7c26f302f595301350c4cbe60a47c000e5b2a6851a51fa8104b333",
+    "benchflow/rewards/llm.py": "794463521f27144694fc1db4ce3e9a07c4459295317658813a7f08c001cc231e",
+    "benchflow/rewards/memory_scorer.py": "ee3b02575b106f010bbe069b38e99e15f5ac705bb4a3f3655b0b02c8d1e79659",
+    "benchflow/rewards/node.py": "6a7d44fd93a58dac165bd9698669a8e267be72162e4c890606304e0d3fbedd3b",
+    "benchflow/rewards/protocol.py": "33107596b50d3d9601403837158592b978d2df11753408e306af9d17396b5f4c",
+    "benchflow/rewards/rubric.py": "e5853078c59dbfd1044d9f8c3f218c9f54b3d8c5aa3e689369e2bbc87fcfcd8f",
+    "benchflow/rewards/rubric_config.py": "12f0908576fc700509c40e0cb3a7706f30086371a7ed095157a01ab86f61b673",
+    "benchflow/rewards/validation.py": "9c227df212d369bd6bf69931376fdaba69633be121ef4bdb1604c4d54c65b3f4",
+    "benchflow/rollout/__init__.py": "b261fa00542baa855fcdd53fe6764cc249c036700f704b0c748d756dd144ae02",
+    "benchflow/rollout/_config.py": "0aa5575a9ad4598b8c3aedba5d9b6cb056a97c54089b8ddb97ffc73e6977c861",
+    "benchflow/rollout/_deadline.py": "ee05c9fd7e9f0521d907a8d83c7db10c3c9a1a9fe2045019e4ef6478c125ac4b",
+    "benchflow/rollout/_results.py": "5b6553912dfed40b5009d3e4ccf3fe0ab18d4b228ebddcec4a759d38a4e34a88",
+    "benchflow/rollout/_setup.py": "8908d0f46cdf3f0948cb33dfd0b9f53a9436e927700a36c6e554ac640e6d022f",
+    "benchflow/rollout/_skills.py": "287e74e6fe98d5c1120bbbc5f14f156c7f75bc230155fd164ae62b88e068f0da",
+    "benchflow/rollout/_usage.py": "5db4af6f0ae88a9b5a58e62eb93ceadde851862573aae06a55007314b8bab24d",
+    "benchflow/rollout/_user_loop.py": "bfe8f699f0ff91b0c2a2c73046c4ae2f7d5cc1448151107e1fb82a5bff661081",
+    "benchflow/rollout/session_factory_runtime.py": "5f91afce86bfa37903f14893e95e680e2311e248fd015b825c608a5526ac3cad",
+    "benchflow/rollout/task_runtime.py": "b06e0a2b45796389db631ef7ded81949b2872cca6f930f97a35afb453fe34a89",
+    "benchflow/rollout_branch.py": "5c0bf046a9290f5da4c75a420013cfb1b72840767c902df8d761e0376b119a17",
+    "benchflow/rollout_planes.py": "f1f8507c5d4718bf7d8707bc9190791939b1a56002668f17f47b83096d3e6515",
+    "benchflow/runtime.py": "56affc9417f5ae4ed0bfbd6499d4560d794058d00e13cb245a806b2fd85885be",
+    "benchflow/sandbox/__init__.py": "0e93d0216e9ff4aa429752bd8b15b61a5d377cb672d5dbaff113bb192d0f373e",
+    "benchflow/sandbox/_base.py": "358a75bac98b955150fbbb5c374f463bba30b019a571d1559eedad8cd9c31f6d",
+    "benchflow/sandbox/_cache_reclaim.py": "82e30a667da107f1db0d21ff1e27983539de98c28ae0687006c82f93990533e6",
+    "benchflow/sandbox/_compose.py": "cd4e27e0cdc33a2f2a13de781881edc2397cbd8ebe9c2e91f5f58a6d9cdb8f80",
+    "benchflow/sandbox/_sdk_ops.py": "4841b4a6755d6bc208cdd6986fc92b5b9e807a235b7b090e28926cbe3e11726c",
+    "benchflow/sandbox/agentcore.py": "2304e06306394806ecc505d51659aec256c3b4121fcd8145466bf8ddfb4e92a3",
+    "benchflow/sandbox/agentcore_builder.py": "5440f2ca162bc117ca523fe8d018d746ffc7d3a9702c2eb80a04d16ea05d76a5",
+    "benchflow/sandbox/agentcore_image.py": "e033a7de92574a412708e65f70f8bae4df066795408d86a6967ab21ac1bb2868",
+    "benchflow/sandbox/agentcore_provisioning.py": "ed658e6f8e4192eccbf2f506dd6141fad85e7430fbc0faa16c400e17243a5319",
+    "benchflow/sandbox/agentcore_reaper.py": "e85f9afebd64e28a6ccd69f4a423d362cc4768f507ad9fc24256360ba7440d29",
+    "benchflow/sandbox/agentcore_sealed.py": "5decb2a2fe1fbfcf2f1f0f5b7ddb1d05723c8cbee810a0c776c71b63ef435a80",
+    "benchflow/sandbox/apple_container.py": "e270c20be8b90456e48591eef85a904306cbab265877f305a49d783e3b8de5cb",
+    "benchflow/sandbox/daytona.py": "1e4387145d1159d00dfc0166c0e71150c135972535633220f436bd48d06faee1",
+    "benchflow/sandbox/daytona_dind.py": "0cc81bbf9f979786d12bac4bec08c62132a98074a99f3e734367a22256d43522",
+    "benchflow/sandbox/daytona_pty.py": "9c0165112935a04711625587200a2f0fbed71d32d9a5df934c9f0a3e8e38954f",
+    "benchflow/sandbox/daytona_reaper.py": "538a6b010c624ed87a24aa070cdb2599b8f0dddd4f3ce783b60ffc90c31cbdf5",
+    "benchflow/sandbox/daytona_strategies.py": "efb9456af3a39c526cc213f1b28f895f7071ab51162309947f7728023efa602e",
+    "benchflow/sandbox/docker.py": "d54b20b2a8de4495280160fed4a1256fd6c893da5a377d664eab28a84ee60178",
+    "benchflow/sandbox/lockdown.py": "0f0900219f64c4fe33966376afaeadbed0ccbf52e820d1590565972cfa361a70",
+    "benchflow/sandbox/metadata.py": "7a1e5372d34cec3e7132ebaf2a46859481e6a35ef50724ea194004efcad05dce",
+    "benchflow/sandbox/modal_impl.py": "1ee75dddaa5048601d76d07c49a8554ab57a0e2ffb4a018241ba7c2aaca84960",
+    "benchflow/sandbox/process/__init__.py": "5d6f70ce68b456fa439adc0026150a6b56d18c1d31a206c1838b4ec15000748b",
+    "benchflow/sandbox/process/_base.py": "45d84bfdfa5606019864d1cb6424ac54f78a98518233246129f2285b8dfccc93",
+    "benchflow/sandbox/process/agentcore.py": "3d80995c0f3539220751912142281f1c403accc5063e4e649b9e9e69075897b2",
+    "benchflow/sandbox/process/apple.py": "88f8dbfb7f767cdf2e55048b8b6efc61f2a725024d878e74d264886dc6b7f9d5",
+    "benchflow/sandbox/process/daytona.py": "f064904fee90c4063c48da74169ecdaac5864e3b6eb848c12fae0b571be8bc64",
+    "benchflow/sandbox/process/docker.py": "2ae3e2c3cc3dfcd6970c1a911182c7d9b3aa0d24a6adfa97748b74d4733b2b03",
+    "benchflow/sandbox/protocol.py": "96c95b2056f732e1b367956f9e4578d1fc4fbd68c8793b97490b3bdf1ead5550",
+    "benchflow/sandbox/providers.py": "bb1d5645f1ea62a23c740cefeac3890e91205eeaf203f17ead52412f301f8471",
+    "benchflow/sandbox/services.py": "b84f7c63a505a9d10405eeaef86dd6da54d2ca8759b7ad66f182950161d20598",
+    "benchflow/sandbox/setup.py": "f2b91d4808b3b6b98007011a16b175b4742c23f8a0ddcbb069bb5d105bd879f8",
+    "benchflow/sandbox/snapshot.py": "82530cca49b0928ef4c7147d602a9aa3173126ef1f317be6f32219adb48403b2",
+    "benchflow/sandbox/user.py": "60184b41c7c1441d4bcd00dc4d9b667cc611ebe9c434a8ddce8d86d3402ff3a4",
+    "benchflow/scenes.py": "8d80befc3692f30aec140d5351129898f606d2fff80d0ca8d1d639dcc3d7e10e",
+    "benchflow/sdk.py": "f93d01bc3fe5150201e0a7eba6eca93ed37f60e449126e6a4ce8b384d075dba9",
+    "benchflow/self_gen.py": "b1725afaddba934fdb5a2b983b8eb6b047dd7023125fec12a83da5b02b3f2095",
+    "benchflow/skill_eval/__init__.py": "ad1d69eac37a9af40f0b435f68d761810107a00de4448a8e9103bcf0717645c1",
+    "benchflow/skill_eval/_core.py": "d6784ff18b45869e942d6d66807f85352275f3e6cea3dd47204ccc263245cdf9",
+    "benchflow/skill_eval/gepa_export.py": "4cc7870b818135cbbec37181ab10882d06b499affbdaf959e3a7afebc0dfc721",
+    "benchflow/skill_eval/schema.py": "8fff789e05da383054bd7dd56a986ef373fccf4c0f6bcfa2ec228cfa488a11b2",
+    "benchflow/skill_policy.py": "31f3007905cfd8fa5c25509e55be81ae111283c12ba50cd3bd7b94f137831b61",
+    "benchflow/skills.py": "4b4e38788380aa891ebeac09f4f3703bda1722ac65f14a3f4d7bbf192f91dc72",
+    "benchflow/task/__init__.py": "6de869f2c588cda9897af33f5848182fe86e153f6047572883a861a15a49f377",
+    "benchflow/task/_document_evidence.py": "0659a673f5112b21484f364040ecd7ab2134693068d02f561517104d30934143",
+    "benchflow/task/_document_normalize.py": "bf73d28b2d1d06c8cd52aee550bcd02657b7bc0191eb55dc84a3bca47217a1eb",
+    "benchflow/task/_document_parse.py": "d6fef249a56e80a723a3bc13e5470584eb8bd20a6ea5e9c2d10a528aed220c52",
+    "benchflow/task/_document_profiles.py": "c3434096f59a647744cb5885fb7d703fc3c69fcc893e8995b7f9ea47d6da703c",
+    "benchflow/task/acceptance_live.py": "493a4f0267bc602e6adb12986071c45f79dd7b6e250934b0b1fa920acf6bd6b9",
+    "benchflow/task/acceptance_live_model.py": "19e01750500473a8d3ae9c70534bbb8235b8941bcf5aafe03f4a2c6df0adcd50",
+    "benchflow/task/acceptance_live_report.py": "059df9434de06d98114a6e6a6d1a2c307e42552fff5ceef4a08cdc0d2aa134dd",
+    "benchflow/task/acceptance_live_validation.py": "b0d8c59ddbf41d5b1967cd5a61fb233cd056208174ae3fb3a0a568c1513a5b78",
+    "benchflow/task/config.py": "93ba2bcd9cd10b377b4cce59a850575d9fbd522829a653c8409f932ddd8ff806",
+    "benchflow/task/discovery.py": "1c9b197610871be8f57696d613ce9cde328624fcfcb356ff527cc3e76b434869",
+    "benchflow/task/document.py": "50319d99933d4844ed35a911b5f763b55fd8ca5fb820be2cf07d6c0dacabcce3",
+    "benchflow/task/env.py": "3b7397642f34776249d3fcdf4613dd4b86df1b445d372e40e6f394eda5c079d6",
+    "benchflow/task/export.py": "78ab4852eb8e63e885983592ca8b889b9d6697bf4314b31e4f7ec4b7bf01c3b2",
+    "benchflow/task/imports.py": "ff2e5f76999c50c239e8c44a67000763b4859a6ee96b825ee56b2bffcd34b3be",
+    "benchflow/task/output_format.py": "39adc0654060f56d5999c674c17733d8b28d093aa7cce4d40b931b7b8c11ea29",
+    "benchflow/task/package.py": "8bd5531f871e1aad27e12fddd5482fc4d9bca17f0c3e05e66374f05ed41b83b0",
+    "benchflow/task/paths.py": "731573cc40147491c42275001deb66f474fb5c7edd50c717ee7de213fd4e5f27",
+    "benchflow/task/prompts.py": "f61511c382d1e5f4c597820dc807652a0bcc4b3fc9ceb335dea8d9534e6482e4",
+    "benchflow/task/runtime_capabilities.py": "9e3d485b4983e30f378cdb91ea78cb7e00c27466f07c15222fa81091cd9df1c4",
+    "benchflow/task/runtime_view.py": "c75b3cb11718485ca0856ed4e9a4bc457bd4e8bfef302d83ea949c085313921f",
+    "benchflow/task/task.py": "e9ee5a71219f29384ce4b5cf6814f3fc0c7ad88a97db75fb44d7fe58a3d94153",
+    "benchflow/task/verifier.py": "ea3b0328b9785252ed85ccb08ccf30c5297c1c3c4fd7cec197d56e498da45655",
+    "benchflow/task/verifier_core.py": "da9a00ecc83bd20563e520181cb543e56dad0a5d83be7619e57b3345879b81a4",
+    "benchflow/task/verifier_document.py": "c8ea1d5e9dade8bffc524bd62b4b213e9b4a20b6f554d2192abc76bbb6fffb59",
+    "benchflow/task/verifier_errors.py": "63ffe6c13c54d4fa9efd16b8ca4e582941757afb629428bf483b671944fa1880",
+    "benchflow/task/verifier_judge_inputs.py": "268bcfb4b01ee1159cfddd8f768b57b9404cd4be8852dc5290dc9e6807277e03",
+    "benchflow/task/verifier_ors_episode.py": "5022e73881f05cd8dbc4452599f2d2e360a63b90bd9d079f727716bfec932865",
+    "benchflow/task/verifier_reward_kit.py": "d3a9ee7a710ed94d24f7d9a8eb3e144660cb4465c565b4a5b38406684048c844",
+    "benchflow/task/verifier_scan.py": "4e367cd36fb194023d62a9b319f7bb24d574a4acf8ff6803651ecbb271e7e532",
+    "benchflow/task/verifier_script_strategy.py": "e732997f1baf91cd015ebe41b9045b87a9589520c2441cc5f0b26b5133c91197",
+    "benchflow/templates/__init__.py": "01219413ee1f964553bc23072006563622d0d45fb3e44418c49016d90ced4988",
+    "benchflow/traces/__init__.py": "9007128b3cea0c7458c66d49cebccef8c2a4b0bdb43c9460d85340b3968e9101",
+    "benchflow/traces/huggingface.py": "b05cf2feea133faf4a06fdb744bcc54aacc84e9fa918095c25ff3238594e1322",
+    "benchflow/traces/local.py": "157e22d9c468ac6d85c1d51ca1a19c1e28c7b66f69b97352323e209bccc4520f",
+    "benchflow/traces/models.py": "ca62d4e9714130e0ace21a707434d1ff08083f314784d4aed05e96d083a4b3bf",
+    "benchflow/traces/parsers.py": "1f862b9864ddc770e86020dbb855b0c4b4a935a42e06550a94bb908fa2d44b93",
+    "benchflow/traces/task_gen.py": "6d9c048ae320d139be83dc4a6a6c4ff2a4a3dea5a92baec7d5822e4d67e78027",
+    "benchflow/training/__init__.py": "ec7d6aaf61a000ff56a062f2b86802c42146946fb543701e293aa068a9bcee5a",
+    "benchflow/training/backends/__init__.py": "fef51b6fcf8bc3e597fd75666621be79f1578c4d929fa73eefd009b77e011eab",
+    "benchflow/training/backends/prime_rl.py": "ae97d12d4b4f2d8464283629d171075c71da7a1a51ea22c2b81167ac27cbf0e7",
+    "benchflow/training/run_manifest.py": "a99996dbb6e8413b3ac742b47c4c03210f12a0cd5453e929fa815c4082f5647f",
+    "benchflow/trajectories/__init__.py": "9af0cf8be0c712453f7c1a66890f9aa7dbd556c471a96d68a0561e490a532e7f",
+    "benchflow/trajectories/_capture.py": "09832fd52c327284bd0f2291d9d0fac001e6fc976485dee9ce9c73d118663e68",
+    "benchflow/trajectories/_export_common.py": "1a4cbce29621f153d6cd102addc6821d1407cb882a2835b06569a576368bec1b",
+    "benchflow/trajectories/_llm_capture.py": "0812b4e8dc126b77cb0be5c0391b5cf4b6cca195f75590b3829e9b81e76ad320",
+    "benchflow/trajectories/call_purpose.py": "6f077ebefb1396ec2401d21e2c02e3d685504ce3de49656821d39f2645f47c2d",
+    "benchflow/trajectories/export.py": "5f6697a07744a5f9b7dd4002007b9418628bd430b7c4222c22d85b0bb2b3620f",
+    "benchflow/trajectories/export_adp.py": "1a10d6e32c2008afffa307ff64fde67ebf5a7bdf0a5f414b6d290b97bb7f3a7c",
+    "benchflow/trajectories/export_atif.py": "3f854d6f7b2d5651b10c854fe0be036fe4bc71ea40cc0162d2babb3babf9d7d7",
+    "benchflow/trajectories/export_prime_sft.py": "d375c9914fa2b5f83ddc6437ca4c3276bf591fc073d3e4799be970d8ea08b8b7",
+    "benchflow/trajectories/export_trl_sft.py": "f53e60c615eec58ac6eef4d86c900bd379faac546eedf38d760c68971ce6c67c",
+    "benchflow/trajectories/metrics.py": "dfae6c090805566cf72ed3f0b0537ac055be90a40bdf0d6015d6306452a76006",
+    "benchflow/trajectories/results.py": "5401e4b5863030df229234abd8e94080ff08b03a43269e40262646ad888b0488",
+    "benchflow/trajectories/tree.py": "7348f2a0ff4ebab0d0abecd1b4f73ae9e773594bcb1b0410cf48e0b72a92c365",
+    "benchflow/trajectories/trl_sft_tokenization.py": "f847f46cff5cbb37f33b3e6722fda6105ded690204c3af21e9233560ef8cc27e",
+    "benchflow/trajectories/types.py": "86554831c8a06e72e4887e4d5c974f50c08e0cae6c95e806aae205befb0824a8",
+    "benchflow/trajectories/viewer.py": "f58d31a0ddb944d8c7760d8b21a306f61d97e80654b5a02e76f870a9de349496",
+    "benchflow/usage_tracking.py": "d428a7f39ca42deb6d9cb56e63c5715e316dfbe895e42ee321e5c4951e35e550"
+  },
+  "warning": "Observed local environment only; source hashes may include historical local patches. Package pins alone do not certify identical OpenCode execution."
+}

@@ -1,0 +1,36 @@
+{
+  "revision": "case-review-v3-20260930",
+  "counts": {
+    "original42": 42,
+    "cn263": 263,
+    "total": 305
+  },
+  "source_sha256": {
+    "data/single_turn_tasks.csv": "51514add06cf06f74be36b5dd2f2606a5b4c62489febec8fecf3458a2c9eb710",
+    "data/single_turn_tasks_cn263.csv": "05c12f470c84ce27f9d95711af4e1dc4b68734fb8cdeed08859cca9a3ad0ae30",
+    "data/single_turn_tasks_cn263_trace.csv": "0054d64b2732905d9eac4f88693bbdd79cd95e1e039ee881f1dfdd95cbd259b7",
+    "jobs/new_scenarios/source/questions.csv": "6da79616a972c5b4d75fbb20924c3d7fe5e134053a7da87b80396bc8f714720c",
+    "docs/data-quality/review-inputs/SENIOR_AUDIT_2026-09-28.md": "cc8b8d84111ce01d61672bb488eaecf86b2a71bde58defaaacdc35c4dcd3b451",
+    "docs/data-quality/review-inputs/SENIOR_LEDGER_2026-09-28.csv": "ab79086563468a8d5d339f10cc188758a562f60268c185f9b5085a5e5ee4685e"
+  },
+  "builder_sha256": "33103cde2ea93240425f006664ffe8564f998e5fa6139d037b123819487d3f86",
+  "specs_sha256": "f91e4617dcf10e0c74d5be1c076197acceab6f4ed625202cfe7794ae6f2d7478",
+  "previous_builder_sha256": "cd4f7856881be773f05e3d60d00d90e5b801c7e523bc470174f37c534e3f7bad",
+  "artifact_sha256": {
+    "evals.json": "0212fd0e706df1036f450c4fbf59c400d92a8015719bfecbbf2415f6b5dc5b8f",
+    "README.md": "a2013398b4b2cc4bb1879e882aa84c722cd305ae76cbf6556b5f49f9acc077cd",
+    "split_policy.json": "2e8bcc2b531f0539b13be7e1a04779b27fa1e07d92e642a4b00c7112af401845",
+    "changes.json": "8dfe247d6fb35ddcdd28fa72bc832f70590ad0ea740f20390053e11aaef77dec",
+    "merged_issue_ledger.csv": "54cd39cc63b424b6213119db61facd12ecab56681fe992e8e80bc8e9560b091d",
+    "release_gate.json": "24f8a024a93423dc1c674c11799c85446f964f681699919af7ac7898153e9bb6",
+    "skill_routing_review.json": "912dd518fd100a8931d2ec339fa552cc8f7b7b41eb65729777ffde230ae255b8",
+    "historical_result_integrity.json": "b8d30e7cf2631dfb52c9a5ad39915993e5395e038e3fab193f9d52a3624277e1",
+    "acceptance_cases.json": "05ff65f3079ebef059b50f3d8561101b1a10ce40d1a929f92bbad50348f5b317",
+    "review_inventory.csv": "15355f365d0de0116093d4c5c1fea9edc8ed6f6ade358ecd928654d6c3331726",
+    "single_turn_tasks_cn263.csv": "d4ef07e7694555c1fe24a8ad891cd29b30458c6e9c07684dd8374420a3c83fe1",
+    "source_bindings.json": "fe157618f7479fc8f66913072a6b48da03b7efd764a01a57a4a4faf6002cc350",
+    "split_groups.json": "93fcc150f1e0438624ad6e9998b4ae43e2c7019aaa6da6f98dd01f356d248aa5",
+    "single_turn_tasks.csv": "70d2dae3bbf5512815ff4298cffb34d94a47086c9d2f7bbe5461bda5ccaa2848"
+  },
+  "release_ready": false
+}

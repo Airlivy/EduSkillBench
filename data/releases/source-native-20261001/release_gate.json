@@ -1,0 +1,20 @@
+{
+  "ready": true,
+  "execution_command": "python3 -m repro source-run",
+  "protocol": "source-native-v1",
+  "score_policy": "保留原文等级和数值区间；没有原文等级转分时不生成单点总分。前42题保留原评分协议，二者不混算。",
+  "full_expert_acceptance": false,
+  "content_acceptance_status": "reviewed_with_corrections_not_expert_certified",
+  "readiness_scope": "ready 表示数据和协议可执行，不代表全部语义已经专家验收。",
+  "allowed_conditions": {
+    "core": [
+      "baseline"
+    ],
+    "advisory": [
+      "baseline"
+    ],
+    "all": [
+      "baseline"
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "release": "run-ready-20260930",
+  "manifest_sha256": "1ea93271e1fc0fa57e611ec9989635f9fcb07f52b641ed162c7498f80ade85d1",
+  "counts": {
+    "core": 42,
+    "advisory": 263,
+    "all": 305
+  },
+  "editorial_content_review": {
+    "current_prompts_and_references_read": 305,
+    "critical_anchor_alignment_checked": 305,
+    "independent_expert_review": false
+  },
+  "offline_validation": {
+    "status": "passed",
+    "engineering_unit_tests_passed": 58,
+    "data_unit_tests_passed": 27,
+    "numerical_checks": 34
+  },
+  "live_contrasts": [
+    {
+      "run": "run-ready-smoke-20260930",
+      "results": [
+        {
+          "task_id": "self-explanation-prompt-designer__03",
+          "variant": "positive",
+          "status": "failed",
+          "category": "authentication"
+        }
+      ],
+      "complete": false,
+      "matches": false
+    },
+    {
+      "run": "run-ready-smoke-plan-20260930",
+      "results": [
+        {
+          "task_id": "self-explanation-prompt-designer__03",
+          "variant": "positive",
+          "status": "scored",
+          "score": 1.0,
+          "matches_expectation": true,
+          "critical_pass": true
+        },
+        {
+          "task_id": "self-explanation-prompt-designer__03",
+          "variant": "factual_error",
+          "status": "failed",
+          "category": "transport"
+        }
+      ],
+      "complete": false,
+      "matches": false
+    },
+    {
+      "run": "run-ready-smoke-flash-20260930",
+      "results": [
+        {
+          "task_id": "self-explanation-prompt-designer__03",
+          "variant": "positive",
+          "status": "scored",
+          "score": 1.0,
+          "matches_expectation": true,
+          "critical_pass": true
+        },
+        {
+          "task_id": "self-explanation-prompt-designer__03",
+          "variant": "factual_error",
+          "status": "failed",
+          "category": "transport"
+        }
+      ],
+      "complete": false,
+      "matches": false
+    }
+  ],
+  "end_to_end_status": "passed_for_recorded_smoke_scope",
+  "complete_all_case_calibration": false,
+  "updated_at": "2026-10-01",
+  "end_to_end_runs": [
+    {
+      "tag": "ready-e2e-final-20260930",
+      "model": "glm-5.3-flash",
+      "suite": "core",
+      "task_count": 1,
+      "runtime": "container_judge_with_host_recovery",
+      "expected_cells": 2,
+      "valid_cells": 2,
+      "complete": true,
+      "environment_sha256": "3a294a9d4324e4393d7750c5f7ff1919a9830df519c69f2a0647bc70852e33a4",
+      "cells": [
+        {
+          "task_id": "differentiation-adapter__01",
+          "condition": "baseline",
+          "valid": true,
+          "score": 1.0,
+          "critical_pass": true,
+          "source_result": "jobs/ready-e2e-final-20260930-glm-5.3-flash/differentiation-adapter/skill-eval/differentiation-adapter/opencode/baseline/2026-09-30__22-56-18/differentiation-adapter__01__b8af2f9c/result.json",
+          "source_result_sha256": "8cbcc2d7384c82fc2d4bfc78464a9c955b7b816f87917cefe2503fe016cf915c",
+          "judge_result": "jobs/ready-e2e-final-20260930-glm-5.3-flash/differentiation-adapter/skill-eval/differentiation-adapter/opencode/baseline/2026-09-30__22-56-18/differentiation-adapter__01__b8af2f9c/scoring_recovery/judge_result.json",
+          "judge_result_sha256": "067f9d4a93d7298b85fef65e99a29620d488840b722da0effadcb1b0beeab230",
+          "raw_reward_is_null": true,
+          "judge_attempts": 1
+        },
+        {
+          "task_id": "differentiation-adapter__01",
+          "condition": "with-skill",
+          "valid": true,
+          "score": 1.0,
+          "critical_pass": true,
+          "source_result": "jobs/ready-e2e-final-20260930-glm-5.3-flash/differentiation-adapter/skill-eval/differentiation-adapter/opencode/with-skill/2026-09-30__23-11-36/differentiation-adapter__01__8f4c1c7c/result.json",
+          "source_result_sha256": "e8d22e949450bfe6cf430f3fc554238901080c58868f617a3f77ce1425317aae",
+          "judge_result": "jobs/ready-e2e-final-20260930-glm-5.3-flash/differentiation-adapter/skill-eval/differentiation-adapter/opencode/with-skill/2026-09-30__23-11-36/differentiation-adapter__01__8f4c1c7c/verifier/judge_result.json",
+          "judge_result_sha256": "5605b8c3113b173301256fca9dcc96283fcd364975e82c04235c324ed1842611",
+          "raw_reward_is_null": false,
+          "judge_attempts": 3
+        }
+      ]
+    },
+    {
+      "tag": "ready-host-20261001",
+      "model": "glm-5.3-flash",
+      "suite": "all",
+      "task_count": 1,
+      "runtime": "host_only_scoring",
+      "expected_cells": 1,
+      "valid_cells": 1,
+      "complete": true,
+      "environment_sha256": "e328c583397ecfb97d6d471d5d64e9bb9a6786b8fc7c374970a527fefdf1249f",
+      "cells": [
+        {
+          "task_id": "project-brief-designer__cn52_04",
+          "condition": "baseline",
+          "valid": true,
+          "score": 1.0,
+          "critical_pass": true,
+          "source_result": "jobs/ready-host-20261001-glm-5.3-flash/project-brief-designer/skill-eval/project-brief-designer/opencode/baseline/2026-10-01__00-30-55/project-brief-designer__cn52_04__962ddcab/result.json",
+          "source_result_sha256": "f984f3bd741884d002419a58c9fe31003d632e30e523efa4fd04e702697dbdc9",
+          "judge_result": "jobs/ready-host-20261001-glm-5.3-flash/project-brief-designer/skill-eval/project-brief-designer/opencode/baseline/2026-10-01__00-30-55/project-brief-designer__cn52_04__962ddcab/scoring_recovery/judge_result.json",
+          "judge_result_sha256": "db7d2e9217358176ce812aacf340dcb503518a5bd9ef7b4b1e167b25d3cae17c",
+          "raw_reward_is_null": true,
+          "judge_attempts": 1
+        }
+      ]
+    }
+  ],
+  "current_runtime_smoke_passed": null,
+  "full_five_model_experiment_completed": false,
+  "limitations": [
+    "Live end-to-end evidence covers two tasks and three cells on glm-5.3-flash; not the entire benchmark or all five models.",
+    "Two live authored positive contrasts succeeded; the error-answer contrasts timed out. Full contrast calibration remains incomplete.",
+    "Host scoring removes container-side judge calls but cannot guarantee external API availability."
+  ],
+  "latency_patch": {
+    "date": "2026-10-01",
+    "end_to_end_runs_above": "recorded before latency patch; preserved as historical evidence",
+    "validation_report": "docs/data-quality/JUDGE_LATENCY_2026-10-01.json",
+    "grading_model_parameters_changed": false
+  }
+}

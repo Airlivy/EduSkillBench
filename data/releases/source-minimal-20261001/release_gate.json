@@ -1,0 +1,18 @@
+{
+  "ready": false,
+  "source_fidelity_verified": false,
+  "originals_preserved": true,
+  "reason": "263题已恢复原文并完成有限小修；原量规的自动评分适配和题目背景适用性尚未完成，不能套用旧改写评分规则。",
+  "allowed_conditions": {
+    "core": [
+      "baseline",
+      "with-skill"
+    ],
+    "advisory": [
+      "baseline"
+    ],
+    "all": [
+      "baseline"
+    ]
+  }
+}

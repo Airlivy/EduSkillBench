@@ -1,0 +1,14 @@
+{
+  "status": "unsplit_evaluation_candidates",
+  "training_use": "not_authorized_by_this_artifact",
+  "group_key": "source_record",
+  "never_random_split_individual_cases": true,
+  "cross_source_near_duplicate_review": "pending",
+  "expected_output_is_sft_target": false,
+  "reporting": [
+    "per-skill n and mean",
+    "macro mean over represented skills",
+    "micro mean explicitly labelled"
+  ],
+  "coverage": "263 expanded tasks retain 9 historical labels, not validated coverage of all 14 skills"
+}

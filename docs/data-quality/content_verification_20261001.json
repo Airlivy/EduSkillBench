@@ -1,0 +1,41 @@
+{
+  "engineering": {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "repro/tests",
+      "-q"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "----------------------------------------------------------------------\nRan 91 tests in 0.998s\n\nOK\n"
+  },
+  "data": {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "code/evaluation/tests",
+      "-q"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "----------------------------------------------------------------------\nRan 39 tests in 1.542s\n\nOK\n"
+  },
+  "release": {
+    "command": [
+      "python3",
+      "-m",
+      "repro",
+      "release-check"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"native_release_verified\",\n  \"cases\": 305,\n  \"fixed_case_scopes\": 263,\n  \"core_preserved\": true,\n  \"original_weights_and_level_labels_preserved\": true,\n  \"invented_scalar_scores\": false,\n  \"expert_certified\": false\n}\n",
+    "stderr": ""
+  }
+}

@@ -1,0 +1,485 @@
+[
+  {
+    "path": "skills/single_turn/adaptive-hint-sequence-designer",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/adaptive-hint-sequence-designer/SKILL.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/adaptive-hint-sequence-designer/evals",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/adaptive-hint-sequence-designer/evals/evals.json",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/backwards-design-unit-planner",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/backwards-design-unit-planner/SKILL.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/backwards-design-unit-planner/evals",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/backwards-design-unit-planner/evals/evals.json",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/differentiation-adapter",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/differentiation-adapter/SKILL.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/differentiation-adapter/evals",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/differentiation-adapter/evals/evals.json",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/emergent-project-design-scaffold",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/emergent-project-design-scaffold/SKILL.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/emergent-project-design-scaffold/evals",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/emergent-project-design-scaffold/evals/evals.json",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/hinge-question-designer",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/hinge-question-designer/SKILL.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/hinge-question-designer/evals",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/hinge-question-designer/evals/evals.json",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/SKILL.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/agents",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/agents/activity_designer_agent.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/agents/case_study_writer_agent.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/agents/discussion_designer_agent.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/agents/lecture_writer_agent.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/agents/lesson_planner_agent.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/agents/slide_outliner_agent.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/evals",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/evals/evals.json",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/references",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/references/active_learning_catalog.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/references/lesson_anatomy.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/templates",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/templates/activity_sheet_template.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/lesson-builder/templates/lesson_plan_template.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/motivation-diagnostic-task-redesign",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/motivation-diagnostic-task-redesign/SKILL.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/motivation-diagnostic-task-redesign/evals",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/motivation-diagnostic-task-redesign/evals/evals.json",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/project-brief-designer",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/project-brief-designer/SKILL.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/project-brief-designer/evals",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/project-brief-designer/evals/evals.json",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/retrieval-practice-generator",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/retrieval-practice-generator/SKILL.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/retrieval-practice-generator/evals",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/retrieval-practice-generator/evals/evals.json",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/ruler-emotional-literacy-sequence",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/ruler-emotional-literacy-sequence/SKILL.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/ruler-emotional-literacy-sequence/evals",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/ruler-emotional-literacy-sequence/evals/evals.json",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/self-efficacy-builder-sequence",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/self-efficacy-builder-sequence/SKILL.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/self-efficacy-builder-sequence/evals",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/self-efficacy-builder-sequence/evals/evals.json",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/self-explanation-prompt-designer",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/self-explanation-prompt-designer/SKILL.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/self-explanation-prompt-designer/evals",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/self-explanation-prompt-designer/evals/evals.json",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/socratic-questioning-sequence-generator",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/socratic-questioning-sequence-generator/SKILL.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/socratic-questioning-sequence-generator/evals",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/socratic-questioning-sequence-generator/evals/evals.json",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/spaced-practice-scheduler",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/spaced-practice-scheduler/SKILL.md",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/spaced-practice-scheduler/evals",
+    "type": "directory",
+    "mode": "0o755",
+    "uid": 1000,
+    "gid": 1000
+  },
+  {
+    "path": "skills/single_turn/spaced-practice-scheduler/evals/evals.json",
+    "type": "file",
+    "mode": "0o644",
+    "uid": 1000,
+    "gid": 1000
+  }
+]

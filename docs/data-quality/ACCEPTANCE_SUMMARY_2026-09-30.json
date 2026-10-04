@@ -1,0 +1,18 @@
+{
+  "revision": "case-review-v4-20260930",
+  "manifest_sha256": "899b32ae786adb69aea3838d3035a54cfe29b84fd19e8e5a781c8c337c8b0d7a",
+  "total": 305,
+  "structure_checked": 305,
+  "targeted_content_rechecked": 26,
+  "skill_scope_rejected": 9,
+  "overall_accepted": 0,
+  "overall_pending": 296,
+  "note": "专项通过不是整题全部验收通过；待确认不等于已知错误；未启动新API调用。",
+  "latest_targeted_batch": {
+    "tasks": 20,
+    "math_physics_or_scope": 11,
+    "science_topic_alignment_only": 9,
+    "whole_task_acceptance": false
+  },
+  "senior_structure_code_reused": true
+}

@@ -1,0 +1,15 @@
+{
+  "current_candidate": "case-review-v4-20260930",
+  "formal_release": null,
+  "revisions": {
+    "case-review-20260930": "historical_partial_revision",
+    "case-review-v3-20260930": "frozen_revision_with_small_answer_grading_calibration",
+    "case-review-v4-20260930": "current_content_correction_candidate_pending_acceptance"
+  },
+  "historical_inputs": [
+    "data/single_turn_tasks.csv",
+    "data/single_turn_tasks_cn263.csv"
+  ],
+  "note": "New execution uses the separately frozen runnable delivery; v4 full expert/contrast acceptance remains incomplete. Historical results and v3 calibration must not be relabelled.",
+  "current_runnable": "data/releases/run-ready-20260930"
+}

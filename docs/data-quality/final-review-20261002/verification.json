@@ -1,0 +1,51 @@
+{
+  "engineering": {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "repro/tests",
+      "-q"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "----------------------------------------------------------------------\nRan 102 tests in 1.517s\n\nOK\n"
+  },
+  "data": {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "code/evaluation/tests",
+      "-q"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "----------------------------------------------------------------------\nRan 42 tests in 2.072s\n\nOK\n"
+  },
+  "release": {
+    "command": [
+      "python3",
+      "-m",
+      "repro",
+      "release-check"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"native_release_verified\",\n  \"cases\": 305,\n  \"fixed_case_scopes\": 263,\n  \"core_preserved\": true,\n  \"original_weights_and_level_labels_preserved\": true,\n  \"invented_scalar_scores\": false,\n  \"expert_certified\": false\n}\n",
+    "stderr": ""
+  },
+  "adjudication": {
+    "command": [
+      "python3",
+      "-m",
+      "repro.calibration.adjudication_receipt"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"date\": \"2026-10-02\",\n  \"method\": \"逐条按真实题面、背景、全部生效条目及评分提示进行工程裁决；不是人工学科专家认证。\",\n  \"source_candidates_sha256\": \"fa15f0101c6671a0631c04b3d415a2f8c6313db4b770beaf29b3ab56adae6533\",\n  \"release_manifest_sha256\": \"e1c1ac08155798f301b0b973c09f3eedf674c18e1d2502b2ebf99d71ad1bd656\",\n  \"total\": 197,\n  \"accepted_and_fixed\": 16,\n  \"no_change_required\": 181,\n  \"pending\": 0,\n  \"modified_cases\": 14,\n  \"expert_certified\": false,\n  \"execution_only_update\": \"题库文字未变；评分增加反证定位与实质错误等级一致性检查；旧内容对照为历史记录。\",\n  \"current_contrasts\": 42,\n  \"passed_contrasts\": 42,\n  \"historical_first_run\": \"41/42; unchanged answer rechecked only after clarifying cn31_01 rubric boundary.\"\n}\n",
+    "stderr": ""
+  }
+}

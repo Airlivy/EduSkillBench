@@ -1,0 +1,14 @@
+{
+  "release": "run-ready-20260930",
+  "manifest_sha256": "1ea93271e1fc0fa57e611ec9989635f9fcb07f52b641ed162c7498f80ade85d1",
+  "suite_overrides": {
+    "advisory": {
+      "release": "source-native-20261001",
+      "manifest_sha256": "809f682fa912530cb2ba9b79672f101367b72b4d9f9bd143b93da218344164a5"
+    },
+    "all": {
+      "release": "source-native-20261001",
+      "manifest_sha256": "809f682fa912530cb2ba9b79672f101367b72b4d9f9bd143b93da218344164a5"
+    }
+  }
+}

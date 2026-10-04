@@ -1,0 +1,30 @@
+{
+  "release": "source-faithful-20261001",
+  "status": "source_fidelity_passed",
+  "cases": 263,
+  "source_documents": 30,
+  "original_files_byte_identical": true,
+  "question_and_section_slices_verified": true,
+  "equation_objects_retained": 140,
+  "core_42_unchanged": true,
+  "auto_scoring_ready": false,
+  "content_correctness_certified": false,
+  "tests": {
+    "engineering_passed": 69,
+    "data_passed": 30
+  },
+  "active_selection": {
+    "release": "run-ready-20260930",
+    "manifest_sha256": "1ea93271e1fc0fa57e611ec9989635f9fcb07f52b641ed162c7498f80ade85d1",
+    "suite_overrides": {
+      "advisory": {
+        "release": "source-faithful-20261001",
+        "manifest_sha256": "a392325072622534ff352a64c49252278020d374f2329b90fada20eb47318d99"
+      },
+      "all": {
+        "release": "source-faithful-20261001",
+        "manifest_sha256": "a392325072622534ff352a64c49252278020d374f2329b90fada20eb47318d99"
+      }
+    }
+  }
+}

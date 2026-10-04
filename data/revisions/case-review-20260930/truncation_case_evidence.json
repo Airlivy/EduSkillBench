@@ -1,0 +1,11 @@
+{
+  "model": "deepseek-v4-flash",
+  "task_id": "lesson-builder__03",
+  "condition": "baseline",
+  "judge_source": "jobs/v2-deepseek-v4-flash/lesson-builder/skill-eval/lesson-builder/opencode/baseline/2026-09-21__02-38-06/lesson-builder__03__53e5daec/verifier/judge_result.json",
+  "trajectory_source": "jobs/v2-deepseek-v4-flash/lesson-builder/skill-eval/lesson-builder/opencode/baseline/2026-09-21__02-38-06/lesson-builder__03__53e5daec/agent/acp_trajectory.jsonl",
+  "trajectory_sha256": "410e004f075261d9ba96077e800a83d5dadcf1f3e9f6b41c18b92424e692194a",
+  "agent_message_characters": 11375,
+  "answer_excerpt": "I'll build the complete Week 6 package with both required flags embedded. Two flags are critical, so here they are first:\n\n---\n\n## ⚠️ FLAGS (read first)\n\n**FLAG 1 — Orphaned content:** The 15-minute historical segment (1918 influenza & policy) does **not** map to either confirmed Week 6 learning outcome (1: formulate SIR models; 2: calculate R0 from incidence data). It is built into the package as requested but flagged as **orphaned** (enrichment only, not assessed). **Options:** (a) keep as enrichment and label it \"context, not assessed\"; (b) convert it into applied practice for Outcome 2 (use the city-level mortality curves as incidence data from which students estimate r/R0 — recommended, see §6); or (c) formally propose a third learning outcome to the curriculum committee if it will be assessed.\n\n**FLAG 2 — Unverified historical figures:** You do not have the exact 1918 city-level mortality rates memorized, and neither should the package assert them as fact. Specific city figures (Philadelphia vs St. Louis) are marked **[UNVERIFIED — CONFIRM BEFORE USE]** below; verify against a primary source (e.g., Markel et al., *JAMA* 2007, \"Nonpharmaceutical Interventions Implemented by US",
+  "finding": "Judge says final answer not visible due to truncation; saved agent messages contain the lesson response. Requires evidence-complete regrade; no replacement score assigned."
+}

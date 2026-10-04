@@ -1,0 +1,2106 @@
+[
+  {
+    "task_id": "lesson-builder__cn01_01",
+    "correctness_anchor": "A loop repeats a body under a count or condition; a conditional chooses a branch on a given evaluation.",
+    "application_anchor": "Contrast a three-repeat trace with one if statement using matched actions and ask students to predict a new trace.",
+    "reject_endorsement": "Calling a single branch selection a loop or claiming loops never contain conditions.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn01_02",
+    "correctness_anchor": "Representations need explicit correspondence, not simultaneous decorative duplication.",
+    "application_anchor": "Sequence manipulation, a simple animation and code; align the same state changes and check a student's translation between two forms.",
+    "reject_endorsement": "Assuming adding modalities always improves learning.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn01_03",
+    "correctness_anchor": "Failure to learn from one animation cannot establish a child's cognitive limitation.",
+    "application_anchor": "Check prior knowledge with a simple prediction, remove irrelevant motion, pause at state changes and compare explanations.",
+    "reject_endorsement": "Diagnosing a fixed inability from one lesson.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn01_04",
+    "correctness_anchor": "Assignment updates a stored value; it is not mathematical equality.",
+    "application_anchor": "Use labelled value cards and trace x=2 then x=x+1 to obtain 3; bridge from objects to code.",
+    "reject_endorsement": "Treating x=x+1 as an inconsistent equation in a programming trace.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn01_05",
+    "correctness_anchor": "Low-skill templates can be drawn with boxes, arrows and numbered steps.",
+    "application_anchor": "Supply a reusable text/table template and a filled example requiring no animation software.",
+    "reject_endorsement": "Inventing a downloadable template or requiring specialist drawing tools.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn01_06",
+    "correctness_anchor": "Progression should preserve a concept while increasing one source of complexity at a time.",
+    "application_anchor": "Show a concrete-to-trace-to-symbol progression with a readiness check and fallback.",
+    "reject_endorsement": "Advancing by age alone without checking understanding.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn01_07",
+    "correctness_anchor": "Every analogy has a boundary; arrays add indexed elements rather than an unlimited single mailbox.",
+    "application_anchor": "Map numbered compartments to indices and values, state where the analogy fails and verify a read/update example.",
+    "reject_endorsement": "Promising an analogy that never breaks down.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn01_08",
+    "correctness_anchor": "Preferences and access needs do not imply fixed visual/auditory/kinesthetic learner types.",
+    "application_anchor": "Offer linked representations chosen for content and accessibility, then check understanding rather than sorting students into permanent types.",
+    "reject_endorsement": "Claiming matching teaching to a fixed learning-style label guarantees better learning.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn01_09",
+    "correctness_anchor": "A representation should improve interpretation or transfer, not just enjoyment.",
+    "application_anchor": "Compare an initial prediction and a new application with a short explanation; identify a revision from the errors.",
+    "reject_endorsement": "Treating liking an animation as proof of conceptual understanding.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn01_10",
+    "correctness_anchor": "Recursion needs a base case and a smaller subproblem that progresses toward it.",
+    "application_anchor": "Use a short count-down example with n=3, a visible call-and-return trace and a check for a missing base case.",
+    "reject_endorsement": "Infinite self-calls without a stopping condition or asserting all recursion is efficient.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn02_01",
+    "correctness_anchor": "Making ten decomposes one addend while preserving the sum; 8+5=8+2+3=13.",
+    "application_anchor": "Design a simple ten-frame story with visible quantities, a pause for prediction and an answer check.",
+    "reject_endorsement": "AI artwork with mismatched counts or an unrelated entertaining story.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn02_02",
+    "correctness_anchor": "Short preparation favors one clear objective and a reusable simple asset.",
+    "application_anchor": "Give a one-to-two-day workflow for generating, checking and rehearsing one lead-in with a paper backup.",
+    "reject_endorsement": "Publishing unchecked AI content or promising tool output is automatically accurate.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn02_03",
+    "correctness_anchor": "A familiar location is a context, not a mathematical connection by itself.",
+    "application_anchor": "State an assumed target concept and connect clearly labelled synthetic local data to a mathematical question.",
+    "reject_endorsement": "Inventing real local prices or relying on landmark recognition to demonstrate mathematics.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn02_04",
+    "correctness_anchor": "The learning task should still work when playback fails.",
+    "application_anchor": "Provide a paper/object version using the same quantities and questions and a brief rehearsal check.",
+    "reject_endorsement": "Treating a video as the only possible route to learning.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn02_05",
+    "correctness_anchor": "Interesting details should focus attention on the mathematical relation.",
+    "application_anchor": "Remove decorative motion, mark the relevant objects and pause for a prediction linked to the target.",
+    "reject_endorsement": "Equating excitement with learning.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn02_06",
+    "correctness_anchor": "The design principle transfers but the subject-specific action differs.",
+    "application_anchor": "Compare a mathematics quantity/relation task with an information-technology state/algorithm task and specify one check for each.",
+    "reject_endorsement": "Reusing identical questions regardless of learning goal.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn02_07",
+    "correctness_anchor": "AI use needs a demonstrable contribution to the learning objective.",
+    "application_anchor": "Give an example where AI reduces preparation or enables a useful representation and a non-AI equivalent.",
+    "reject_endorsement": "Claiming AI presence alone establishes lesson quality.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn02_08",
+    "correctness_anchor": "Local context must be understandable to students who do not know the landmark.",
+    "application_anchor": "Supply a simple picture or explanation and an equivalent familiar choice without testing cultural familiarity.",
+    "reject_endorsement": "Treating unfamiliarity with a landmark as low mathematical ability.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn02_09",
+    "correctness_anchor": "The video belongs inside an observe-predict-discuss sequence rather than replacing instruction.",
+    "application_anchor": "Specify a short viewing segment, pause question and follow-up application with an adjustable duration.",
+    "reject_endorsement": "Filling the lead-in with uninterrupted viewing and no learning check.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn02_10",
+    "correctness_anchor": "A symmetry axis divides a plane figure into mirror images; real buildings need not be perfectly symmetric.",
+    "application_anchor": "Use a labelled simplified Drum Tower image, verify the generated geometry and connect a fold/reflection check to the definition.",
+    "reject_endorsement": "Claiming unverified architectural symmetry or showing an asymmetric image as an exact example.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn05_01",
+    "correctness_anchor": "A vote alone cannot distinguish guessing from understanding of file modes.",
+    "application_anchor": "Specify a file-content example, ask for a reason or prediction and follow with a small verified read/write task.",
+    "reject_endorsement": "Treating correct votes alone as mastery.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn05_02",
+    "correctness_anchor": "The supplied four-step outline lacks clear evidence of practical file-operation learning.",
+    "application_anchor": "Critique the alignment of each step and replace a vague discussion/game with a checked output prediction and practice.",
+    "reject_endorsement": "Claiming the whole unseen detailed plan is good or bad with certainty.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn05_03",
+    "correctness_anchor": "Unscaffolded documentation reading can overload novice programmers.",
+    "application_anchor": "Use a short selected excerpt, a worked example and one supported question within the stated 120 minutes.",
+    "reject_endorsement": "Assigning the whole documentation as an unsupported exploration task.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn05_04",
+    "correctness_anchor": "Different starting points need a shared core and adjustable support.",
+    "application_anchor": "Use a brief diagnostic, one common program task with scaffold/extension options and a common success check.",
+    "reject_endorsement": "Fixed ability labels or entirely unrelated objectives for different students.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn05_05",
+    "correctness_anchor": "Time allocation should prioritize the stated objective and evidence of learning.",
+    "application_anchor": "Give a 120-minute budget, select representative examples and preserve independent practice and error feedback.",
+    "reject_endorsement": "A schedule exceeding 120 minutes or deleting all assessment.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn05_06",
+    "correctness_anchor": "The provided syllabus claim is a teacher report, not independently verified official policy.",
+    "application_anchor": "Prioritize the stated core, make custom exceptions optional if prerequisites/time permit and ask to verify the actual syllabus.",
+    "reject_endorsement": "Inventing a syllabus requirement or claiming custom classes are always necessary.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn05_07",
+    "correctness_anchor": "Autonomy can be bounded by clear products and checkpoints.",
+    "application_anchor": "Provide a short exploration with visible deliverable, timebox, help route and a regrouping check.",
+    "reject_endorsement": "Treating freedom as absence of structure or assuming misconduct has one cause.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn05_08",
+    "correctness_anchor": "Support should respond to observed access needs without diagnosing or stigmatizing the student.",
+    "application_anchor": "Simplify instructions, offer a predictable sequence and check privately which support helps while retaining a meaningful goal.",
+    "reject_endorsement": "Assuming all autistic pupils need identical support or denying accommodations to avoid special treatment.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn05_09",
+    "correctness_anchor": "Differentiation can reuse a common task with optional scaffolds.",
+    "application_anchor": "Provide one core task, a hint ladder and an extension using a shared marking criterion within the half-day preparation limit.",
+    "reject_endorsement": "Requiring separate full curricula or promising zero preparation.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn05_10",
+    "correctness_anchor": "File-operation learning needs accurate operations and evidence beyond discussion.",
+    "application_anchor": "Review all four supplied activities, give a feasible 120-minute sequence and check a small read/write result.",
+    "reject_endorsement": "Assuming group talk alone demonstrates working file code.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_01",
+    "correctness_anchor": "A first impression is insufficient to determine prior attainment.",
+    "application_anchor": "Combine a short aligned task, a student explanation and existing work; use results for provisional supports.",
+    "reject_endorsement": "Claiming one quiz accurately diagnoses every student's ability.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_02",
+    "correctness_anchor": "Core content is identified by objectives, prerequisites and supplied standards.",
+    "application_anchor": "Map content to required outcomes and classify extensions conditionally where standards are not supplied.",
+    "reject_endorsement": "Inventing mandatory curriculum clauses or deleting difficult essentials.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_03",
+    "correctness_anchor": "Changing context should preserve the mathematical or computing operation.",
+    "application_anchor": "Use labelled synthetic agricultural data, retain the original skill and compare the answer/evidence demands.",
+    "reject_endorsement": "Replacing the learning objective with local trivia.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_04",
+    "correctness_anchor": "Resource adaptation can change tools while preserving the learning evidence.",
+    "application_anchor": "Offer a small dataset and ordinary-computer or paper workflow with an equivalent output check.",
+    "reject_endorsement": "Claiming unavailable high-end equipment is essential without explaining why.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_05",
+    "correctness_anchor": "Teacher confidence does not justify removing required outcomes.",
+    "application_anchor": "Identify the knowledge gap, seek a checked example or colleague support and retain the core target.",
+    "reject_endorsement": "Teaching only the teacher's strengths regardless of curriculum goals.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_06",
+    "correctness_anchor": "A short diagnostic can check prerequisites and transfer before changing depth.",
+    "application_anchor": "Include a basic item and an application with reasons, then a support/extension decision rule.",
+    "reject_endorsement": "Treating speed or one wrong answer as a permanent level label.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_07",
+    "correctness_anchor": "An interest-based context must require the same intellectual work.",
+    "application_anchor": "Convert one sports/game example into the original data task and give a matching answer check.",
+    "reject_endorsement": "Entertainment disconnected from the concept.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_08",
+    "correctness_anchor": "Limited time requires prioritization and checks of the core outcomes.",
+    "application_anchor": "Map prerequisites, reduce redundant examples and include a short assessment before progression.",
+    "reject_endorsement": "Covering every page without evidence of learning.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_09",
+    "correctness_anchor": "Compliance cannot be certified without the applicable standard and plan.",
+    "application_anchor": "Give an outcome-to-task-to-evidence mapping template and state the exact missing documents.",
+    "reject_endorsement": "Claiming verified curriculum compliance from a description alone.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_10",
+    "correctness_anchor": "Feasibility cannot be judged for an unseen plan.",
+    "application_anchor": "Identify required information about time, learners, resources and assessments; give a conditional review checklist without certifying the plan.",
+    "reject_endorsement": "Declaring the unspecified plan feasible or inventing its contents.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn18_01",
+    "correctness_anchor": "Authentic integration gives both subjects an assessable contribution.",
+    "application_anchor": "Propose one bounded task with separate mathematics and computing goals and evidence linking them.",
+    "reject_endorsement": "Making one subject a decorative label.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn18_02",
+    "correctness_anchor": "Python statistics is meaningful if computation supports mathematical interpretation.",
+    "application_anchor": "Use a small stated dataset, compare a manual result with program output and ask students to explain what the statistic means.",
+    "reject_endorsement": "Grading executable code alone as mathematical understanding.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn18_03",
+    "correctness_anchor": "Time division should follow learning goals rather than an obligatory equal split.",
+    "application_anchor": "State a lesson duration assumption, budget shared and subject-specific work and check both outcomes.",
+    "reject_endorsement": "Promising depth in two subjects without a feasible time budget.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn18_04",
+    "correctness_anchor": "Complementary strengths need individual learning evidence.",
+    "application_anchor": "Pair students with rotating responsibilities and scaffolds, then check each student's mathematical and code reasoning.",
+    "reject_endorsement": "Letting one pupil permanently do all mathematics and the other all coding.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn18_05",
+    "correctness_anchor": "Fair weighting follows explicit objectives, not automatic 50/50 scoring.",
+    "application_anchor": "Provide separate criteria for each subject and explain a defensible weighting with an individual check.",
+    "reject_endorsement": "Equating fairness with identical weights in every task.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn18_06",
+    "correctness_anchor": "Transfer needs application beyond the practiced setting.",
+    "application_anchor": "Include a subject-only problem and a new real-life context, compare performance and plan feedback.",
+    "reject_endorsement": "Claiming integration automatically guarantees exam transfer.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn18_07",
+    "correctness_anchor": "Scope the mathematics to verified content and seek support for gaps.",
+    "application_anchor": "Use a bounded concept, check its worked example and collaborate where needed.",
+    "reject_endorsement": "Inventing mathematical explanations or excluding all mathematics to stay comfortable.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn18_08",
+    "correctness_anchor": "A real-world task needs usable data and explicit assumptions.",
+    "application_anchor": "Propose a manageable local or synthetic-data problem with an output useful to a stated audience.",
+    "reject_endorsement": "Presenting fabricated observations as real measurements.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn18_09",
+    "correctness_anchor": "Adding subjects increases prerequisites and coordination costs.",
+    "application_anchor": "Keep one shared problem, identify each subject's evidence and remove additions with no necessary role.",
+    "reject_endorsement": "Adding subjects merely to increase the interdisciplinarity count.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn18_10",
+    "correctness_anchor": "The complete unit has not been provided, so its actual coherence cannot be certified.",
+    "application_anchor": "Ask for objectives, sequence, materials and assessment, then give a conditional integration-review framework.",
+    "reject_endorsement": "Claiming to identify definite flaws in nonexistent supplied lesson details.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn21_01",
+    "correctness_anchor": "A classroom cue needs a clear action and a taught meaning.",
+    "application_anchor": "Give a short age-appropriate cue, model it and plan a practice-and-observe check with a non-auditory alternative.",
+    "reject_endorsement": "Promising immediate universal obedience.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn21_02",
+    "correctness_anchor": "Delayed response can reflect unclear teaching or access needs, not deliberate disobedience alone.",
+    "application_anchor": "Check audibility/visibility and comprehension, model the response and observe whether a revision helps.",
+    "reject_endorsement": "Penalizing every slow response without checking the cause.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn21_03",
+    "correctness_anchor": "A feasible rhythm alternates instruction, activity and transitions to fit a stated duration.",
+    "application_anchor": "Give a timed example and an observation-based adjustment rule.",
+    "reject_endorsement": "Claiming a single precise attention span applies to every child.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn21_04",
+    "correctness_anchor": "Participation should allow small movements or visual responses without fixed personality labels.",
+    "application_anchor": "Offer equivalent quiet and active response options and check whether each communicates the cue.",
+    "reject_endorsement": "Forcing large movements or equating introversion with noncompliance.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn21_05",
+    "correctness_anchor": "A cue should signal a real learning transition rather than interrupt the task arbitrarily.",
+    "application_anchor": "Show a cue tied to a specific activity boundary and explain what students do next.",
+    "reject_endorsement": "Adding chants that have no connection to task flow.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn21_06",
+    "correctness_anchor": "Stable meaning supports routines; novelty should not constantly change the rule.",
+    "application_anchor": "Change one element after explanation and practice, retaining a stable core and monitoring confusion.",
+    "reject_endorsement": "Replacing all commands every week to guarantee engagement.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn21_07",
+    "correctness_anchor": "Immediate hazards require a clear stop and teacher action, not a game.",
+    "application_anchor": "State a simple stop signal, a supervised safe response and a later calm practice; defer specific emergency procedures to school arrangements.",
+    "reject_endorsement": "Using novelty or punishment in place of addressing an immediate hazard.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn21_08",
+    "correctness_anchor": "Home routines differ and require parent agreement.",
+    "application_anchor": "Share the cue's purpose, offer a simple optional home adaptation and gather feedback.",
+    "reject_endorsement": "Assuming parents must duplicate school discipline or blaming families for nontransfer.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn21_09",
+    "correctness_anchor": "PE and art have different movement and material constraints.",
+    "application_anchor": "Adapt a stop/transition cue to each setting and include an observation check.",
+    "reject_endorsement": "Copying a seated classroom routine without regard to ongoing movement or tools.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn21_10",
+    "correctness_anchor": "The system and longitudinal observations are not supplied.",
+    "application_anchor": "Request the design and give criteria for piloting clarity, participation and maintenance; separate predicted feasibility from observed effects.",
+    "reject_endorsement": "Certifying long-term habit change without data.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn22_01",
+    "correctness_anchor": "A hyperbola is the locus of points whose absolute distance difference to two fixed foci is 2a with 0<2a<2c.",
+    "application_anchor": "Compare points satisfying and violating the condition and connect to x^2/a^2-y^2/b^2=1 where c^2=a^2+b^2.",
+    "reject_endorsement": "Using the sum of distances or omitting the nondegenerate condition.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn22_02",
+    "correctness_anchor": "A parabola consists of points equidistant from a focus and a directrix not containing it.",
+    "application_anchor": "Construct or tabulate distances and connect one labelled diagram to the equation.",
+    "reject_endorsement": "Equating two focal distances as the definition.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn22_03",
+    "correctness_anchor": "A circle is the locus at fixed positive distance r from a center.",
+    "application_anchor": "Connect the distance definition to (x-h)^2+(y-k)^2=r^2 and check inside/on/outside points.",
+    "reject_endorsement": "Using distance less than r as the circumference definition.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn22_04",
+    "correctness_anchor": "Even/odd functions require a domain symmetric about zero and respectively f(-x)=f(x) or f(-x)=-f(x).",
+    "application_anchor": "Compare x^2, x^3 and a nonsymmetric-domain restriction; allow the zero function to be both.",
+    "reject_endorsement": "Ignoring the domain or assuming every function is even or odd.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn22_05",
+    "correctness_anchor": "An arithmetic sequence has constant consecutive difference.",
+    "application_anchor": "Connect a_n=a_1+(n-1)d to a table and a nonexample, including d=0.",
+    "reject_endorsement": "Confusing constant difference with constant ratio.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn22_06",
+    "correctness_anchor": "A vector has magnitude and direction, with equality independent of its drawn position for free vectors.",
+    "application_anchor": "Connect arrows, displacement and coordinates; distinguish points, scalars and the zero vector.",
+    "reject_endorsement": "Treating length alone as a vector or assigning a direction to the zero vector.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn22_07",
+    "correctness_anchor": "A derivative is a limit of secant slopes when that limit exists.",
+    "application_anchor": "Use f(x)=x^2, quotient 2x+h for h!=0 and a shrinking-step representation.",
+    "reject_endorsement": "Setting h=0 in a quotient before taking the limit.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn22_08",
+    "correctness_anchor": "Complex numbers a+bi extend real arithmetic with i^2=-1.",
+    "application_anchor": "Connect (a,b) to the complex plane and verify that x^2+1=0 has roots plus/minus i.",
+    "reject_endorsement": "Treating i as a real number or omitting one root.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn22_09",
+    "correctness_anchor": "An event is a subset of a stated sample space.",
+    "application_anchor": "Use a finite die example to contrast elementary, impossible and certain events and explain that probability needs a model.",
+    "reject_endorsement": "Assuming every listed outcome is equally likely without justification.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_01",
+    "correctness_anchor": "For (x-2)/(x^2-4), the original domain excludes both -2 and 2 even after cancellation. For sqrt(x-1)/(x-2), require x>=1 and x!=2. State all original denominator/radical/log conditions before simplifying.",
+    "application_anchor": "Provide one three-item set about function domains: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "reject_endorsement": "Canceling a factor and reinstating an excluded input.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_02",
+    "correctness_anchor": "For a,b>=0, (a+b)/2>=sqrt(ab), with equality iff a=b. For x>0, x+4/x>=4 with equality at x=2. Applying the square-root form to arbitrary negative terms is invalid.",
+    "application_anchor": "Provide one three-item set about AM-GM equality: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "reject_endorsement": "Claiming equality without testing attainability, or applying the stated inequality outside its domain.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_03",
+    "correctness_anchor": "Assume a!=0. A discriminant establishes real roots, not their positions. To locate roots use roots/vertex/endpoints with boundary cases. x^2-5x+6 has roots 2,3, so Delta>0 alone does not imply roots in (0,1). x^2-x+3/16 has roots 1/4,3/4 in (0,1).",
+    "application_anchor": "Provide one three-item set about quadratic root location: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "reject_endorsement": "Using only Delta>0 to certify an interval location.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_04",
+    "correctness_anchor": "sin(pi-theta)=sin(theta), cos(pi-theta)=-cos(theta), sin(-theta)=-sin(theta). Track function, quadrant and sign; for theta=pi/6, cos(5*pi/6)=-sqrt(3)/2.",
+    "application_anchor": "Provide one three-item set about trigonometric signs: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "reject_endorsement": "Dropping the quadrant sign or treating every trigonometric function as odd.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_05",
+    "correctness_anchor": "For a real sequence compare a_(n+1)-a_n on the stated index domain. Ratio tests require sign assumptions; a_n=-1/n for n>=1 increases although a_(n+1)/a_n=n/(n+1)<1.",
+    "application_anchor": "Provide one three-item set about sequence monotonicity: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "reject_endorsement": "Inferring decrease from ratio<1 for a negative sequence.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_06",
+    "correctness_anchor": "For line Ax+By+C=0 with A^2+B^2>0 and circle center (h,k),radius r>0, compare |Ah+Bk+C|/sqrt(A^2+B^2) with r. For center (1,2),r=3, x=4 is tangent and x=1 is secant.",
+    "application_anchor": "Provide one three-item set about line-circle position: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "reject_endorsement": "Using the distance from the origin when the center is not the origin, or omitting absolute value.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_07",
+    "correctness_anchor": "In (2x-1)^3=8x^3-12x^2+6x-1, the x^2 term has coefficient -12 whereas its binomial coefficient is C(3,1)=3. Include sign and scalar powers.",
+    "application_anchor": "Provide one three-item set about binomial versus term coefficient: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "reject_endorsement": "Giving 3 as the x^2 coefficient or ignoring the negative factor.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_08",
+    "correctness_anchor": "For planar vectors, determinant zero tests linear dependence and dot product zero tests orthogonality. (0,2),(0,5) are dependent, while (0,2),(3,0) have zero dot product. Distinguish algebraic zero-vector cases from angles or directions of nonzero geometric vectors.",
+    "application_anchor": "Provide one three-item set about vector conditions: an explicit misconception trap, a disguised application and a flawed-solution repair. Include correct answers, the condition each item probes and a short teacher follow-up.",
+    "reject_endorsement": "Dividing by a zero component or equating dot product zero with parallelism.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn24_01",
+    "correctness_anchor": "A line perpendicular to two intersecting lines in a plane is perpendicular to the plane. Perpendicularity to just one in-plane line is insufficient; for plane z=0, the x-axis is perpendicular to the y-axis but lies in the plane.",
+    "application_anchor": "Work backward from the goal, identify two intersecting in-plane lines, ask students which perpendicular relations are known or need construction, then verify both before invoking the theorem.",
+    "reject_endorsement": "Using the line-plane parallel criterion, or using only one perpendicular line.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn24_02",
+    "correctness_anchor": "Two distinct planes are parallel if two intersecting lines of one plane are respectively parallel to two intersecting lines of the other. One pair alone is insufficient: planes z=0 and y=0 share an x-direction but intersect.",
+    "application_anchor": "Ask students to locate two independent directions and prove the corresponding relations; explicitly rule out coincident planes.",
+    "reject_endorsement": "Claiming one parallel line pair alone proves planes parallel.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn24_03",
+    "correctness_anchor": "If one plane contains a line perpendicular to the other plane, the planes are perpendicular. Perpendicular planes do not make every line in one perpendicular to the other.",
+    "application_anchor": "Work backward to a perpendicular line, construct or identify it and verify its line-plane criterion; use planes x=0 and z=0 to show a shared in-plane direction is not a normal.",
+    "reject_endorsement": "Answering with plane parallelism or claiming all lines in perpendicular planes are mutually perpendicular.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn24_04",
+    "correctness_anchor": "Let A lie outside plane alpha, O be its orthogonal projection, B be in alpha with B!=O, and l be an in-plane line through B. Then l is perpendicular to AB iff l is perpendicular to OB. OA is perpendicular to alpha and OB is the nonzero projection of AB.",
+    "application_anchor": "Draw and label A,O,B,l, verify the projection conditions before using either implication, and justify via vector decomposition or a valid geometric proof.",
+    "reject_endorsement": "Using the theorem without the projection or nonzero-projection conditions.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn24_05",
+    "correctness_anchor": "For sides a,b,c opposite A,B,C, c^2=a^2+b^2-2ab*cos(C). SAS selects the included angle; SSS gives cos(C)=(a^2+b^2-c^2)/(2ab). For a=3,b=4,C=90 degrees, c=5.",
+    "application_anchor": "Contrast SAS and SSS, let students choose the target side/angle and formula, check triangle feasibility and verify the numerical example.",
+    "reject_endorsement": "Proving line-plane parallelism instead of choosing a triangle-solving formula.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn24_06",
+    "correctness_anchor": "a/sin(A)=b/sin(B)=c/sin(C)=2R for a nondegenerate triangle. Use opposite side-angle pairs, known angle sums and the sine rule; SSA can have two solutions and inverse sine alone is insufficient.",
+    "application_anchor": "Use A=30 degrees,a=5,b=8: sin(B)=0.8, so test both B about 53.13 and 126.87 degrees against the angle sum.",
+    "reject_endorsement": "Always treating arcsin as the unique SSA solution.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn24_07",
+    "correctness_anchor": "For a triangle with longest side c, if a^2+b^2=c^2, the angle opposite c is right. Verify positive sides and triangle inequality; 3,4,5 qualifies while 2,3,4 does not.",
+    "application_anchor": "Choose the longest side, calculate both sides of the equality and state the exact opposite angle; use a counterexample to an arbitrary side ordering.",
+    "reject_endorsement": "Checking the equality against a non-longest side or treating the direct theorem as a proof of its converse.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn24_08",
+    "correctness_anchor": "In triangle ABC, if M,N are the midpoints of AB,AC then MN is parallel to BC and MN=BC/2. The required midpoint hypotheses must be established; being points on the sides is not enough.",
+    "application_anchor": "Work backward from the desired parallel/half-length relation, locate the relevant triangle and midpoints, connect them, and prove before invoking the theorem.",
+    "reject_endorsement": "Declaring any segment joining two side points a midsegment.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn24_09",
+    "correctness_anchor": "For b!=0, vectors a and b are linearly dependent iff a=lambda*b for some scalar lambda. In 2D the determinant a_x*b_y-a_y*b_x=0 avoids invalid divisions by zero; distinguish nonzero direction vectors of lines from the zero vector.",
+    "application_anchor": "Use (0,2) and (0,5) as a valid vertical example, and (1,0),(0,1) as a nonexample; translate endpoint coordinates into direction vectors before testing.",
+    "reject_endorsement": "Using component ratios that divide by zero or treating zero as a usable line direction.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn25_01",
+    "correctness_anchor": "Here principal-variable method means treating a multivariable expression as a function of one chosen variable while other variables act as parameters. For x,y>=0 and x+y=6, xy=x*(6-x)=9-(x-3)^2 on 0<=x<=6, so the maximum is 9 at x=y=3. The constraint and chosen variable must be explicit.",
+    "application_anchor": "For average Grade 12 students compare a familiar trial/table approach with completing the square, explain why choosing x helps, check endpoints and give a nearby transfer example. This is one introductory illustration, not a claim that every multivariable problem reduces this way.",
+    "reject_endorsement": "Teaching Menelaus or segment ratios without addressing principal-variable selection.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn26_01",
+    "correctness_anchor": "A function assigns each domain element exactly one value in its codomain.",
+    "application_anchor": "Use mapping diagrams and compare many-to-one with one-input-two-output, with domain/range distinguished.",
+    "reject_endorsement": "Requiring every function to be one-to-one or onto.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn26_02",
+    "correctness_anchor": "P is sufficient for Q when P implies Q; necessity reverses the implication.",
+    "application_anchor": "Contrast divisible-by-four and even integers with a counterexample to the converse.",
+    "reject_endorsement": "Treating an implication as automatically equivalent to its converse.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn26_03",
+    "correctness_anchor": "A mapping from A to B assigns each member of A one member of B.",
+    "application_anchor": "Show a small finite mapping and distinguish injective/surjective conditions from the basic definition.",
+    "reject_endorsement": "Permitting an unmapped domain element or multiple outputs in a function.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn26_04",
+    "correctness_anchor": "Induction needs a verified base and the implication P(k) implies P(k+1) over the stated integer range.",
+    "application_anchor": "Work through the sum 1+...+n=n(n+1)/2 and explain why checking several values is insufficient.",
+    "reject_endorsement": "Assuming P(k+1) to prove itself or omitting the base.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn26_05",
+    "correctness_anchor": "An inverse function on the image exists for an injective function, with domain/range exchanged.",
+    "application_anchor": "Compare x^2 on all reals with its restriction x>=0 and verify composition.",
+    "reject_endorsement": "Writing plus/minus sqrt(x) as a single-valued inverse function on all reals.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn26_06",
+    "correctness_anchor": "A function limit concerns values near the point and need not equal the value at the point.",
+    "application_anchor": "Use (x^2-1)/(x-1) near x=1, compare one-sided behavior and distinguish undefined value from nonexistent limit.",
+    "reject_endorsement": "Inferring no limit merely because the function is undefined at the point.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn26_07",
+    "correctness_anchor": "The classical finite model requires equally likely elementary outcomes.",
+    "application_anchor": "Count favorable and total outcomes in a justified finite example and contrast a biased mechanism.",
+    "reject_endorsement": "Using favorable/total for unequal probabilities without adjustment.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn26_08",
+    "correctness_anchor": "A space vector is an element of three-dimensional vector space; vectors need not lie in one plane.",
+    "application_anchor": "Use three independent directions, coordinates and a dependence/nondependence example.",
+    "reject_endorsement": "Requiring every set of space vectors to be coplanar.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn26_09",
+    "correctness_anchor": "A sequence limit concerns all sufficiently late terms; convergence need not be monotone.",
+    "application_anchor": "Compare 1/n, (-1)^n/n and (-1)^n using a stated tolerance and tail behavior.",
+    "reject_endorsement": "Calling every bounded sequence convergent.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn27_01",
+    "correctness_anchor": "a*x^2+b*x+c=a*(x+b/(2a))^2+c-b^2/(4a) for a!=0.",
+    "application_anchor": "Model completing the square, verify expansion and diagnose a sign error on a transfer item.",
+    "reject_endorsement": "Omitting the factor a or changing the function during transformation.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn27_02",
+    "correctness_anchor": "Exponent and logarithm transformations require valid bases and positive logarithm arguments.",
+    "application_anchor": "Work a same-base example and check the original domain before applying log laws.",
+    "reject_endorsement": "Using log(x+y)=log(x)+log(y).",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn27_03",
+    "correctness_anchor": "Rational inequalities require denominator exclusions and sign analysis.",
+    "application_anchor": "Solve (x-1)/(x+2)>0 as x<-2 or x>1 using intervals and test values.",
+    "reject_endorsement": "Multiplying by a denominator of unknown sign without cases.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn27_04",
+    "correctness_anchor": "y=m*x+b converts to m*x-y+b=0, but a vertical line has no slope-intercept form.",
+    "application_anchor": "Compare a finite-slope line and x=2, verifying that both fit general form Ax+By+C=0 with (A,B)!=0.",
+    "reject_endorsement": "Claiming slope-intercept form represents every line.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn27_05",
+    "correctness_anchor": "Point-to-line distance can be understood as the distance to the perpendicular foot.",
+    "application_anchor": "Construct the foot or use a checked projection example, relating it to Euclidean distance.",
+    "reject_endorsement": "Minimizing to an arbitrary point on the line or omitting absolute value in the distance formula.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn27_06",
+    "correctness_anchor": "Recurrence-to-explicit transformations need an initial value and valid algebra.",
+    "application_anchor": "Demonstrate a_n=a_(n-1)+2, a_1=3 giving 2n+1 and verify by substitution; state when ratios require nonzero terms.",
+    "reject_endorsement": "Claiming every recurrence has the same additive or multiplicative solution.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn27_07",
+    "correctness_anchor": "For nonzero z, z=r(cos theta+i sin theta); algebraic and polar forms support different operations.",
+    "application_anchor": "Compare addition in coordinates and multiplication through moduli/arguments, including quadrant checks.",
+    "reject_endorsement": "Adding arguments for addition or assigning a unique argument to zero.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn27_08",
+    "correctness_anchor": "Dot products in an orthonormal Cartesian basis equal the sum of component products.",
+    "application_anchor": "Check (1,2) dot (3,4)=11 and explain that a nonorthonormal basis needs its basis dot products.",
+    "reject_endorsement": "Applying the plain component formula to an arbitrary oblique basis.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn28_01",
+    "correctness_anchor": "For a nondegenerate triangle a/sin(A)=b/sin(B)=c/sin(C). Motivate it by an oblique triangle and relate the ratio to an altitude or circumcircle. AAA fixes shape but not size; SSA can give zero, one or two triangles.",
+    "application_anchor": "Use an oblique triangle with known opposite side-angle pair, compare an altitude-based solution with the new relationship, then check a second triangle and an SSA ambiguity.",
+    "reject_endorsement": "A compulsory derivative/complex-number/logarithm lesson or a claim that every SSA triangle is unique.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn28_02",
+    "correctness_anchor": "Instantaneous rate is the limit of difference quotients, not substitution h=0 into a 0/0 expression. For s(t)=t^2, (s(t+h)-s(t))/h=2t+h for h!=0, whose limit is 2t.",
+    "application_anchor": "Have students calculate shrinking-interval average rates at t=2, articulate the limit and distinguish average rate from instantaneous rate; use a transfer check.",
+    "reject_endorsement": "Dividing by zero to compute the derivative or grading the lesson by triangle-congruence checks.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn28_03",
+    "correctness_anchor": "x^2+1=0 has no real solution; extending the number system with i^2=-1 gives solutions i and -i. This is an extension of real numbers, not evidence that the original real solution set was nonempty.",
+    "application_anchor": "Create the real-number impasse, define i consistently, verify both roots and compare with x^2-1=0.",
+    "reject_endorsement": "Claiming one real solution or requiring sine-law SSA examples for this topic.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn28_04",
+    "correctness_anchor": "For a>0,a!=1,b>0, log_a(b) is the exponent x satisfying a^x=b. For 2^x=7, 2<x<3; the logarithm names the exact exponent without promising an elementary integer expression.",
+    "application_anchor": "Compare solvable integer powers with 2^x=7, motivate inverse reasoning, state domain/base restrictions and check log_2(8)=3.",
+    "reject_endorsement": "Using zero/negative log arguments in the real setting or requiring a four-topic lesson.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_01",
+    "correctness_anchor": "Domain errors need evidence of which original restriction was lost.",
+    "application_anchor": "Use a hypothetical cancelled denominator example, ask for the original forbidden inputs and branch between concept, strategy and arithmetic feedback.",
+    "reject_endorsement": "Diagnosing an actual student's thought process without their work or returning nine-topic advice.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_02",
+    "correctness_anchor": "f'(x)=0 is not sufficient for a local extremum; x^3 at zero is a counterexample.",
+    "application_anchor": "Ask for derivative signs and endpoints where relevant, then propose a targeted correction and a transfer check.",
+    "reject_endorsement": "Declaring every stationary point an extremum.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_03",
+    "correctness_anchor": "Telescoping and shifting subtraction depend on explicit endpoints and indices.",
+    "application_anchor": "Expand early and late terms; verify sum from k=1 to n of 1/(k(k+1))=1-1/(n+1).",
+    "reject_endorsement": "Cancelling all terms or ignoring boundary terms.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_04",
+    "correctness_anchor": "A discriminant describes real roots of a valid reduced quadratic, not all geometric constraints.",
+    "application_anchor": "Check substitution, leading coefficient and original constraints; distinguish a degenerate linear case from a quadratic.",
+    "reject_endorsement": "Applying a discriminant when the quadratic coefficient is zero.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_05",
+    "correctness_anchor": "Permutations distinguish order and combinations do not; probability also needs a sample model.",
+    "application_anchor": "Contrast ordered pairs from four people (12) with unordered pairs (6), then inspect which experiment was described.",
+    "reject_endorsement": "Choosing nPk or nCk from a keyword without checking outcomes.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_06",
+    "correctness_anchor": "For all x, an inequality requires checking the extreme or all cases on the stated domain.",
+    "application_anchor": "Use x^2-2x+c>=0 for all real x, deriving c>=1; distinguish exists from for all.",
+    "reject_endorsement": "Verifying one numerical x as proof of a universal statement.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_07",
+    "correctness_anchor": "SSA may give two triangles; arcsin alone gives only one candidate.",
+    "application_anchor": "Use A=30 degrees,a=5,b=8 and test both angle candidates against the angle sum.",
+    "reject_endorsement": "Always accepting the principal arcsin as the unique solution.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_08",
+    "correctness_anchor": "For z=a+bi, modulus is sqrt(a^2+b^2) and conjugate is a-bi.",
+    "application_anchor": "Check z=3+4i gives modulus 5 and conjugate 3-4i, with z*conjugate(z)=25.",
+    "reject_endorsement": "Equating modulus with the conjugate or writing modulus as a negative number.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_09",
+    "correctness_anchor": "Coordinates require a stated origin, axes, scale and appropriate basis.",
+    "application_anchor": "Check endpoint subtraction and a known geometric length or dot product before inferring an error cause.",
+    "reject_endorsement": "Assuming oblique axes are orthonormal or confusing point coordinates with a displacement.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn30_01",
+    "correctness_anchor": "Domain states which inputs the original rule permits, including application restrictions.",
+    "application_anchor": "Contrast an algebraic denominator exclusion with a meaningful contextual restriction and check a new input.",
+    "reject_endorsement": "Restoring a cancelled forbidden input.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn30_02",
+    "correctness_anchor": "For noncircular conics eccentricity can be expressed as focus distance divided by distance to a directrix; ellipse 0<e<1, parabola e=1, hyperbola e>1.",
+    "application_anchor": "Compare how loci change and explain that a circle has e=0 as the ellipse limiting case, not a finite directrix example.",
+    "reject_endorsement": "Claiming e is always c/a for a parabola or giving a circle a finite directrix.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn30_03",
+    "correctness_anchor": "Where a finite derivative exists it is the tangent slope at that point.",
+    "application_anchor": "Compare secant slopes of x^2 near x=1 with limit 2 and distinguish slope from a tangent angle.",
+    "reject_endorsement": "Treating a derivative as the area or every vertical tangent as a finite derivative.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn30_04",
+    "correctness_anchor": "The definite integral is signed accumulation; geometric area uses absolute value where the function changes sign.",
+    "application_anchor": "Contrast integral of x from -1 to 1, which is 0, with geometric area 1.",
+    "reject_endorsement": "Calling a signed integral the positive area in all cases.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn30_05",
+    "correctness_anchor": "The modulus of a+bi is its distance from zero; modulus of z-w is distance between points.",
+    "application_anchor": "Verify 3+4i has modulus 5 and compare distances from different centers.",
+    "reject_endorsement": "Omitting the square root or confusing distance with argument.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn30_06",
+    "correctness_anchor": "Binomial symmetry pairs choosing k with omitting n-k; Pascal's recurrence partitions by one distinguished item.",
+    "application_anchor": "Explain C(n,k)=C(n,n-k) and C(n,k)=C(n-1,k-1)+C(n-1,k) with boundaries.",
+    "reject_endorsement": "Applying the recurrence without valid indices or confusing term coefficients with binomial coefficients.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn31_01",
+    "correctness_anchor": "For n>=0,k>=1, allowing empty boxes gives C(n+k-1,k-1); requiring every box nonempty gives C(n-1,k-1) when n>=k, otherwise zero. For n=4,k=3 the counts are 15 and 3.",
+    "application_anchor": "Use stars and separators to explain a bijection, explicitly separate empty/nonempty cases and compare with labelled balls.",
+    "reject_endorsement": "Using k^n for identical balls or silently assuming all boxes are nonempty.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn31_02",
+    "correctness_anchor": "Partitioning n labelled objects into exactly k nonempty unlabelled groups gives S(n,k); into at most k gives sum from j=0 to k of S(n,j). For n=3,k=2 there are 3 exact-two partitions and 4 at-most-two partitions.",
+    "application_anchor": "List the small partitions and explain why permuting group labels does not create a new partition; state whether empty boxes are allowed.",
+    "reject_endorsement": "Multiplying by k! for identical boxes or confusing exactly k with at most k.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn31_03",
+    "correctness_anchor": "For n labelled items and n matching labelled positions with no fixed point, D_n=n!*sum from j=0 to n of (-1)^j/j!. D_3=2 and D_4=9. Other restrictions require their own counting model.",
+    "application_anchor": "List all n=3 permutations, identify forbidden fixed points, then motivate inclusion-exclusion; explain why subtracting n from n! fails.",
+    "reject_endorsement": "Using n!-n or applying the derangement formula to unspecified unrelated restrictions.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn31_04",
+    "correctness_anchor": "With n labelled balls and k labelled boxes, empty boxes allowed and no capacity restriction, every ball independently chooses one of k boxes: k^n. For n=3,k=2 there are 8 assignments.",
+    "application_anchor": "Use a choice tree or function mapping and contrast with indistinguishable balls and with a nonempty-box requirement.",
+    "reject_endorsement": "Using stars-and-bars or requiring each box to be nonempty without stating it.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn31_05",
+    "correctness_anchor": "For five distinct objects A,B,C,D,E in a line, A and B adjacent gives 2*4!=48; nonadjacent gives 5!-48=72. Block internal order and gap counts depend on which objects are labelled.",
+    "application_anchor": "Explain the block method and complement or gap method, and include a small transfer variation with the constraints stated.",
+    "reject_endorsement": "Forgetting the AB/BA order or treating every nonadjacency problem as the same formula.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn31_06",
+    "correctness_anchor": "For n distinct objects around an oriented circle where rotations are equivalent but reflections are distinct, count (n-1)!; for n=4, 6 versus 24 in a line. A reflection-equivalent necklace or a table with labelled seats is a different problem.",
+    "application_anchor": "Fix a reference object to justify rotation equivalence, draw examples of rotations and reflections, then test the changed convention.",
+    "reject_endorsement": "Dividing by 2 without a reflection convention or applying (n-1)! to labelled seats.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn31_07",
+    "correctness_anchor": "Partition six labelled people into two unlabelled groups of three: C(6,3)/2=10. Assign those groups to two labelled rooms: 10*2!=20=C(6,3). Dividing by a factorial is justified only for genuine symmetry.",
+    "application_anchor": "Represent one concrete allocation both ways and explain exactly what is counted twice before division.",
+    "reject_endorsement": "Blindly dividing by k! when groups already have distinct labels or sizes.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn31_08",
+    "correctness_anchor": "In (2x-1)^3 the coefficients are 8,-12,6,-1, while the binomial coefficients are 1,3,3,1. The x^2 coefficient is C(3,1)*2^2*(-1)=-12.",
+    "application_anchor": "Choose a term from each factor, connect the count of choices to C(n,k) and keep scalar/sign factors separate.",
+    "reject_endorsement": "Reporting the binomial coefficient as the whole term coefficient.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_01",
+    "correctness_anchor": "Avoidance and negative self-statements are observations, not a diagnosis of inability.",
+    "application_anchor": "Collect a small work sample, ask privately about the sticking point and distinguish skill gaps from task or confidence barriers.",
+    "reject_endorsement": "Labelling a child lazy or diagnosing a disorder from homework refusal.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_02",
+    "correctness_anchor": "Homework resistance can have multiple causes including difficulty, access and task meaning.",
+    "application_anchor": "Ask nonjudgmental questions, compare performance with support and choose a provisional intervention with a check.",
+    "reject_endorsement": "Declaring a single psychological cause without evidence.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_03",
+    "correctness_anchor": "A small goal should be attainable with support while advancing a real learning objective.",
+    "application_anchor": "Break a task into a visible first success, feedback and a slightly less supported retry.",
+    "reject_endorsement": "Giving meaningless easy work indefinitely or promising immediate confidence recovery.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_04",
+    "correctness_anchor": "Feedback should refer to observed strategies and progress.",
+    "application_anchor": "Provide a specific teacher statement and an achievable next step, then ask what helped.",
+    "reject_endorsement": "Empty ability praise or rewards as a guaranteed cure.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_05",
+    "correctness_anchor": "Parents can support independence by prompting and gradually reducing help.",
+    "application_anchor": "Give a brief home routine, a worked supportive prompt and a route to tell the teacher about difficulty.",
+    "reject_endorsement": "Requiring parents to complete the assignment or blaming them for all avoidance.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_06",
+    "correctness_anchor": "Coordination requires a small shared goal and consistent evidence, with appropriate privacy.",
+    "application_anchor": "Agree on manageable workload, a common supportive response and a review point across teachers.",
+    "reject_endorsement": "Publicly labelling a child or collecting unnecessary sensitive details.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_01",
+    "correctness_anchor": "Upper-primary labor projects should have an age-appropriate purpose and observable skills.",
+    "application_anchor": "Offer a few feasible options with materials, time and one success criterion each, letting the teacher choose based on resources.",
+    "reject_endorsement": "Assuming every school has a garden, workshop or budget.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_02",
+    "correctness_anchor": "Safety learning needs supervision and a task-specific risk check before activity.",
+    "application_anchor": "Choose an age-appropriate planting or simple construction example with safe materials, roles and a stop/help rule.",
+    "reject_endorsement": "Handing out unfamiliar hazardous tools without preparation or claiming risk is zero.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_03",
+    "correctness_anchor": "Teamwork develops through interdependent contributions and reflection on decisions.",
+    "application_anchor": "Assign meaningful rotating roles, introduce one solvable design problem and check individual contributions.",
+    "reject_endorsement": "Assuming group seating automatically creates collaboration.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_04",
+    "correctness_anchor": "Assess process and skill evidence rather than appearance alone.",
+    "application_anchor": "Give a short observation rubric, a student explanation and before/after evidence of one improvement.",
+    "reject_endorsement": "Giving the same group score as proof of every student's mastery.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_05",
+    "correctness_anchor": "Integration should preserve an assessable goal in each subject.",
+    "application_anchor": "Connect a labor task to a measurement/calculation and a clear written/oral explanation with separate checks.",
+    "reject_endorsement": "Decorating a practical task with unrelated subject labels.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_06",
+    "correctness_anchor": "Reluctance may reflect access, confidence or lack of meaning.",
+    "application_anchor": "Offer bounded choices, a small supported role and feedback, then ask whether participation improved.",
+    "reject_endorsement": "Coercion or assuming unwillingness proves a character defect.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn50_01",
+    "correctness_anchor": "New second-graders need explicit modeling of a small cooperation routine.",
+    "application_anchor": "Demonstrate four meaningful roles, rehearse one simple handover and observe before starting the experiment.",
+    "reject_endorsement": "Saying cooperate without teaching observable actions.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn50_02",
+    "correctness_anchor": "Shared magnets need equitable turn-taking and roles that all contribute.",
+    "application_anchor": "Pause grabbing, model passing and rotate operator/observer/recorder/material roles with a participation check.",
+    "reject_endorsement": "Permanently assigning operation to the strongest pupil.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn50_03",
+    "correctness_anchor": "Fairness means meaningful roles and predictable rotation, not winning a contest for the preferred role.",
+    "application_anchor": "Explain each role's value, set a short rotation and offer a supported first turn.",
+    "reject_endorsement": "Using the same winner-takes-all game repeatedly as the whole solution.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn50_04",
+    "correctness_anchor": "Listening can be taught as an observable turn-taking routine.",
+    "application_anchor": "Model a short turn and paraphrase before adding an idea; use the routine to decide one experiment step.",
+    "reject_endorsement": "Requiring silence without checking comprehension.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn50_05",
+    "correctness_anchor": "Quiet students need accessible routes into a meaningful contribution.",
+    "application_anchor": "Offer a prepared partner turn or nonpublic contribution, then gradually increase participation with their input.",
+    "reject_endorsement": "Forcing public speech or assigning quiet pupils permanently to recording.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn50_06",
+    "correctness_anchor": "Material handling should be modeled before distribution.",
+    "application_anchor": "Demonstrate an appropriate thermometer handover, designate a materials role and confirm a stop signal before work.",
+    "reject_endorsement": "Distributing fragile equipment before explaining safe handling.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn50_07",
+    "correctness_anchor": "Reporting can distribute evidence across group members.",
+    "application_anchor": "Let students prepare a short contribution or alternate accessible format and rotate speaking responsibilities.",
+    "reject_endorsement": "Cold-calling an unprepared anxious child as the only participation mechanism.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn50_08",
+    "correctness_anchor": "One period cannot support unlimited inquiry and cooperation instruction.",
+    "application_anchor": "Choose one measurement goal and one cooperation behavior, budget both and include a short debrief.",
+    "reject_endorsement": "Omitting all cooperation instruction or claiming every possible objective fits.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn50_09",
+    "correctness_anchor": "Explain the value of collaboration through complementary evidence and checking, not slower work for its own sake.",
+    "application_anchor": "Give a small task where members compare measurements or explanations and retain individual accountability.",
+    "reject_endorsement": "Claiming groups are always faster than individuals.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn50_10",
+    "correctness_anchor": "A short retrieval and rehearsal can reactivate a routine.",
+    "application_anchor": "Ask students to demonstrate one previous rule, practice it and close with evidence of one improvement.",
+    "reject_endorsement": "Repeating a long lecture on every rule without practice.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn51_01",
+    "correctness_anchor": "A paper-and-pencil process record can track prediction, observation and evidence-based explanation of changes of state.",
+    "application_anchor": "Give a one-page third-grade checklist with a concrete observation field, a short feedback box and a revision opportunity; respect the no-computer constraint.",
+    "reject_endorsement": "Requiring an online platform or scoring only the final result.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn51_02",
+    "correctness_anchor": "The simplest useful template links a learning target to an observable action, recorded evidence, feedback and a next attempt.",
+    "application_anchor": "Provide a reusable small table and one completed example, beyond Excellent/Good/Average labels.",
+    "reject_endorsement": "Giving only a rank with no evidence or improvement step.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn51_03",
+    "correctness_anchor": "Self-assessment needs shared criteria and examples; a high self-score alone is not proof of dishonesty.",
+    "application_anchor": "Calibrate one sample together, require students to cite their work and choose a supported improvement, then compare with a teacher check.",
+    "reject_endorsement": "Automatically subtracting marks from every self-awarded full score.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn51_04",
+    "correctness_anchor": "Peer feedback should name observed work, connect it to a criterion and suggest a feasible next step.",
+    "application_anchor": "Model one specific comment, provide a short evidence-based sentence frame and let the recipient try a revision.",
+    "reject_endorsement": "Requiring personal criticism or accepting generic praise as assessment evidence.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn51_05",
+    "correctness_anchor": "Useful feedback names an observed strategy or action and a next step related to the goal.",
+    "application_anchor": "Rewrite a generic praise sentence into a concrete example without inventing actual student performance.",
+    "reject_endorsement": "Fixed ability labels or praise unrelated to observed work.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn51_06",
+    "correctness_anchor": "Maintain accessible core goals while using scaffolds and individual progress evidence to support students who struggle.",
+    "application_anchor": "Offer a small achievable next step, a supported retry and private progress feedback.",
+    "reject_endorsement": "Fabricating full marks or repeatedly ranking the same students last.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn51_07",
+    "correctness_anchor": "Assessment workload can be reduced by focusing on a few important criteria and rotating observation rather than documenting everything every lesson.",
+    "application_anchor": "Give a manageable sampling and self/peer-check routine with targeted teacher review and identify its coverage limits.",
+    "reject_endorsement": "Claiming unobserved pupils were assessed or adding a large daily documentation burden.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn51_08",
+    "correctness_anchor": "A four-week lantern project needs evidence at design, construction, testing and revision milestones, not just a final product score.",
+    "application_anchor": "Provide four weekly checkpoints, an individual contribution record and a feasible revision opportunity.",
+    "reject_endorsement": "Returning a water-state experiment checklist without adapting it to the lantern project.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn51_09",
+    "correctness_anchor": "Feedback becomes useful when students act on it and compare the revision with the original evidence.",
+    "application_anchor": "Add a bounded identify-correct-explain-recheck cycle and a teacher or peer verification step.",
+    "reject_endorsement": "Collecting corrections without checking them or demanding endless retries.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn51_10",
+    "correctness_anchor": "Participation can use multiple accessible presentation formats and rotating responsibilities while retaining individual evidence of learning.",
+    "application_anchor": "Give a schedule, shared criteria and a way for each student to contribute without making polished public speaking the only route.",
+    "reject_endorsement": "Selecting only top performers or equating group quality with every member's learning.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_01",
+    "correctness_anchor": "A low-resource project can use safe accessible observations with a clear question.",
+    "application_anchor": "Propose a third-grade campus observation project with a paper record, a feasible product and no required purchases.",
+    "reject_endorsement": "Requiring unavailable laboratory equipment or claiming no preparation is needed.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_02",
+    "correctness_anchor": "Novices need a bounded question and a modeled first inquiry step.",
+    "application_anchor": "Demonstrate one observation, let students choose a small question and provide a milestone check.",
+    "reject_endorsement": "Giving an undefined project and expecting independent planning immediately.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_03",
+    "correctness_anchor": "Records need a purpose and a simple storage routine.",
+    "application_anchor": "Use dated labelled sheets or a shared folder, capture one change and connect the record to the final explanation.",
+    "reject_endorsement": "Collecting large amounts of documentation that are never used.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_04",
+    "correctness_anchor": "Forty-five pupils in eleven groups can be ten groups of four and one group of five.",
+    "application_anchor": "Give four core roles plus a meaningful fifth verifier/timekeeper role and rotate contributions.",
+    "reject_endorsement": "Leaving the forty-fifth student without a role or stating eleven equal groups of four.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_05",
+    "correctness_anchor": "A campus inquiry needs a bounded comparison and minimal disturbance.",
+    "application_anchor": "Compare safe observable plant/soil features with repeatable records and a clear question, without leaving campus.",
+    "reject_endorsement": "Requiring off-campus travel or destructive collection.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_06",
+    "correctness_anchor": "A soil project can be divided into question, safe observation, comparison and explanation.",
+    "application_anchor": "Provide class-sized milestones with records and a final evidence-based comparison.",
+    "reject_endorsement": "Treating visual soil differences as a complete chemical analysis.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_07",
+    "correctness_anchor": "Different work rates need an essential checkpoint plus extensions.",
+    "application_anchor": "Set a minimum evidence target, offer early finishers a deeper comparison and provide a bounded continuation path.",
+    "reject_endorsement": "Keeping everyone idle or penalizing all slow groups automatically.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_08",
+    "correctness_anchor": "A useful audience or application gives the product a purpose.",
+    "application_anchor": "Connect a feasible project outcome to a class display, school decision or guide with an accuracy check.",
+    "reject_endorsement": "Claiming real-world impact without use or feedback evidence.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_09",
+    "correctness_anchor": "Lowering the access barrier should preserve the intellectual goal.",
+    "application_anchor": "Provide templates, pre-cut safe materials or partner support and gradually fade support.",
+    "reject_endorsement": "Removing all student decisions or requiring unpracticed tool use.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_10",
+    "correctness_anchor": "A simple process assessment can follow planning, evidence and revision.",
+    "application_anchor": "Give a three-part checklist with one concrete observation per part and a feedback/retry opportunity.",
+    "reject_endorsement": "Scoring only decoration or claiming a checklist proves long-term growth.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_01",
+    "correctness_anchor": "A child can retain agency while receiving a smaller cutting task and a model.",
+    "application_anchor": "Offer a visible guide and short supported attempt with suitable scissors and supervision, then fade help.",
+    "reject_endorsement": "Completing the entire craft for the pupil or withholding help regardless of distress.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_02",
+    "correctness_anchor": "Troubleshooting a low-voltage circuit should isolate one possible fault at a time.",
+    "application_anchor": "Ask the pupil to trace the closed path, inspect contacts and test one component, escalating hints only when needed.",
+    "reject_endorsement": "Rewiring everything for the pupil or allowing short circuits.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_03",
+    "correctness_anchor": "A collapsed paper bridge provides evidence about the design, not the child's ability.",
+    "application_anchor": "Acknowledge frustration, compare one structural change and retest under the same load conditions.",
+    "reject_endorsement": "Praising an untested improvement as definitely stronger or labelling the child incapable.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_04",
+    "correctness_anchor": "Measurement requires a straight aligned scale, a correct starting mark and consistent endpoint reading.",
+    "application_anchor": "Prompt the child to compare alignments and choose a stabilizing method, then repeat a measurement.",
+    "reject_endorsement": "Giving a memorized length without correcting the measurement process.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_05",
+    "correctness_anchor": "A simple filter can reduce suspended particles but does not guarantee safe drinking water.",
+    "application_anchor": "Guide one comparison of flow or layer arrangement and observe clarity without tasting the water.",
+    "reject_endorsement": "Claiming clear filtered water is potable.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_06",
+    "correctness_anchor": "Magnification needs appropriate object-lens-eye geometry and adjustment.",
+    "application_anchor": "Calmly model changing one distance and ask the pupil to find the clearest view using a leaf away from direct sun.",
+    "reject_endorsement": "Looking at the sun or treating one fixed distance as universally correct.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_07",
+    "correctness_anchor": "A veering model car can have alignment, friction or thrust asymmetry.",
+    "application_anchor": "Record the path, choose one hypothesis and change one factor before a new trial, with a pause if frustrated.",
+    "reject_endorsement": "Claiming a specific cause without checking or changing every part simultaneously.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_08",
+    "correctness_anchor": "A specimen label needs legible identifying information linked to the right object.",
+    "application_anchor": "Give a model with specimen ID, known name or unknown label, location and date, then a self-check.",
+    "reject_endorsement": "Inventing a rock identification or collection site.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_09",
+    "correctness_anchor": "Simplification should preserve the central design idea while reducing construction demands.",
+    "application_anchor": "Ask the pupil to choose one feature to retain, prototype a simpler structure and explain the tradeoff.",
+    "reject_endorsement": "Dismissing the idea or taking over the whole design.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_10",
+    "correctness_anchor": "Overflow calls for a calm stop and teacher-managed cleanup before further inquiry.",
+    "application_anchor": "After safety is restored, compare smaller measured quantities in an open appropriate container and record the change.",
+    "reject_endorsement": "Sealing the gas-producing vessel or treating panic as disobedience.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_01",
+    "correctness_anchor": "An objective should specify observable performance and evidence, not merely know.",
+    "application_anchor": "Refine the bulb goal into a safe low-voltage connection plus an explanation of the closed path, and align a check.",
+    "reject_endorsement": "Claiming components named from memory alone demonstrate a working circuit.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_02",
+    "correctness_anchor": "Reported recall is a starting point, not evidence of explaining mechanisms or transfer.",
+    "application_anchor": "Check a new seed example, then extend to explaining how a feature supports dispersal with evidence.",
+    "reject_endorsement": "Repeating only names or assuming the entire class needs no further learning.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_03",
+    "correctness_anchor": "The goal should match available prerequisites while preserving the important concept.",
+    "application_anchor": "Shift the core assessment to observable state changes and evidence, using a simple model only if it aids explanation.",
+    "reject_endorsement": "Treating an oversimplified molecular story as a directly observed fact.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_04",
+    "correctness_anchor": "Two classes can share a core objective while differing in scaffolds and extension.",
+    "application_anchor": "State a common magnetism criterion and class-specific support/evidence routes based on the described needs.",
+    "reject_endorsement": "Permanently lowering expectations for an entire labelled class.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_05",
+    "correctness_anchor": "Use the supplied requirement as a premise, not a verified quotation from an unavailable standard.",
+    "application_anchor": "Deepen observation, comparison and evidence-based description without inventing extra compulsory content.",
+    "reject_endorsement": "Claiming the official standard was checked or filling time with unrelated advanced facts.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_06",
+    "correctness_anchor": "Engineering objectives include justified design choices, testing and revision, not just producing an object.",
+    "application_anchor": "Add a measurable temperature comparison under stated conditions and evidence for one revision with supervised use.",
+    "reject_endorsement": "Guaranteeing a target temperature under unspecified weather.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_07",
+    "correctness_anchor": "Remembering phase order alone does not demonstrate a model of Moon phases.",
+    "application_anchor": "Use a light-source/Earth/Moon model with a viewpoint explanation and an accessible check.",
+    "reject_endorsement": "Explaining ordinary lunar phases as Earth's shadow.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_08",
+    "correctness_anchor": "Review goals should target connections and application.",
+    "application_anchor": "Ask students to classify and justify new examples using evidence, then address identified misconceptions.",
+    "reject_endorsement": "Replacing all review with a teacher's list of definitions.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_09",
+    "correctness_anchor": "Use the stated vocabulary and experience needs, not family status as a proxy for ability.",
+    "application_anchor": "Set an observable sound-vibration goal with concrete demonstration, language support and an individual check.",
+    "reject_endorsement": "Assuming left-behind children cannot understand science.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_10",
+    "correctness_anchor": "The science objective should concern observable plant characteristics and evidence-based comparison.",
+    "application_anchor": "Align diaries and drawings with accurate observation records and a science-specific criterion.",
+    "reject_endorsement": "Grading artistic skill as the principal evidence of scientific learning.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn55_01",
+    "correctness_anchor": "Immediate grabbing calls for a calm pause and controlled access before further explanation.",
+    "application_anchor": "Give a short stop cue, secure materials if needed, model one handling action and reopen access after a brief practice.",
+    "reject_endorsement": "Continuing a long explanation while unsafe grabbing persists or humiliating the class.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn55_02",
+    "correctness_anchor": "Attention during instructions depends on material access and clear sequence.",
+    "application_anchor": "Give a directly usable short cue and visible response, demonstrate it, rehearse once and check pupils who did not respond.",
+    "reject_endorsement": "Shouting over ongoing unsafe activity or punishing every distracted pupil.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn55_03",
+    "correctness_anchor": "Work-time variation needs essential checkpoints and useful extensions.",
+    "application_anchor": "Give a visible timebox, check a stalled group and offer finishers an evidence-based extension.",
+    "reject_endorsement": "Assuming every slow pupil is deliberately wasting time.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn55_04",
+    "correctness_anchor": "Distribution should use designated roles and a rehearsed handover.",
+    "application_anchor": "Prepare small sets, call one materials person per group and stop pushing before continuing.",
+    "reject_endorsement": "Distributing materials into a scramble or using collective humiliation.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn55_05",
+    "correctness_anchor": "A stop cue must be understood and practiced, with accessible forms.",
+    "application_anchor": "Rehearse a brief stop-and-hands-clear action, check who missed it and reteach accordingly.",
+    "reject_endorsement": "Treating a conditioned response as automatic or imposing escalating punishment without checking access.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn55_06",
+    "correctness_anchor": "Consistency can reduce confusion when teachers agree on meanings.",
+    "application_anchor": "Confirm the existing cue, retain its action and explain any science-specific addition.",
+    "reject_endorsement": "Using the same cue for contradictory actions.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn55_07",
+    "correctness_anchor": "Young children can learn rules through concrete modeling and practice.",
+    "application_anchor": "Act out a correct and safely simulated incorrect handover, then let pupils demonstrate the expected action.",
+    "reject_endorsement": "Demonstrating an actually dangerous act to make the point.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn55_08",
+    "correctness_anchor": "A temporary material pause can address immediate risk while retaining a route back to participation.",
+    "application_anchor": "Explain the specific behavior, reteach and allow a supported retry after the situation is safe.",
+    "reject_endorsement": "Permanent exclusion or confiscation as humiliation.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn55_09",
+    "correctness_anchor": "The end of a lesson needs safe closure and a minimum evidence checkpoint.",
+    "application_anchor": "Stop in time to store materials, record current observations and plan continuation where feasible.",
+    "reject_endorsement": "Keeping hazardous work running past supervision or declaring unfinished work worthless.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn55_10",
+    "correctness_anchor": "Different classroom behavior needs investigation of routines and task demands.",
+    "application_anchor": "Observe transitions, coordinate cues with the homeroom teacher and test one change before generalizing.",
+    "reject_endorsement": "Concluding the science teacher or pupils are inherently incapable.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_01",
+    "correctness_anchor": "Magnets do not attract all metals or all materials.",
+    "application_anchor": "Sequence predictions, observations on named materials, explanation and a transfer question with contingent follow-ups.",
+    "reject_endorsement": "Teaching that every metal is magnetic.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_02",
+    "correctness_anchor": "A correct statement can be opened for evidence and peer reasoning.",
+    "application_anchor": "Ask classmates to identify the observed evidence, compare an alternative explanation and extend the answer respectfully.",
+    "reject_endorsement": "Only saying correct or requiring peers to repeat the same sentence.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_03",
+    "correctness_anchor": "Leaf observations can be organized by a shared dimension without erasing varied observations.",
+    "application_anchor": "Focus on one feature, compare two examples and then broaden with a reasoned question.",
+    "reject_endorsement": "Treating all unexpected observations as wrong.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_04",
+    "correctness_anchor": "Silence may reflect preparation or participation barriers.",
+    "application_anchor": "Give thinking/pair time, ask for one observation or question about the report and invite a low-pressure response.",
+    "reject_endorsement": "Forcing immediate public answers or assuming no learning occurred.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_05",
+    "correctness_anchor": "A controlled pendulum comparison changes one variable while keeping effective length and release amplitude appropriate.",
+    "application_anchor": "Progress from what changed to what stayed fixed, repeated timing and an evidence-based conclusion.",
+    "reject_endorsement": "Inferring mass causes period change from an uncontrolled trial.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_06",
+    "correctness_anchor": "Engineering questions can ask about criteria, tradeoffs and evidence from testing.",
+    "application_anchor": "Ask students to predict how a lens-position change affects the image, test it and justify a revision.",
+    "reject_endorsement": "Equating assembly completion with understanding or directing viewing of the sun.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_07",
+    "correctness_anchor": "Different participation patterns need varied response routes but a shared scientific goal.",
+    "application_anchor": "Use the same sound-vibration question with quiet thinking/writing or exploratory extensions and check understanding in both classes.",
+    "reject_endorsement": "Assuming talkativeness measures scientific ability.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_08",
+    "correctness_anchor": "An incorrect answer is evidence for a follow-up, not a reason for personal criticism.",
+    "application_anchor": "Ask for reasoning, supply a counterexample or observation and invite a revised explanation.",
+    "reject_endorsement": "Endorsing the incorrect science to protect feelings or publicly humiliating the student.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_09",
+    "correctness_anchor": "Physical versus chemical change concerns whether new substances form, not reversibility alone.",
+    "application_anchor": "Compare evidence in a new example and ask what additional observation would support a claim.",
+    "reject_endorsement": "Using irreversible as a sufficient definition of chemical change.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_10",
+    "correctness_anchor": "Unexpected answers should be checked for relevance and underlying reasoning.",
+    "application_anchor": "Follow one productive idea with evidence questions, correct misconceptions and return to the core objective when needed.",
+    "reject_endorsement": "Forcing every answer back to the guide's exact wording.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn57_01",
+    "correctness_anchor": "A quick role conflict needs a fair temporary procedure and a later turn for each pupil.",
+    "application_anchor": "Use a brief rotation or agreed selection, model role duties and resume with a check.",
+    "reject_endorsement": "Automatically failing any temporary teacher assignment or allowing one permanent leader.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn57_02",
+    "correctness_anchor": "Reluctance to lead may reflect unclear duties or pressure.",
+    "application_anchor": "Clarify a small supported leader task, offer co-leading or a temporary scaffold and rotate later.",
+    "reject_endorsement": "Forcing one unwilling pupil into public leadership without support.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn57_03",
+    "correctness_anchor": "Monopolizing equipment requires an immediate clear boundary with respectful feedback.",
+    "application_anchor": "Pause the handover, specify turns and give the pupil a constructive role while verifying others' access.",
+    "reject_endorsement": "Avoiding all intervention to prevent public criticism or labelling the pupil as bad.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn57_04",
+    "correctness_anchor": "A quiet pupil needs a meaningful accessible choice, not a permanent peripheral role.",
+    "application_anchor": "Offer a prepared or partner-supported contribution and check privately what helps.",
+    "reject_endorsement": "Always assigning quiet children to recording or forcing a public performance.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn57_05",
+    "correctness_anchor": "Turn-taking is learned through a visible simple sequence.",
+    "application_anchor": "Model passing an object, rehearse short turns and use a visual cue with feedback.",
+    "reject_endorsement": "Explaining only abstract fairness to first-graders.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn57_06",
+    "correctness_anchor": "Agreed random selection can be one tool when roles are safe and equitable over time.",
+    "application_anchor": "Combine it with clear duties, rotation and teacher intervention if exclusion or access barriers appear.",
+    "reject_endorsement": "Treating any student vote or lottery as automatically fair.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn57_07",
+    "correctness_anchor": "Exclusion needs teacher action based on observed behavior and a protected route to participation.",
+    "application_anchor": "Check the situation, stop exclusion, assign a meaningful supported contribution and follow up privately.",
+    "reject_endorsement": "Leaving the targeted student without a role to preserve group autonomy.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn57_08",
+    "correctness_anchor": "A pupil with weaker practical skills needs scaffolded access to real work.",
+    "application_anchor": "Choose a manageable operation, model or partner-support it and recognize observed progress.",
+    "reject_endorsement": "Permanently excluding the pupil from operation or fabricating success.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn57_09",
+    "correctness_anchor": "Roles should divide real work and rotate, with workload checked.",
+    "application_anchor": "Define concrete responsibilities and one handover rule, then check every member's contribution.",
+    "reject_endorsement": "Fixed personality-based roles that make some children permanent bystanders.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn57_10",
+    "correctness_anchor": "Teacher-assigned roles can be a temporary scaffold that is gradually reduced.",
+    "application_anchor": "Move from modeled assignment to guided rotation and student negotiation with review criteria.",
+    "reject_endorsement": "Claiming all direct assignment is inherently prohibited.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_01",
+    "correctness_anchor": "A sinking paper clip is an observation, not a failed student. Surface support depends on placement, surface condition and wetting; flotation is not guaranteed.",
+    "application_anchor": "Say what was observed, invite one testable explanation, and compare gentle placement in clean water with the original attempt.",
+    "reject_endorsement": "Promising every paper clip floats or replacing observations with the textbook result.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_02",
+    "correctness_anchor": "Immobile earthworms do not establish a moisture preference. Acclimation, lighting, temperature and moisture can affect behavior.",
+    "application_anchor": "Allow observation time, compare conditions while changing one factor and protect the organisms; record no movement honestly.",
+    "reject_endorsement": "Forcing movement, drying organisms deliberately or interpreting immobility as a clear choice.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_03",
+    "correctness_anchor": "Check whether the facing ends really are like poles and whether both objects are magnets before revising the claim about poles.",
+    "application_anchor": "Label ends consistently and use a known magnet to check the pole identification, then repeat and document.",
+    "reject_endorsement": "Declaring magnetism disproved or changing the recorded result to match a textbook.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_04",
+    "correctness_anchor": "Failure to extinguish the candle does not identify a unique cause: gas quantity, mixing and delivery are hypotheses, not observed facts.",
+    "application_anchor": "Acknowledge uncertainty, record setup and propose one controlled comparison; any flame demonstration is teacher-managed and gas is not trapped in a sealed vessel.",
+    "reject_endorsement": "Inventing a certain cause or requiring children to reproduce flames at home.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_05",
+    "correctness_anchor": "One week without visible bending does not show that plants never respond to light. Directional light, growth and observation conditions need checking.",
+    "application_anchor": "Compare documented light conditions and growth over time with otherwise similar plants; make a prediction before observing.",
+    "reject_endorsement": "Guaranteeing a bend by a fixed date or dismissing the observation.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_06",
+    "correctness_anchor": "Touch may damp a tuning fork and weak vibration can be hard to feel. A teacher can state the scientific explanation while distinguishing it from the evidence students observed.",
+    "application_anchor": "Pair the explanation with a visible vibration indicator or an appropriate demonstration and a short follow-up check.",
+    "reject_endorsement": "Claiming an unfelt vibration disproves sound vibration, or banning all direct explanation.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_07",
+    "correctness_anchor": "For a small-amplitude ideal pendulum, T=2*pi*sqrt(L/g), independent of bob mass. Length runs from pivot to the center of mass.",
+    "application_anchor": "Control effective length and release amplitude, time several oscillations and repeat before comparing masses; discuss measurement uncertainty.",
+    "reject_endorsement": "Using bob mass as the ideal-period cause or altering measurements to match theory.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_08",
+    "correctness_anchor": "A bulb needs an intact closed low-voltage circuit connecting its two contacts to the source. Contacts, bulb and battery are separate possible faults.",
+    "application_anchor": "Offer graduated checks of one component at a time, beginning with the complete path; use only classroom low-voltage equipment and avoid short circuits.",
+    "reject_endorsement": "Inferring inability from failure or recommending mains electricity.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_09",
+    "correctness_anchor": "Rust rates depend on exposure and material conditions, including moisture, oxygen and coatings; identical rates are not guaranteed.",
+    "application_anchor": "Compare the groups' condition records, identify confounds and agree on a controlled follow-up while retaining the different observations.",
+    "reject_endorsement": "Discarding slow-rusting samples as wrong or assuming one universal rate.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_10",
+    "correctness_anchor": "A ketchup volcano is a model whose behavior depends on its stated mechanism; do not assume an unspecified acid-base reaction.",
+    "application_anchor": "Assign a drawing, prediction and one safe unsealed model comparison with an adult where needed; distinguish the model from real magma.",
+    "reject_endorsement": "Increasing pressure in a sealed container or equating ketchup flow with real volcanic mechanisms.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn60_01",
+    "correctness_anchor": "A missing alcohol lamp does not justify improvising an unsafe heat source.",
+    "application_anchor": "Use a suitable supervised demonstration if equipment exists, otherwise a video plus safe observations and explicit limits on what was observed directly.",
+    "reject_endorsement": "Requiring children to heat water unsupervised or rejecting every video alternative.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn60_02",
+    "correctness_anchor": "Different materials can distract from the target shape comparison.",
+    "application_anchor": "Use matched sets or an explicit comparison rule, teach a handover and check recognition independently of color.",
+    "reject_endorsement": "Scoring color preference as shape understanding.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn60_03",
+    "correctness_anchor": "Weak bubbling does not prove the baking soda expired.",
+    "application_anchor": "Acknowledge the observation, check materials and setup later, and use a labelled recorded demonstration or another safe evidence source for the lesson.",
+    "reject_endorsement": "Inventing a definite cause or fabricating experimental results.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn60_04",
+    "correctness_anchor": "Unsafe material play needs an immediate calm pause and a retaught routine.",
+    "application_anchor": "Stop access, model one handling action and return materials after a supported practice.",
+    "reject_endorsement": "Continuing instructions while objects are thrown or using humiliation.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn60_05",
+    "correctness_anchor": "Collection needs planned time, labelled places and assigned responsibilities.",
+    "application_anchor": "Model a count-and-return routine; adults handle broken glass under school procedures.",
+    "reject_endorsement": "Asking pupils to pick up broken glass by hand or guaranteeing cleanup takes a fixed number of seconds.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn60_06",
+    "correctness_anchor": "A substitute elastic device needs calibration to measure force quantitatively.",
+    "application_anchor": "Distinguish qualitative extension comparison from a calibrated force measure and give an appropriate low-risk classroom alternative.",
+    "reject_endorsement": "Treating uncalibrated stretch as an accurate force reading in newtons.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn60_07",
+    "correctness_anchor": "Equitable access requires meaningful rotating roles and a check of participation.",
+    "application_anchor": "Set operator, observer, recorder and materials duties, rotate at a sensible checkpoint and support novice handling.",
+    "reject_endorsement": "Giving all operation to the quickest pupil.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn60_08",
+    "correctness_anchor": "Sharp rock preparation is not made safe merely by careful distribution.",
+    "application_anchor": "Replace pupil cutting with pre-prepared specimens or a suitable supervised demonstration; retain observation and recording goals.",
+    "reject_endorsement": "Giving ordinary primary pupils knives and glass for unsupervised rock cutting.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn60_09",
+    "correctness_anchor": "Bring-from-home materials need a clear permitted list and a school-provided fallback.",
+    "application_anchor": "Specify safe simple items, ask pupils not to bring unknown hazardous objects and check before use.",
+    "reject_endorsement": "Penalizing pupils without supplies or accepting every found material.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "lesson-builder__cn60_10",
+    "correctness_anchor": "Different classes may need different rehearsal and distribution scaffolds.",
+    "application_anchor": "Observe one bottleneck, adjust a role or cue and compare the next transition rather than blaming the class.",
+    "reject_endorsement": "Assuming identical instructions must produce identical behavior.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_01",
+    "correctness_anchor": "No wording guarantees an AI-proof task. Assess authentic context evidence, reasoning and a short follow-up explanation rather than polished definitions alone.",
+    "application_anchor": "Ask students to compare a familiar local service with a cloud service using non-sensitive observations and explain a choice; provide criteria and a checkable process record.",
+    "reject_endorsement": "Guaranteeing AI cannot answer or requiring private school information.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_02",
+    "correctness_anchor": "Repeated errors should trigger a supportive pause, a smaller diagnostic scaffold and teacher follow-up, not endless harder questions.",
+    "application_anchor": "Describe a bounded automated branch with an accessible exit, neutral feedback, saved progress and an optional supported retry.",
+    "reject_endorsement": "Permanent lockout, humiliation or a claim that one automated action suits every learner.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_03",
+    "correctness_anchor": "A no-equipment task can assess interpretation and error diagnosis, but cannot certify knife skill.",
+    "application_anchor": "Provide a small synthetic width table, e.g. target 3 mm and samples 2,3,5 mm with deviations -1,0,2; ask for a prediction, likely process cause and improvement in under 15 minutes, with an answer key.",
+    "reject_endorsement": "Requiring knives or potatoes at home, a reflection essay, or claiming demonstrated practical mastery.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_04",
+    "correctness_anchor": "A question-bank ledger should make responsibility and verification traceable.",
+    "application_anchor": "Give exactly five useful fields: source/permission; learning target; level/prerequisites; verified answer/rationale; owner plus review status/time estimate. Explain the entry acceptance check.",
+    "reject_endorsement": "Accepting unchecked copied questions or omitting the answer reviewer.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_05",
+    "correctness_anchor": "Student time samples can reduce reliance on teacher estimates but remain noisy observations, not perfect surveillance.",
+    "application_anchor": "Sample voluntary student start/end and active-work records, distinguish interruptions, report a distribution and provide an offline route; compare with the stated school 30-minute rule.",
+    "reject_endorsement": "Claiming exact objective time from a click log or generalizing the school rule to every school.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_06",
+    "correctness_anchor": "Correction should be bounded and explainable, with support and a pause option.",
+    "application_anchor": "Use three steps: identify and explain an error; attempt one comparable item with support; receive feedback and save a next step or request teacher help.",
+    "reject_endorsement": "Forcing unlimited retries or locking the student in the app until success.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_07",
+    "correctness_anchor": "Small variations can reduce direct copying but cannot guarantee search or AI failure.",
+    "application_anchor": "Give three low-cost techniques: change parameters and recompute the key; compare or diagnose two methods; require a contextual intermediate step. Show how to validate each new answer.",
+    "reject_endorsement": "Promising apps fail immediately or changing numbers without updating the answer.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_08",
+    "correctness_anchor": "Core work needs an accessible entry and support, alongside meaningful goals and extensions; difficulty should be informed by evidence, not labels.",
+    "application_anchor": "Provide a firm but respectful staff script using a concrete scaffold and a way to monitor completion and understanding.",
+    "reject_endorsement": "Predicting inevitable catastrophe or lowering every pupil's goal permanently to the current lowest performance.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_09",
+    "correctness_anchor": "Reusable extension banks and flexible progression can reduce daily preparation, but setup and review still take time.",
+    "application_anchor": "Offer three advanced students an optional deeper task pathway with checkpoint feedback and suitable existing reviewed resources.",
+    "reject_endorsement": "Promising zero teacher workload or merely assigning more repetitive questions.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_10",
+    "correctness_anchor": "Alignment needs a measurable learning objective and a mapping from task evidence to assessment criteria.",
+    "application_anchor": "Provide exactly two form fields with one filled example showing what performance would demonstrate the stated objective.",
+    "reject_endorsement": "Listing only topic names and question counts.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_01",
+    "correctness_anchor": "The three estimates total 110 minutes. Coordination requires a stated overall budget and removal of redundant work, not an invented universal time cap.",
+    "application_anchor": "Give a concise table for subject, objective, essential task, estimated/observed time, deadline and coordinating decision, plus a short staff script.",
+    "reject_endorsement": "Reporting the sum incorrectly or declaring an unstated national limit.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_02",
+    "correctness_anchor": "Four roles can cover operation, procedure checking, safety observation and recording. Actual machine operation is restricted to trained, authorized students under appropriate supervision.",
+    "application_anchor": "Specify individual evidence and rotation within permitted roles; use simulation or demonstration when operational prerequisites are missing.",
+    "reject_endorsement": "Forcing every untrained student to operate a CNC lathe to earn credit.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_03",
+    "correctness_anchor": "An individual alternative should preserve the assessed core competencies and adapt the interaction format; family background alone does not justify lower expectations.",
+    "application_anchor": "Map the group task objectives to an individual simulation, submitted decisions and private feedback, without requiring a clinical diagnosis.",
+    "reject_endorsement": "Automatically lowering learning goals or forcing public disclosure of family or health details.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_04",
+    "correctness_anchor": "First check participation evidence and barriers separately, then assign clear individual deliverables with a deadline and interim check.",
+    "application_anchor": "Give a one-week intervention schedule, a support route and evidence-based individual credit; do not promise total prevention of free-riding.",
+    "reject_endorsement": "Punishing based solely on an allegation or guaranteeing compelled participation.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_05",
+    "correctness_anchor": "A defensible example is 60 percent individual process and 40 percent group outcome; weights need justification rather than a claim of perfect fairness.",
+    "application_anchor": "List three evidence fields: attributable deliverable, version/change record, and a brief explanation or verification question. Explain how evidence supports the individual score.",
+    "reject_endorsement": "Treating timestamps alone as proof of learning or counting all group output as each member's work.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_06",
+    "correctness_anchor": "Authentic cost estimates may have justified ranges under different stated assumptions, so grading needs calibrated methods and reference examples.",
+    "application_anchor": "Arrange qualified industry review of authorized materials, annotate assumptions and units, develop exemplars and a method/evidence rubric before grading.",
+    "reject_endorsement": "Inventing one universal exact answer or outsourcing judgment without calibration.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_07",
+    "correctness_anchor": "Progression can move from a supported basic joint to independently checking a circuit and then diagnosing a fault, with explicit prerequisites.",
+    "application_anchor": "Use the same suitable training equipment, supervised unpowered practice where appropriate, common safety expectations and optional extension; assess observable evidence.",
+    "reject_endorsement": "Using derogatory ability labels as fixed tracks or unsafe unsupervised powered work.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_08",
+    "correctness_anchor": "Two useful required fields are criterion-linked observed evidence and the reason for the score with a specific improvement.",
+    "application_anchor": "Give a completed example and calibrate scores against an anchor before the next peer review; acknowledge that fields alone cannot eliminate favoritism.",
+    "reject_endorsement": "Guaranteeing impartiality merely by adding boxes.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_09",
+    "correctness_anchor": "Reusable project questions need documented provenance, units, assumptions, cleaned data and a separately verified teacher key or defensible answer range.",
+    "application_anchor": "Archive a versioned student package and teacher package, remove unnecessary personal information and pilot one task before reuse.",
+    "reject_endorsement": "Publishing messy raw data as a validated bank or exposing the answer in the student handout.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_10",
+    "correctness_anchor": "Practical and written tasks serve different objectives; explain their alignment and evidence without asserting all projects are superior.",
+    "application_anchor": "Provide a respectful parent script with a concrete learning-and-assessment example; replace hazardous unsupervised manhole work with an approved safe simulation or observation.",
+    "reject_endorsement": "Dismissing written learning, promising certificate success, or endorsing ordinary unsupervised student manhole opening.",
+    "live_judge_test": "not_run",
+    "independent_review": "pending"
+  }
+]

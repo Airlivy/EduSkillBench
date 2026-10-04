@@ -1,0 +1,7 @@
+{
+  "ready": false,
+  "formal_cases_released": 0,
+  "content_review": "v3 AI findings are evidence for corrections, not v4 acceptance",
+  "judge_calibration": "v3 calibration does not certify changed v4 rubrics",
+  "independent_acceptance": "pending"
+}

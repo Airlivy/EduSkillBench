@@ -1,0 +1,130 @@
+[
+  {
+    "task_id": "lesson-builder__cn05_02",
+    "field": "expected_output",
+    "old": "The supplied four-step outline lacks clear evidence of practical file-operation learning.",
+    "new": "The four-step outline does not specify an observable learning target or practical evidence for the Python os-module topic; file reading/writing is not automatically the intended target.",
+    "issue_code": "OS_TOPIC_SCOPE",
+    "reason": "题面是 OS 模块教案提纲，不能擅自按文件读写目标判错；先确认目标再评价活动与证据。"
+  },
+  {
+    "task_id": "lesson-builder__cn05_02",
+    "field": "rubric",
+    "old": "The supplied four-step outline lacks clear evidence of practical file-operation learning.",
+    "new": "The four-step outline does not specify an observable learning target or practical evidence for the Python os-module topic; file reading/writing is not automatically the intended target.",
+    "issue_code": "OS_TOPIC_SCOPE",
+    "reason": "题面是 OS 模块教案提纲，不能擅自按文件读写目标判错；先确认目标再评价活动与证据。"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_10",
+    "field": "user_prompt",
+    "old": "This plan is close to reality and meets the curriculum standards; is its teaching feasibility also high?",
+    "new": "Does this plan fit the actual conditions, meet the curriculum standards, and have high teaching feasibility?",
+    "issue_code": "TRANSLATION_QUESTION_TO_ASSERTION",
+    "reason": "中文原文在询问现实适配、课标和可行性，英文却把前两项写成已确认事实；恢复三个待评估问题。"
+  },
+  {
+    "task_id": "lesson-builder__cn60_03",
+    "field": "expected_output",
+    "old": "Weak bubbling does not prove the baking soda expired.",
+    "new": "The teacher reports an expired date; that report can be accepted as a premise, but the date alone does not establish why bubbling was weak. Material condition, amounts and setup remain possible causes.",
+    "issue_code": "PREMISE_VERSUS_CAUSATION",
+    "reason": "保留题面已经给出的过期信息，区分过期标签与弱反应的因果解释，不否认用户已提供的事实。"
+  },
+  {
+    "task_id": "lesson-builder__cn60_03",
+    "field": "rubric",
+    "old": "Weak bubbling does not prove the baking soda expired.",
+    "new": "The teacher reports an expired date; that report can be accepted as a premise, but the date alone does not establish why bubbling was weak. Material condition, amounts and setup remain possible causes.",
+    "issue_code": "PREMISE_VERSUS_CAUSATION",
+    "reason": "保留题面已经给出的过期信息，区分过期标签与弱反应的因果解释，不否认用户已提供的事实。"
+  },
+  {
+    "task_id": "lesson-builder__cn26_02",
+    "field": "expected_output",
+    "old": "P is sufficient for Q when P implies Q; necessity reverses the implication.",
+    "new": "In classical elementary logic, a proposition is a declarative statement with a definite truth value in its stated context. P is sufficient for Q when P implies Q; P is necessary for Q when Q implies P.",
+    "issue_code": "MISSING_PROPOSITION_CONCEPT",
+    "reason": "题目要求命题与充分条件，原参考只解释充分条件；补命题定义，明确必要条件的方向。"
+  },
+  {
+    "task_id": "lesson-builder__cn26_02",
+    "field": "rubric",
+    "old": "P is sufficient for Q when P implies Q; necessity reverses the implication.",
+    "new": "In classical elementary logic, a proposition is a declarative statement with a definite truth value in its stated context. P is sufficient for Q when P implies Q; P is necessary for Q when Q implies P.",
+    "issue_code": "MISSING_PROPOSITION_CONCEPT",
+    "reason": "题目要求命题与充分条件，原参考只解释充分条件；补命题定义，明确必要条件的方向。"
+  },
+  {
+    "task_id": "lesson-builder__cn01_10",
+    "field": "expected_output",
+    "old": "Recursion needs a base case and a smaller subproblem that progresses toward it.",
+    "new": "For a terminating introductory recursive algorithm, identify a base case and a well-founded progress measure toward it; recursive calls need not literally reduce a numeric argument.",
+    "issue_code": "RECURSION_TERMINATION_SCOPE",
+    "reason": "把终止条件限定在本题的有限教学示例，允许递增索引等能证明终止的等价设计。"
+  },
+  {
+    "task_id": "lesson-builder__cn01_10",
+    "field": "rubric",
+    "old": "Recursion needs a base case and a smaller subproblem that progresses toward it.",
+    "new": "For a terminating introductory recursive algorithm, identify a base case and a well-founded progress measure toward it; recursive calls need not literally reduce a numeric argument.",
+    "issue_code": "RECURSION_TERMINATION_SCOPE",
+    "reason": "把终止条件限定在本题的有限教学示例，允许递增索引等能证明终止的等价设计。"
+  },
+  {
+    "task_id": "lesson-builder__cn22_01",
+    "field": "expected_output",
+    "old": "A hyperbola is the locus of points whose absolute distance difference to two fixed foci is 2a with 0<2a<2c.",
+    "new": "A hyperbola is the locus of points whose absolute distance difference to two fixed foci separated by distance 2c is 2a with 0<2a<2c.",
+    "issue_code": "DEFINE_FOCAL_DISTANCE",
+    "reason": "补充 c 的含义，使非退化条件完整可读。"
+  },
+  {
+    "task_id": "lesson-builder__cn22_01",
+    "field": "rubric",
+    "old": "A hyperbola is the locus of points whose absolute distance difference to two fixed foci is 2a with 0<2a<2c.",
+    "new": "A hyperbola is the locus of points whose absolute distance difference to two fixed foci separated by distance 2c is 2a with 0<2a<2c.",
+    "issue_code": "DEFINE_FOCAL_DISTANCE",
+    "reason": "补充 c 的含义，使非退化条件完整可读。"
+  },
+  {
+    "task_id": "lesson-builder__cn22_06",
+    "field": "expected_output",
+    "old": "A vector has magnitude and direction, with equality independent of its drawn position for free vectors.",
+    "new": "A nonzero Euclidean plane vector has magnitude and direction; the zero vector has zero magnitude and no unique direction. Equality of free vectors is independent of drawn position.",
+    "issue_code": "ZERO_VECTOR_EXCEPTION",
+    "reason": "原定义把所有向量都说成有方向，却又禁止给零向量方向；明确非零条件和零向量例外。"
+  },
+  {
+    "task_id": "lesson-builder__cn22_06",
+    "field": "rubric",
+    "old": "A vector has magnitude and direction, with equality independent of its drawn position for free vectors.",
+    "new": "A nonzero Euclidean plane vector has magnitude and direction; the zero vector has zero magnitude and no unique direction. Equality of free vectors is independent of drawn position.",
+    "issue_code": "ZERO_VECTOR_EXCEPTION",
+    "reason": "原定义把所有向量都说成有方向，却又禁止给零向量方向；明确非零条件和零向量例外。"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_05",
+    "field": "expected_output",
+    "old": "A controlled pendulum comparison changes one variable while keeping effective length and release amplitude appropriate.",
+    "new": "A controlled pendulum comparison explicitly chooses the tested variable and holds the other relevant conditions fixed. When testing mass, hold effective length and small release amplitude fixed; when testing length, vary length rather than fixing it.",
+    "issue_code": "CONTROL_VARIABLE_SCOPE",
+    "reason": "控制变量不能一律固定摆长；明确质量实验与摆长实验分别控制哪些条件。"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_05",
+    "field": "rubric",
+    "old": "A controlled pendulum comparison changes one variable while keeping effective length and release amplitude appropriate.",
+    "new": "A controlled pendulum comparison explicitly chooses the tested variable and holds the other relevant conditions fixed. When testing mass, hold effective length and small release amplitude fixed; when testing length, vary length rather than fixing it.",
+    "issue_code": "CONTROL_VARIABLE_SCOPE",
+    "reason": "控制变量不能一律固定摆长；明确质量实验与摆长实验分别控制哪些条件。"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_10",
+    "field": "user_prompt",
+    "old": "the undergraduate skill certificate",
+    "new": "the intended further-study or vocational qualification examination (the original wording does not identify a specific examination)",
+    "issue_code": "AMBIGUOUS_QUALIFICATION",
+    "reason": "中文“本科技能证”不是题内明确的考试名称；保留升学或资格考试顾虑并注明未指定，避免编造制度或成功承诺。"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "ark": {
+      "npm": "@ai-sdk/anthropic",
+      "name": "Ark (Anthropic-compatible)",
+      "options": {
+        "baseURL": "https://ark.cn-beijing.volces.com/api/plan/v1",
+        "apiKey": "[CONFIGURE_LOCALLY]"
+      },
+      "models": {
+        "minimax-m3": {
+          "name": "MiniMax M3"
+        },
+        "glm-5.3": {
+          "name": "GLM-5.3 (glm-latest)"
+        },
+        "glm-5.3-flash": {
+          "name": "GLM-5.3 Flash"
+        },
+        "deepseek-v4-flash": {
+          "name": "DeepSeek V4 Flash"
+        },
+        "deepseek-v4-pro": {
+          "name": "DeepSeek V4 Pro"
+        },
+        "kimi-k2.7-code": {
+          "name": "Kimi K2.7 Code"
+        }
+      }
+    }
+  },
+  "model": "ark/glm-5.3",
+  "small_model": "ark/glm-5.3"
+}

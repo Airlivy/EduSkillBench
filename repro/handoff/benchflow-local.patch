@@ -1,0 +1,338 @@
+--- a/benchflow/agents/providers.py
++++ b/benchflow/agents/providers.py
+@@ -371,6 +371,79 @@
+         url_params={"base_url": "HUNYUAN_BASE_URL"},
+         model_prefixes=["hunyuan"],
+     ),
++    # Ark (Volcano Engine) Anthropic-compatible gateway — serves minimax-m3 /
++    # glm-5.3 / glm-5.3-flash / deepseek-v4-flash / deepseek-v4-pro /
++    # kimi-k2.7-code through https://ark.cn-beijing.volces.com/api/plan
++    # (anthropic-messages protocol only; the key 401s on the /api/v3 OpenAI
++    # surface). LiteLLM routes upstream as ``anthropic/<model>`` and appends
++    # /v1/messages to api_base, so base_url must be the ROOT (no trailing
++    # /v1) — verified live: the /v1-suffixed base 401s with
++    # "the API key ... is missing or invalid". (opencode's @ai-sdk/anthropic
++    # instead appends bare /messages, hence its baseURL keeps the /v1.)
++    "ark": ProviderConfig(
++        name="ark",
++        base_url="https://ark.cn-beijing.volces.com/api/plan",
++        api_protocol="anthropic-messages",
++        auth_type="api_key",
++        auth_env="ARK_API_KEY",
++        model_prefixes=["ark"],
++        models=[
++            {
++                "id": "minimax-m3",
++                "name": "MiniMax M3",
++                "reasoning": True,
++                "input": ["text"],
++                "cost": {"input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0},
++                "contextWindow": 200000,
++                "maxTokens": 131072,
++            },
++            {
++                "id": "glm-5.3",
++                "name": "GLM-5.3",
++                "reasoning": True,
++                "input": ["text"],
++                "cost": {"input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0},
++                "contextWindow": 200000,
++                "maxTokens": 131072,
++            },
++            {
++                "id": "glm-5.3-flash",
++                "name": "GLM-5.3 Flash",
++                "reasoning": False,
++                "input": ["text"],
++                "cost": {"input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0},
++                "contextWindow": 200000,
++                "maxTokens": 131072,
++            },
++            {
++                "id": "deepseek-v4-flash",
++                "name": "DeepSeek V4 Flash",
++                "reasoning": False,
++                "input": ["text"],
++                "cost": {"input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0},
++                "contextWindow": 200000,
++                "maxTokens": 131072,
++            },
++            {
++                "id": "deepseek-v4-pro",
++                "name": "DeepSeek V4 Pro",
++                "reasoning": True,
++                "input": ["text"],
++                "cost": {"input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0},
++                "contextWindow": 200000,
++                "maxTokens": 131072,
++            },
++            {
++                "id": "kimi-k2.7-code",
++                "name": "Kimi K2.7 Code",
++                "reasoning": True,
++                "input": ["text"],
++                "cost": {"input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0},
++                "contextWindow": 200000,
++                "maxTokens": 131072,
++            },
++        ],
++    ),
+ }
+ 
+ 
+--- a/benchflow/agents/registry.py
++++ b/benchflow/agents/registry.py
+@@ -132,18 +132,23 @@
+     f"BF_NODE_DIR={_BENCHFLOW_NODE_PREFIX}; "
+     "BF_NODE_VERSION=22.20.0; "
+     'if [ ! -x "$BF_NODE_DIR/bin/node" ]; then '
++    # The base images here ship curl+tar+gzip but NOT xz; requiring xz would
++    # force an apt-get from the public archive, which is just as flaky as the
++    # node CDN in the same bad windows (verified: apt-get update ETIMEDOUT ->
++    # "xz-utils has no installation candidate" -> rc=127). So node is fetched
++    # as a GZIP tarball and only curl+tar are required — extraction never
++    # touches the network or apt.
+     "  if ! command -v curl >/dev/null 2>&1 || "
+-    "     ! command -v tar >/dev/null 2>&1 || "
+-    "     ! command -v xz >/dev/null 2>&1; then "
++    "     ! command -v tar >/dev/null 2>&1; then "
+     "    if command -v apt-get >/dev/null 2>&1; then "
+     "      apt-get update -qq && "
+-    "      apt-get install -y -qq curl ca-certificates tar xz-utils; "
++    "      apt-get install -y -qq curl ca-certificates tar; "
+     "    elif command -v dnf >/dev/null 2>&1; then "
+-    "      dnf -y install curl ca-certificates tar xz; "
++    "      dnf -y install curl ca-certificates tar; "
+     "    elif command -v apk >/dev/null 2>&1; then "
+-    "      apk add --no-cache curl ca-certificates tar xz; "
++    "      apk add --no-cache curl ca-certificates tar; "
+     "    else "
+-    "      echo 'BenchFlow JS agent bootstrap requires curl, tar, and xz' >&2; "
++    "      echo 'BenchFlow JS agent bootstrap requires curl and tar' >&2; "
+     "      exit 127; "
+     "    fi; "
+     "  fi; "
+@@ -155,11 +160,27 @@
+     "  esac; "
+     '  tmp="$(mktemp -d)"; '
+     "  mkdir -p /opt/benchflow; "
+-    '  curl -fsSLo "$tmp/node.tar.xz" '
+-    '"https://nodejs.org/dist/v${BF_NODE_VERSION}/node-v${BF_NODE_VERSION}-linux-${node_arch}.tar.xz"; '
++    '  curl -fsSL --connect-timeout 5 --speed-limit 1000 --speed-time 15 '
++    '    --retry 2 --retry-all-errors --retry-delay 1 '
++    '    -o "$tmp/node.tar.gz" '
++    # Container egress to public CDNs is intermittently flaky here, so node is
++    # served from a local cache on the docker bridge first (172.17.0.1:8123,
++    # ~0.01s, zero internet exposure), then falls back to npmmirror and the
++    # official dist (1:1 identical archives; same version/checksum). Each curl
++    # fails fast on dead connections (speed-abort) instead of hanging the
++    # per-container node bootstrap (rc=127 cascades).
++    '"http://172.17.0.1:8123/node-v${BF_NODE_VERSION}-linux-${node_arch}.tar.gz" '
++    '    || curl -fsSL --connect-timeout 20 --speed-limit 1000 --speed-time 20 '
++    '    --retry 4 --retry-all-errors --retry-delay 2 '
++    '    -o "$tmp/node.tar.gz" '
++    '"https://cdn.npmmirror.com/binaries/node/v${BF_NODE_VERSION}/node-v${BF_NODE_VERSION}-linux-${node_arch}.tar.gz" '
++    '    || curl -fsSL --connect-timeout 20 --speed-limit 1000 --speed-time 20 '
++    '    --retry 4 --retry-all-errors --retry-delay 2 '
++    '    -o "$tmp/node.tar.gz" '
++    '"https://nodejs.org/dist/v${BF_NODE_VERSION}/node-v${BF_NODE_VERSION}-linux-${node_arch}.tar.gz"; '
+     '  rm -rf "$BF_NODE_DIR"; '
+     '  mkdir -p "$BF_NODE_DIR"; '
+-    '  tar -xJf "$tmp/node.tar.xz" -C "$BF_NODE_DIR" --strip-components=1 --no-same-owner; '
++    '  tar -xzf "$tmp/node.tar.gz" -C "$BF_NODE_DIR" --strip-components=1 --no-same-owner; '
+     '  rm -rf "$tmp"; '
+     "fi; "
+     f'export PATH="{_BENCHFLOW_NODE_PREFIX}/bin:$PATH"; '
+@@ -175,11 +196,43 @@
+     return f"{package}@latest"
+ 
+ 
++# Offline js-agent bundle override. Container egress to the public npm registry
++# is intermittently flaky here (EBADPLATFORM from dropped optional-dep metadata,
++# or ETIMEDOUT), and the failures are sticky inside a container. For known
++# (package@version) specs we ship a prebuilt /opt/benchflow/js-agents prefix
++# tarball from the docker-bridge cache (172.17.0.1:8123, built by
++# jobs/_build_bundle.sh on the host with the identical node v22.20.0/npm 10.9.3
++# under glibc) so the install is fully local + deterministic and never touches
++# the internet. bin/{binary} inside the tarball is a relative symlink, so the
++# extract works at any absolute prefix.
++_JS_AGENT_BUNDLES = {
++    "opencode-ai@1.18.11": "http://172.17.0.1:8123/opencode-js-agents-1.18.11.tar.gz",
++}
++
++
+ def _js_agent_install(binary: str, package: str) -> str:
+     """Install an npm-distributed agent into BenchFlow's isolated prefix."""
+     agent_bin = f"{_BENCHFLOW_JS_AGENT_PREFIX}/bin/{binary}"
+     wrapper = f"{_BENCHFLOW_BIN_PREFIX}/{binary}"
+     package_spec = _npm_package_spec(package)
++    bundle = _JS_AGENT_BUNDLES.get(package_spec)
++    if bundle is not None:
++        return (
++            f"{_NODE_INSTALL} && "
++            f"mkdir -p {_BENCHFLOW_JS_AGENT_PREFIX} {_BENCHFLOW_BIN_PREFIX} && "
++            f'tmp="$(mktemp -d)" && '
++            f"curl -fsSL --connect-timeout 5 --speed-limit 1000 --speed-time 15 "
++            f"--retry 2 --retry-all-errors --retry-delay 1 "
++            f'-o "$tmp/agent.tar.gz" "{bundle}" && '
++            f'tar -xzf "$tmp/agent.tar.gz" -C {_BENCHFLOW_JS_AGENT_PREFIX} && '
++            f'rm -rf "$tmp" && '
++            f"printf '%s\\n' '#!/bin/sh' "
++            f"'exec {_BENCHFLOW_NODE_PREFIX}/bin/node {agent_bin} \"$@\"' "
++            f"> {wrapper} && "
++            f"chmod +x {wrapper} && "
++            f"chmod -R a+rX /opt/benchflow && "
++            f"[ -x {agent_bin} ] && [ -x {wrapper} ]"
++        )
+     install_guard = "" if package_spec == package else f"[ -x {agent_bin} ] || "
+     return (
+         f"{_NODE_INSTALL} && "
+@@ -697,7 +750,7 @@
+     "opencode": AgentConfig(
+         name="opencode",
+         description="OpenCode via ACP — open-source coding agent (TypeScript)",
+-        skill_paths=["$HOME/.opencode/skills"],
++        skill_paths=["$HOME/.config/opencode/skills"],
+         home_dirs=[".opencode"],
+         install_cmd=(
+             _js_agent_install("opencode", "opencode-ai@1.18.11")
+--- a/benchflow/providers/litellm_runtime.py
++++ b/benchflow/providers/litellm_runtime.py
+@@ -552,6 +552,14 @@
+     """
+     if environment != "docker":
+         return "127.0.0.1"
++    # WSL2 escape hatch: host -> docker-bridge-gateway TCP is unreliable here
++    # (ping works, TCP SYN to the gateway IP times out), which made the host
++    # LiteLLM health poll fail even though containers could reach the proxy.
++    # Binding 0.0.0.0 lets the poller hit 127.0.0.1 while the agent container
++    # still reaches the proxy via the bridge gateway.
++    override = (os.environ.get("BENCHFLOW_HOST_LITELLM_BIND") or "").strip()
++    if override:
++        return override
+     address = _docker_host_address()
+     try:
+         socket.inet_aton(address)
+--- a/benchflow/rewards/llm.py
++++ b/benchflow/rewards/llm.py
+@@ -74,7 +74,11 @@
+ 
+ 
+ def _is_anthropic_model(model: str) -> bool:
+-    return model.startswith(("claude-", "anthropic/"))
++    # ark/… is a custom anthropic-compatible gateway (benchflow registered
++    # provider) — treat it as anthropic so judge calls route to the anthropic
++    # SDK (with ANTHROPIC_BASE_URL pointing at ark) rather than falling through
++    # as an unknown prefix.
++    return model.startswith(("claude-", "anthropic/", "ark/"))
+ 
+ 
+ def _is_openai_model(model: str) -> bool:
+@@ -96,7 +100,7 @@
+     if "/" in model:
+         parts = model.split("/", 1)
+         provider = parts[0]
+-        if provider in {"anthropic", "openai", "google", "gemini"}:
++        if provider in {"anthropic", "openai", "google", "gemini", "ark"}:
+             return parts[1]
+     return model
+ 
+@@ -232,15 +236,19 @@
+     import anthropic  # ty: ignore[unresolved-import]
+ 
+     creds = env or {}
+-    # Pass the resolved key explicitly so concurrent judge runs cannot race
+-    # on a shared os.environ. Fall back to the SDK's own env lookup when no
+-    # key was threaded through.
++    # Pass the resolved key/base explicitly so concurrent judge runs cannot race
++    # on a shared os.environ (and so a custom gateway such as ark's
++    # anthropic-compatible endpoint can be reached — the key alone is useless if
++    # the SDK still targets api.anthropic.com). Fall back to the SDK's own env
++    # lookup when nothing was threaded through.
+     api_key = creds.get("ANTHROPIC_API_KEY")
+-    client = (
+-        anthropic.AsyncAnthropic(api_key=api_key)
+-        if api_key
+-        else anthropic.AsyncAnthropic()
+-    )
++    base_url = creds.get("ANTHROPIC_BASE_URL")
++    kwargs: dict[str, str] = {}
++    if api_key:
++        kwargs["api_key"] = api_key
++    if base_url:
++        kwargs["base_url"] = base_url
++    client = anthropic.AsyncAnthropic(**kwargs)
+     response = await client.messages.create(
+         model=model,
+         max_tokens=max_tokens,
+--- a/benchflow/skill_eval/_core.py
++++ b/benchflow/skill_eval/_core.py
+@@ -37,7 +37,11 @@
+     "GOOGLE_API_KEY",
+     "GEMINI_API_KEY",
+     "ANTHROPIC_API_KEY",
++    "ANTHROPIC_BASE_URL",
+     "OPENAI_API_KEY",
++    "OPENAI_BASE_URL",
++    "NO_PROXY",
++    "no_proxy",
+ )
+ TaskOutputFormat = Literal["task-md", "legacy"]
+ 
+@@ -254,7 +258,16 @@
+         "category": "skill-eval",
+         "tags": ["skill-eval", dataset.skill_name],
+     }
+-    verifier: dict[str, Any] = {"timeout_sec": 120}
++    # Raised from 120: the verifier LLM judge is the same reasoning model as
++    # the agent (e.g. glm-5.3 via ark), and its verdict on a long trajectory
++    # routinely takes 120-260s (measured). A 120s cap killed those verdicts
++    # and dropped reward cells despite a successful retry. 300s lets them land.
++    # Raised again 300->600: heavier reasoning judges (deepseek-v4-pro via ark,
++    # max_tokens=8192 in judge.py) intermittently exceed 300s; the timeout then
++    # surfaces as an empty test-stdout.txt ("exec-layer wedge" retry) even
++    # though the exec layer is healthy and the judge lands on the retry. The
++    # budget only rescues slow-judge cells; verdicts that land are unchanged.
++    verifier: dict[str, Any] = {"timeout_sec": 600}
+ 
+     # Forward host judge credentials into the verifier env via the
+     # ``${KEY}`` syntax the BenchFlow runner expands at task-launch time.
+@@ -264,7 +277,10 @@
+ 
+     environment_block: dict[str, Any] = {
+         "cpus": 1,
+-        "memory_mb": 2048,
++        # Lowered from 2048: these are light text-agent sandboxes, and the
++        # Windows host behind this WSL2 VM OOM-kills background runs when the
++        # docker reservation is larger. 1 GiB is ample for opencode + judge.
++        "memory_mb": 1024,
+         "allow_internet": True,
+     }
+     if with_skill:
+@@ -395,6 +411,14 @@
+         task_dir.mkdir(parents=True, exist_ok=True)
+ 
+         instruction = case.question + "\n"
++        # BENCHFLOW-FORCE-SKILL: 强制把技能说明写进题面（仅 with-skill）
++        if with_skill:
++            _skill_md = dataset.skill_dir / "SKILL.md"
++            if _skill_md.is_file():
++                instruction = (instruction
++                    + "\n\n---\n\n## Required procedure\n"
++                    + "Follow the procedure below when completing the task.\n\n"
++                    + _skill_md.read_text(encoding="utf-8"))
+         task_toml = _build_task_toml(dataset, case, with_skill)
+         if output_format == "task-md":
+             (task_dir / "task.md").write_text(render_task_md(task_toml, instruction))
+@@ -687,7 +711,11 @@
+         judge_env = {}
+         for key in (
+             "ANTHROPIC_API_KEY",
++            "ANTHROPIC_BASE_URL",
+             "OPENAI_API_KEY",
++            "OPENAI_BASE_URL",
++            "NO_PROXY",
++            "no_proxy",
+             "GOOGLE_API_KEY",
+             "GEMINI_API_KEY",
+         ):

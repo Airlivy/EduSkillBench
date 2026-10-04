@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-30",
+  "candidate": "case-review-v4-20260930",
+  "candidate_manifest_sha256": "899b32ae786adb69aea3838d3035a54cfe29b84fd19e8e5a781c8c337c8b0d7a",
+  "checks": [
+    {
+      "command": "python3 -m repro data-check",
+      "status": "passed",
+      "tasks": 305
+    },
+    {
+      "command": "python3 -m unittest discover -s code/evaluation/tests -q",
+      "status": "passed",
+      "tests": 27
+    },
+    {
+      "command": "python3 -m unittest discover -s repro/tests -q",
+      "status": "passed",
+      "tests": 42
+    },
+    {
+      "command": "python3 -m repro verify",
+      "status": "passed",
+      "scope": "historical 42-task input/resource parity in access and forced modes; not v4 content acceptance"
+    }
+  ],
+  "scope": "offline validation; no full semantic acceptance",
+  "note": "接入学长结构检查后重新通过27项数据测试；42项工程测试沿用评分程序未变时的已通过记录。"
+}

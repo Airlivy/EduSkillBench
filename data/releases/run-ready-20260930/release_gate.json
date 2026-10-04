@@ -1,0 +1,20 @@
+{
+  "ready": true,
+  "purpose": "runnable evaluation delivery, not all-criteria expert acceptance",
+  "full_acceptance": false,
+  "core_skill_cases": 42,
+  "advisory_answer_cases": 263,
+  "allowed_conditions": {
+    "core": [
+      "baseline",
+      "with-skill"
+    ],
+    "advisory": [
+      "baseline"
+    ],
+    "all": [
+      "baseline"
+    ]
+  },
+  "judge_calibration": "See separately recorded bounded smoke results; not a 305-case calibration claim."
+}

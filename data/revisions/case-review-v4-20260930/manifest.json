@@ -1,0 +1,29 @@
+{
+  "revision": "case-review-v4-20260930",
+  "source_revision": "case-review-v3-20260930",
+  "counts": {
+    "total": 305,
+    "changed": 276
+  },
+  "input_sha256": {
+    "data/revisions/case-review-v3-20260930/manifest.json": "3cfa95dd27eb857c35ccf0f6f66cfb62f685f0f7d13aec2eb7cc879edf567f39",
+    "data/revisions/case-review-v3-20260930/single_turn_tasks.csv": "70d2dae3bbf5512815ff4298cffb34d94a47086c9d2f7bbe5461bda5ccaa2848",
+    "data/revisions/case-review-v3-20260930/single_turn_tasks_cn263.csv": "d4ef07e7694555c1fe24a8ad891cd29b30458c6e9c07684dd8374420a3c83fe1",
+    "repro/../code/evaluation/revise_cases_v4.py": "97041701e9cd9bf4a2d8bc10667a9e1ede2d69aa822a418243469d89d7212762",
+    "repro/../code/evaluation/content_review_patches_v4.json": "ae840b2ce8626491b356f01345cac0415584479ac34e8e507ede1f053d54642d"
+  },
+  "artifact_sha256": {
+    "correction_notes.json": "c3cdc1b6ec64f88a967f53889c1ed0be2bab11454a41a00af8e49dec001fde65",
+    "evals.json": "079bd2dfd8b39117c628f6a238c0dba39d9caaeaf8a540d6b99426e758847594",
+    "README.md": "49a2dc41a8d3fcf76ce84a7eff263264b904eeac5b712f5bb6aa9c700ca6f7f3",
+    "split_policy.json": "2e8bcc2b531f0539b13be7e1a04779b27fa1e07d92e642a4b00c7112af401845",
+    "changes.json": "04157970825ced5480f0831b346df58eb7e973f66931e6ad0d466ad5433f56f1",
+    "release_gate.json": "fefd8fa6c598bfe5edc17888da88088dac3b37adb06e5a8b108cc775507be119",
+    "skill_routing_review.json": "912dd518fd100a8931d2ec339fa552cc8f7b7b41eb65729777ffde230ae255b8",
+    "single_turn_tasks_cn263.csv": "ad6cb85a19d357b3cf450af369d8926fdd67025ae6bb77691294c7e2db4a597e",
+    "source_bindings.json": "fe157618f7479fc8f66913072a6b48da03b7efd764a01a57a4a4faf6002cc350",
+    "split_groups.json": "93fcc150f1e0438624ad6e9998b4ae43e2c7019aaa6da6f98dd01f356d248aa5",
+    "single_turn_tasks.csv": "d1b836f2b97d1d4d261fa117c29966f51219639241d5f672ef7f886f9a521743"
+  },
+  "release_ready": false
+}

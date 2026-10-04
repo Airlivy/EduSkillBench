@@ -1,0 +1,17 @@
+{
+  "ready": false,
+  "source_fidelity_verified": true,
+  "reason": "263题已恢复原文；现有布尔评分器不支持原文多级量规与未指定权重，不能继续使用改写评分规则。",
+  "allowed_conditions": {
+    "core": [
+      "baseline",
+      "with-skill"
+    ],
+    "advisory": [
+      "baseline"
+    ],
+    "all": [
+      "baseline"
+    ]
+  }
+}

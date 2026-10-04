@@ -1,0 +1,699 @@
+{
+  "date": "2026-10-01",
+  "scope": "Serial single requests on glm-5.3-flash; diagnostic samples, not a whole-benchmark performance estimate",
+  "tests": {
+    "engineering": 58,
+    "data": 27,
+    "release_check": "passed"
+  },
+  "runs": [
+    {
+      "name": "latency-original-network-20261001",
+      "plan": {
+        "model": "glm-5.3-flash",
+        "maximum_calls": 3,
+        "judge_sha256": "1ec00dc3433fdc5ef6f059edea8230e1386d78589b2179db2e9edbdcb94e5c15",
+        "samples": [
+          {
+            "name": "tiny",
+            "rubric_items": 1,
+            "prompt_chars": 901,
+            "prompt_sha256": "579b635699b328b8e63fda7430a5dff97ab3ce5f65e805d952f2343200f6636a"
+          },
+          {
+            "name": "positive",
+            "rubric_items": 6,
+            "prompt_chars": 8451,
+            "prompt_sha256": "eeecfb2b1b246f8f333b7063cddad58e03024e0585e6122d7d76616a8549a081"
+          },
+          {
+            "name": "factual_error",
+            "rubric_items": 6,
+            "prompt_chars": 8451,
+            "prompt_sha256": "7d7dafaaf829f1e8d8e2f4caee8a3acd3cc701218b5add461859429a1026a584"
+          }
+        ]
+      },
+      "requests": [
+        {
+          "sample": "tiny",
+          "status": "scored",
+          "score": 1.0,
+          "critical_pass": null,
+          "elapsed_seconds": 5.355,
+          "trace": "jobs/repair-audit/latency-original-network-20261001/tiny.trace.json",
+          "trace_sha256": "f738d35fd4e7f7bd32bc5aba96dbdd309b3459fcacb55a524dbaa59109ac7d55",
+          "transport_route": null,
+          "stage": "message_complete",
+          "headers_seconds": 4.006,
+          "first_thinking_seconds": 4.013,
+          "first_text_seconds": 5.207,
+          "thinking_chars": 212,
+          "text_chars": 35,
+          "max_line_gap_seconds": 0.198,
+          "timeout_kind": null,
+          "network_error_kind": null,
+          "reason_type": null,
+          "since_last_line_seconds": 0.0,
+          "usage": {
+            "input_tokens": 201,
+            "output_tokens": 84,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0
+          },
+          "thinking_to_first_text_seconds": 1.194,
+          "decisions": {
+            "C1": true
+          },
+          "expected_critical_classification_matches": true
+        },
+        {
+          "sample": "positive",
+          "status": "scored",
+          "score": 1.0,
+          "critical_pass": true,
+          "elapsed_seconds": 63.717,
+          "trace": "jobs/repair-audit/latency-original-network-20261001/positive.trace.json",
+          "trace_sha256": "9de9663d1c477a258642320249ee2b9bed649fba5099d699368ae6aa979568c5",
+          "transport_route": null,
+          "stage": "message_complete",
+          "headers_seconds": 3.574,
+          "first_thinking_seconds": 3.579,
+          "first_text_seconds": 62.846,
+          "thinking_chars": 14106,
+          "text_chars": 167,
+          "max_line_gap_seconds": 0.821,
+          "timeout_kind": null,
+          "network_error_kind": null,
+          "reason_type": null,
+          "since_last_line_seconds": 0.0,
+          "usage": {
+            "input_tokens": 1882,
+            "output_tokens": 3469,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0
+          },
+          "thinking_to_first_text_seconds": 59.267,
+          "decisions": {
+            "C1": true,
+            "C2": true,
+            "C3": true,
+            "C4": true,
+            "C5": true,
+            "C6": true
+          },
+          "expected_critical_classification_matches": true
+        },
+        {
+          "sample": "factual_error",
+          "status": "scored",
+          "score": 0.64,
+          "critical_pass": false,
+          "elapsed_seconds": 116.517,
+          "trace": "jobs/repair-audit/latency-original-network-20261001/factual_error.trace.json",
+          "trace_sha256": "b9311caa73e97f887ffd895fd725c2058dbe116350aef483c24320416056c763",
+          "transport_route": null,
+          "stage": "message_complete",
+          "headers_seconds": 2.701,
+          "first_thinking_seconds": 2.706,
+          "first_text_seconds": 115.891,
+          "thinking_chars": 25411,
+          "text_chars": 157,
+          "max_line_gap_seconds": 0.64,
+          "timeout_kind": null,
+          "network_error_kind": null,
+          "reason_type": null,
+          "since_last_line_seconds": 0.0,
+          "usage": {
+            "input_tokens": 1882,
+            "output_tokens": 6328,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0
+          },
+          "thinking_to_first_text_seconds": 113.185,
+          "decisions": {
+            "C1": false,
+            "C2": true,
+            "C3": true,
+            "C4": true,
+            "C5": true,
+            "C6": false
+          },
+          "expected_critical_classification_matches": true
+        }
+      ]
+    },
+    {
+      "name": "latency-budget1024-20261001",
+      "plan": {
+        "model": "glm-5.3-flash",
+        "maximum_calls": 3,
+        "thinking_budget": 1024,
+        "timeouts_seconds": {
+          "headers": 90.0,
+          "idle": 60.0,
+          "content_idle": 180.0,
+          "total": 600.0
+        },
+        "judge_sha256": "7337bde49258a83acf8b4c91a655398ffbdeb00d1a8c7721ca4e6654ca6d6ebb",
+        "samples": [
+          {
+            "name": "tiny",
+            "rubric_items": 1,
+            "prompt_chars": 901,
+            "prompt_sha256": "579b635699b328b8e63fda7430a5dff97ab3ce5f65e805d952f2343200f6636a"
+          },
+          {
+            "name": "positive",
+            "rubric_items": 6,
+            "prompt_chars": 8451,
+            "prompt_sha256": "eeecfb2b1b246f8f333b7063cddad58e03024e0585e6122d7d76616a8549a081"
+          },
+          {
+            "name": "factual_error",
+            "rubric_items": 6,
+            "prompt_chars": 8451,
+            "prompt_sha256": "7d7dafaaf829f1e8d8e2f4caee8a3acd3cc701218b5add461859429a1026a584"
+          }
+        ]
+      },
+      "requests": [
+        {
+          "sample": "tiny",
+          "status": "scored",
+          "score": 1.0,
+          "critical_pass": null,
+          "elapsed_seconds": 4.86,
+          "trace": "jobs/repair-audit/latency-budget1024-20261001/tiny.trace.json",
+          "trace_sha256": "30cec6cae29a36c384abfe1361daf162c2fd37bd4fca77dcfae7a1998f798dca",
+          "transport_route": null,
+          "stage": "message_complete",
+          "headers_seconds": 3.483,
+          "first_thinking_seconds": 3.485,
+          "first_text_seconds": 4.796,
+          "thinking_chars": 175,
+          "text_chars": 35,
+          "max_line_gap_seconds": 0.386,
+          "timeout_kind": null,
+          "network_error_kind": null,
+          "reason_type": null,
+          "since_last_line_seconds": 0.001,
+          "usage": {
+            "input_tokens": 201,
+            "output_tokens": 59,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0
+          },
+          "thinking_to_first_text_seconds": 1.311,
+          "decisions": {
+            "C1": true
+          },
+          "expected_critical_classification_matches": true
+        },
+        {
+          "sample": "positive",
+          "status": "failed",
+          "category": "transport",
+          "trace": "jobs/repair-audit/latency-budget1024-20261001/positive.trace.json",
+          "trace_sha256": "0083acac00035739df4e60650b92c531c791de31000ffcf792241c1126351a9e",
+          "transport_route": null,
+          "stage": "receiving_text",
+          "headers_seconds": 2.961,
+          "first_thinking_seconds": 2.964,
+          "first_text_seconds": 64.528,
+          "elapsed_seconds": 124.759,
+          "thinking_chars": 14736,
+          "text_chars": 65,
+          "max_line_gap_seconds": 0.568,
+          "timeout_kind": "stream_idle_timeout",
+          "network_error_kind": null,
+          "reason_type": "PhaseTimeout",
+          "since_last_line_seconds": 60.008,
+          "usage": {
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0
+          },
+          "thinking_to_first_text_seconds": 61.564
+        },
+        {
+          "sample": "factual_error",
+          "status": "failed",
+          "category": "transport",
+          "trace": "jobs/repair-audit/latency-budget1024-20261001/factual_error.trace.json",
+          "trace_sha256": "d2acff514f7f32d2332d0ffd91836ba089808a3ca41895e0830bef850bfb0098",
+          "transport_route": null,
+          "stage": "awaiting_headers",
+          "headers_seconds": null,
+          "first_thinking_seconds": null,
+          "first_text_seconds": null,
+          "elapsed_seconds": 5.014,
+          "thinking_chars": 0,
+          "text_chars": 0,
+          "max_line_gap_seconds": 0,
+          "timeout_kind": "socket_or_transport",
+          "network_error_kind": null,
+          "reason_type": "SSLEOFError",
+          "since_last_line_seconds": null,
+          "usage": null
+        }
+      ]
+    },
+    {
+      "name": "latency-effort-low-20261001",
+      "plan": {
+        "model": "glm-5.3-flash",
+        "maximum_calls": 3,
+        "thinking_budget": 8000,
+        "effort": "low",
+        "timeouts_seconds": {
+          "headers": 90.0,
+          "idle": 60.0,
+          "content_idle": 180.0,
+          "total": 600.0
+        },
+        "judge_sha256": "65712df992049e4167454561c0532bca941144617efa083d8ded205283550275",
+        "samples": [
+          {
+            "name": "tiny",
+            "rubric_items": 1,
+            "prompt_chars": 901,
+            "prompt_sha256": "579b635699b328b8e63fda7430a5dff97ab3ce5f65e805d952f2343200f6636a"
+          },
+          {
+            "name": "positive",
+            "rubric_items": 6,
+            "prompt_chars": 8451,
+            "prompt_sha256": "eeecfb2b1b246f8f333b7063cddad58e03024e0585e6122d7d76616a8549a081"
+          },
+          {
+            "name": "factual_error",
+            "rubric_items": 6,
+            "prompt_chars": 8451,
+            "prompt_sha256": "7d7dafaaf829f1e8d8e2f4caee8a3acd3cc701218b5add461859429a1026a584"
+          }
+        ]
+      },
+      "requests": [
+        {
+          "sample": "tiny",
+          "status": "failed",
+          "category": "transport",
+          "trace": "jobs/repair-audit/latency-effort-low-20261001/tiny.trace.json",
+          "trace_sha256": "941d916268a359fe01522e090c8ca2f20deefd6116ad6813225915866f6f257e",
+          "transport_route": null,
+          "stage": "awaiting_headers",
+          "headers_seconds": null,
+          "first_thinking_seconds": null,
+          "first_text_seconds": null,
+          "elapsed_seconds": 5.026,
+          "thinking_chars": 0,
+          "text_chars": 0,
+          "max_line_gap_seconds": 0,
+          "timeout_kind": "socket_or_transport",
+          "network_error_kind": null,
+          "reason_type": "SSLEOFError",
+          "since_last_line_seconds": null,
+          "usage": null
+        },
+        {
+          "sample": "positive",
+          "status": "failed",
+          "category": "transport",
+          "trace": "jobs/repair-audit/latency-effort-low-20261001/positive.trace.json",
+          "trace_sha256": "8f2e130d1a6aae0203b7fc79b7fc3e0ed940119015afaea3d44c4734ca2399de",
+          "transport_route": null,
+          "stage": "awaiting_headers",
+          "headers_seconds": null,
+          "first_thinking_seconds": null,
+          "first_text_seconds": null,
+          "elapsed_seconds": 5.033,
+          "thinking_chars": 0,
+          "text_chars": 0,
+          "max_line_gap_seconds": 0,
+          "timeout_kind": "socket_or_transport",
+          "network_error_kind": null,
+          "reason_type": "SSLEOFError",
+          "since_last_line_seconds": null,
+          "usage": null
+        },
+        {
+          "sample": "factual_error",
+          "status": "failed",
+          "category": "transport",
+          "trace": "jobs/repair-audit/latency-effort-low-20261001/factual_error.trace.json",
+          "trace_sha256": "a5aeb217eb6a20649777d5bf875c49676c53687bbdf3e49fd9398fbffde9aa74",
+          "transport_route": null,
+          "stage": "awaiting_headers",
+          "headers_seconds": null,
+          "first_thinking_seconds": null,
+          "first_text_seconds": null,
+          "elapsed_seconds": 5.02,
+          "thinking_chars": 0,
+          "text_chars": 0,
+          "max_line_gap_seconds": 0,
+          "timeout_kind": "socket_or_transport",
+          "network_error_kind": null,
+          "reason_type": "SSLEOFError",
+          "since_last_line_seconds": null,
+          "usage": null
+        }
+      ]
+    },
+    {
+      "name": "latency-direct-20261001",
+      "plan": {
+        "model": "glm-5.3-flash",
+        "maximum_calls": 3,
+        "thinking_budget": 8000,
+        "effort": null,
+        "timeouts_seconds": {
+          "headers": 90.0,
+          "idle": 60.0,
+          "content_idle": 180.0,
+          "total": 600.0
+        },
+        "judge_sha256": "9dd142872aaefae694d53a77013f28073562babd7d676e22ed3508f1c6a99ac9",
+        "samples": [
+          {
+            "name": "tiny",
+            "rubric_items": 1,
+            "prompt_chars": 901,
+            "prompt_sha256": "579b635699b328b8e63fda7430a5dff97ab3ce5f65e805d952f2343200f6636a"
+          },
+          {
+            "name": "positive",
+            "rubric_items": 6,
+            "prompt_chars": 8451,
+            "prompt_sha256": "eeecfb2b1b246f8f333b7063cddad58e03024e0585e6122d7d76616a8549a081"
+          },
+          {
+            "name": "factual_error",
+            "rubric_items": 6,
+            "prompt_chars": 8451,
+            "prompt_sha256": "7d7dafaaf829f1e8d8e2f4caee8a3acd3cc701218b5add461859429a1026a584"
+          }
+        ]
+      },
+      "requests": [
+        {
+          "sample": "tiny",
+          "status": "scored",
+          "score": 1.0,
+          "critical_pass": null,
+          "elapsed_seconds": 2.439,
+          "trace": "jobs/repair-audit/latency-direct-20261001/tiny.trace.json",
+          "trace_sha256": "91ceac09acb7ac1b7c02fc91756eb0651bb0950addf65e13d2a5bd336641cc6d",
+          "transport_route": "direct_ark",
+          "stage": "message_complete",
+          "headers_seconds": 1.422,
+          "first_thinking_seconds": 1.425,
+          "first_text_seconds": 2.321,
+          "thinking_chars": 159,
+          "text_chars": 35,
+          "max_line_gap_seconds": 0.136,
+          "timeout_kind": null,
+          "network_error_kind": null,
+          "reason_type": null,
+          "since_last_line_seconds": 0.0,
+          "usage": {
+            "input_tokens": 201,
+            "output_tokens": 65,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0
+          },
+          "thinking_to_first_text_seconds": 0.896,
+          "decisions": {
+            "C1": true
+          },
+          "expected_critical_classification_matches": true
+        },
+        {
+          "sample": "positive",
+          "status": "scored",
+          "score": 1.0,
+          "critical_pass": true,
+          "elapsed_seconds": 35.143,
+          "trace": "jobs/repair-audit/latency-direct-20261001/positive.trace.json",
+          "trace_sha256": "720aa77842b2e459d7d4ebaf2391cada6453832fd60daf725f88f96077d09294",
+          "transport_route": "direct_ark",
+          "stage": "message_complete",
+          "headers_seconds": 0.971,
+          "first_thinking_seconds": 0.975,
+          "first_text_seconds": 34.653,
+          "thinking_chars": 7844,
+          "text_chars": 155,
+          "max_line_gap_seconds": 0.386,
+          "timeout_kind": null,
+          "network_error_kind": null,
+          "reason_type": null,
+          "since_last_line_seconds": 0.001,
+          "usage": {
+            "input_tokens": 1882,
+            "output_tokens": 2078,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0
+          },
+          "thinking_to_first_text_seconds": 33.678,
+          "decisions": {
+            "C1": true,
+            "C2": true,
+            "C3": true,
+            "C4": true,
+            "C5": true,
+            "C6": true
+          },
+          "expected_critical_classification_matches": true
+        },
+        {
+          "sample": "factual_error",
+          "status": "invalid_verdict",
+          "exception_type": "JSONDecodeError",
+          "trace": "jobs/repair-audit/latency-direct-20261001/factual_error.trace.json",
+          "trace_sha256": "1b8f46bcb0c1bb2523565f2e3907ae8dbbaa5208f71c6ab24813d293829016f0",
+          "transport_route": "direct_ark",
+          "stage": "message_complete",
+          "headers_seconds": 1.103,
+          "first_thinking_seconds": 1.106,
+          "first_text_seconds": 162.177,
+          "elapsed_seconds": 170.6,
+          "thinking_chars": 35102,
+          "text_chars": 2104,
+          "max_line_gap_seconds": 0.505,
+          "timeout_kind": null,
+          "network_error_kind": null,
+          "reason_type": null,
+          "since_last_line_seconds": 0.003,
+          "usage": {
+            "input_tokens": 1882,
+            "output_tokens": 9446,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0
+          },
+          "thinking_to_first_text_seconds": 161.071
+        }
+      ]
+    },
+    {
+      "name": "latency-direct-effort-low-20261001",
+      "plan": {
+        "model": "glm-5.3-flash",
+        "maximum_calls": 3,
+        "thinking_budget": 8000,
+        "effort": "low",
+        "timeouts_seconds": {
+          "headers": 90.0,
+          "idle": 60.0,
+          "content_idle": 180.0,
+          "total": 600.0
+        },
+        "judge_sha256": "9dd142872aaefae694d53a77013f28073562babd7d676e22ed3508f1c6a99ac9",
+        "samples": [
+          {
+            "name": "tiny",
+            "rubric_items": 1,
+            "prompt_chars": 901,
+            "prompt_sha256": "579b635699b328b8e63fda7430a5dff97ab3ce5f65e805d952f2343200f6636a"
+          },
+          {
+            "name": "positive",
+            "rubric_items": 6,
+            "prompt_chars": 8451,
+            "prompt_sha256": "eeecfb2b1b246f8f333b7063cddad58e03024e0585e6122d7d76616a8549a081"
+          },
+          {
+            "name": "factual_error",
+            "rubric_items": 6,
+            "prompt_chars": 8451,
+            "prompt_sha256": "7d7dafaaf829f1e8d8e2f4caee8a3acd3cc701218b5add461859429a1026a584"
+          }
+        ]
+      },
+      "requests": [
+        {
+          "sample": "tiny",
+          "status": "scored",
+          "score": 1.0,
+          "critical_pass": null,
+          "elapsed_seconds": 2.298,
+          "trace": "jobs/repair-audit/latency-direct-effort-low-20261001/tiny.trace.json",
+          "trace_sha256": "b55935a4a06d40df312459fc1dc8e71c83cb5cc5c63e45e85f10590712a7b85a",
+          "transport_route": "direct_ark",
+          "stage": "message_complete",
+          "headers_seconds": 0.96,
+          "first_thinking_seconds": 0.963,
+          "first_text_seconds": 2.207,
+          "thinking_chars": 205,
+          "text_chars": 35,
+          "max_line_gap_seconds": 0.268,
+          "timeout_kind": null,
+          "network_error_kind": null,
+          "reason_type": null,
+          "since_last_line_seconds": 0.0,
+          "usage": {
+            "input_tokens": 201,
+            "output_tokens": 76,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0
+          },
+          "thinking_to_first_text_seconds": 1.244,
+          "decisions": {
+            "C1": true
+          },
+          "expected_critical_classification_matches": true
+        },
+        {
+          "sample": "positive",
+          "status": "scored",
+          "score": 1.0,
+          "critical_pass": true,
+          "elapsed_seconds": 32.22,
+          "trace": "jobs/repair-audit/latency-direct-effort-low-20261001/positive.trace.json",
+          "trace_sha256": "fbd226303e97c722783d13961ddedd6e92ac6301a88ffa819936d30975127679",
+          "transport_route": "direct_ark",
+          "stage": "message_complete",
+          "headers_seconds": 0.812,
+          "first_thinking_seconds": 0.816,
+          "first_text_seconds": 31.578,
+          "thinking_chars": 7564,
+          "text_chars": 155,
+          "max_line_gap_seconds": 0.244,
+          "timeout_kind": null,
+          "network_error_kind": null,
+          "reason_type": null,
+          "since_last_line_seconds": 0.0,
+          "usage": {
+            "input_tokens": 1882,
+            "output_tokens": 2041,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0
+          },
+          "thinking_to_first_text_seconds": 30.762,
+          "decisions": {
+            "C1": true,
+            "C2": true,
+            "C3": true,
+            "C4": true,
+            "C5": true,
+            "C6": true
+          },
+          "expected_critical_classification_matches": true
+        },
+        {
+          "sample": "factual_error",
+          "status": "failed",
+          "category": "max_tokens",
+          "trace": "jobs/repair-audit/latency-direct-effort-low-20261001/factual_error.trace.json",
+          "trace_sha256": "6e4ebcfcb1634ebb0e93ea71e56b1124bf31fe360c11f12de896d9d13ecd2192",
+          "transport_route": "direct_ark",
+          "stage": "message_complete",
+          "headers_seconds": 1.13,
+          "first_thinking_seconds": 1.135,
+          "first_text_seconds": null,
+          "elapsed_seconds": 314.875,
+          "thinking_chars": 68641,
+          "text_chars": 0,
+          "max_line_gap_seconds": 0.482,
+          "timeout_kind": null,
+          "network_error_kind": null,
+          "reason_type": null,
+          "since_last_line_seconds": 0.019,
+          "usage": {
+            "input_tokens": 1882,
+            "output_tokens": 16000,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0
+          }
+        }
+      ]
+    }
+  ],
+  "production_changes": {
+    "route": "direct only for ark.cn-beijing.volces.com",
+    "timeouts_seconds": {
+      "headers": 90,
+      "idle": 60,
+      "content_idle": 180,
+      "total": 600
+    },
+    "max_attempts_per_evaluation": 3,
+    "thinking_budget": 8000,
+    "effort": "unchanged provider default"
+  },
+  "current_source_sha256": {
+    "judge.py": "9dd142872aaefae694d53a77013f28073562babd7d676e22ed3508f1c6a99ac9",
+    "prepare.py": "1d4326a3d10a0cc3ec4b80fc741c4bf3b48f1ab79f4d28b817d048ebdfa106e5",
+    "runner.py": "f93b681ff7d397cb748a011cd677a5e8c3b10705815b194ceb7b1e6f779b921b"
+  },
+  "transport_probe": [
+    {
+      "attempt": 1,
+      "route": "environment_proxy",
+      "tls_and_http_reached": false,
+      "exception_type": "URLError",
+      "reason_type": "SSLEOFError",
+      "errno": 8,
+      "elapsed_seconds": 5.012
+    },
+    {
+      "attempt": 1,
+      "route": "direct",
+      "http_status": 401,
+      "tls_and_http_reached": true,
+      "elapsed_seconds": 0.173
+    },
+    {
+      "attempt": 2,
+      "route": "environment_proxy",
+      "tls_and_http_reached": false,
+      "exception_type": "URLError",
+      "reason_type": "SSLEOFError",
+      "errno": 8,
+      "elapsed_seconds": 5.009
+    },
+    {
+      "attempt": 2,
+      "route": "direct",
+      "http_status": 401,
+      "tls_and_http_reached": true,
+      "elapsed_seconds": 0.158
+    }
+  ],
+  "conclusions": [
+    "The local proxy route failed TLS in both unauthenticated probes; the direct route reached HTTP twice in about 0.16 seconds.",
+    "Default-budget full-rubric successful requests spent most of their elapsed time generating thinking content; this differs from a transport failure.",
+    "A budget1024 response stopped after partial scoring text; the new stream-idle watchdog classified and stopped it after 60 seconds without data.",
+    "An unparseable completed response was recorded separately from a timeout and was not assigned a reward.",
+    "The older logs cannot reveal whether each historical 180-second timeout was active generation or a stalled stream.",
+    "Low-budget and low-effort experiments do not establish a reliable general speedup or whole-corpus grading validity; production grading parameters remain unchanged.",
+    "The low-effort direct request progressed beyond 180 seconds and ended at the 16000-token output limit after about 315 seconds, with no score text. It was not a transport timeout."
+  ],
+  "after_fix_direct_requests": {
+    "complete_responses": 6,
+    "valid_verdicts": 4,
+    "invalid_json": 1,
+    "output_token_limit": 1,
+    "transport_errors": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "ready": false,
+  "reason": "A generated revision and offline checks cannot certify a benchmark.",
+  "requirements": {
+    "offline_integrity": "run tests",
+    "independent_content_acceptance": "pending",
+    "skill_routing_acceptance": "pending; known hinge mismatch quarantined",
+    "judge_positive_negative_calibration": "not_run",
+    "source_rights_and_upstream_version": "pending",
+    "cross_source_semantic_leakage": "pending"
+  },
+  "historical_results_compatible": false,
+  "formal_cases_released": 0
+}

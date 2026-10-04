@@ -1,0 +1,1527 @@
+[
+  {
+    "task_id": "hinge-question-designer__01",
+    "source_group": "original42:hinge-question-designer",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "hinge-question-designer__02",
+    "source_group": "original42:hinge-question-designer",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "hinge-question-designer__03",
+    "source_group": "original42:hinge-question-designer",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "retrieval-practice-generator__01",
+    "source_group": "original42:retrieval-practice-generator",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "retrieval-practice-generator__02",
+    "source_group": "original42:retrieval-practice-generator",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "retrieval-practice-generator__03",
+    "source_group": "original42:retrieval-practice-generator",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__01",
+    "source_group": "original42:socratic-questioning-sequence-generator",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__02",
+    "source_group": "original42:socratic-questioning-sequence-generator",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__03",
+    "source_group": "original42:socratic-questioning-sequence-generator",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__01",
+    "source_group": "original42:differentiation-adapter",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__02",
+    "source_group": "original42:differentiation-adapter",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__03",
+    "source_group": "original42:differentiation-adapter",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "motivation-diagnostic-task-redesign__01",
+    "source_group": "original42:motivation-diagnostic-task-redesign",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "motivation-diagnostic-task-redesign__02",
+    "source_group": "original42:motivation-diagnostic-task-redesign",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "motivation-diagnostic-task-redesign__03",
+    "source_group": "original42:motivation-diagnostic-task-redesign",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__01",
+    "source_group": "original42:self-efficacy-builder-sequence",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__02",
+    "source_group": "original42:self-efficacy-builder-sequence",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__03",
+    "source_group": "original42:self-efficacy-builder-sequence",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__01",
+    "source_group": "original42:backwards-design-unit-planner",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__02",
+    "source_group": "original42:backwards-design-unit-planner",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__03",
+    "source_group": "original42:backwards-design-unit-planner",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__01",
+    "source_group": "original42:lesson-builder",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__02",
+    "source_group": "original42:lesson-builder",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__03",
+    "source_group": "original42:lesson-builder",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__01",
+    "source_group": "original42:adaptive-hint-sequence-designer",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__02",
+    "source_group": "original42:adaptive-hint-sequence-designer",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__03",
+    "source_group": "original42:adaptive-hint-sequence-designer",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "self-explanation-prompt-designer__01",
+    "source_group": "original42:self-explanation-prompt-designer",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "self-explanation-prompt-designer__02",
+    "source_group": "original42:self-explanation-prompt-designer",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "self-explanation-prompt-designer__03",
+    "source_group": "original42:self-explanation-prompt-designer",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "emergent-project-design-scaffold__01",
+    "source_group": "original42:emergent-project-design-scaffold",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "emergent-project-design-scaffold__02",
+    "source_group": "original42:emergent-project-design-scaffold",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "emergent-project-design-scaffold__03",
+    "source_group": "original42:emergent-project-design-scaffold",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__01",
+    "source_group": "original42:project-brief-designer",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__02",
+    "source_group": "original42:project-brief-designer",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__03",
+    "source_group": "original42:project-brief-designer",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "spaced-practice-scheduler__01",
+    "source_group": "original42:spaced-practice-scheduler",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "spaced-practice-scheduler__02",
+    "source_group": "original42:spaced-practice-scheduler",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "spaced-practice-scheduler__03",
+    "source_group": "original42:spaced-practice-scheduler",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "ruler-emotional-literacy-sequence__01",
+    "source_group": "original42:ruler-emotional-literacy-sequence",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "ruler-emotional-literacy-sequence__02",
+    "source_group": "original42:ruler-emotional-literacy-sequence",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "ruler-emotional-literacy-sequence__03",
+    "source_group": "original42:ruler-emotional-literacy-sequence",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn01_01",
+    "source_group": "cn_source:1",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn01_02",
+    "source_group": "cn_source:1",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn01_03",
+    "source_group": "cn_source:1",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn01_04",
+    "source_group": "cn_source:1",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn01_05",
+    "source_group": "cn_source:1",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn01_06",
+    "source_group": "cn_source:1",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn01_07",
+    "source_group": "cn_source:1",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn01_08",
+    "source_group": "cn_source:1",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn01_09",
+    "source_group": "cn_source:1",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn01_10",
+    "source_group": "cn_source:1",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn02_01",
+    "source_group": "cn_source:2",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn02_02",
+    "source_group": "cn_source:2",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn02_03",
+    "source_group": "cn_source:2",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn02_04",
+    "source_group": "cn_source:2",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn02_05",
+    "source_group": "cn_source:2",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn02_06",
+    "source_group": "cn_source:2",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn02_07",
+    "source_group": "cn_source:2",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn02_08",
+    "source_group": "cn_source:2",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn02_09",
+    "source_group": "cn_source:2",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn02_10",
+    "source_group": "cn_source:2",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn05_01",
+    "source_group": "cn_source:5",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn05_02",
+    "source_group": "cn_source:5",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn05_03",
+    "source_group": "cn_source:5",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn05_04",
+    "source_group": "cn_source:5",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn05_05",
+    "source_group": "cn_source:5",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn05_06",
+    "source_group": "cn_source:5",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn05_07",
+    "source_group": "cn_source:5",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn05_08",
+    "source_group": "cn_source:5",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn05_09",
+    "source_group": "cn_source:5",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn05_10",
+    "source_group": "cn_source:5",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_01",
+    "source_group": "cn_source:7",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_02",
+    "source_group": "cn_source:7",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_03",
+    "source_group": "cn_source:7",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_04",
+    "source_group": "cn_source:7",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_05",
+    "source_group": "cn_source:7",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_06",
+    "source_group": "cn_source:7",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_07",
+    "source_group": "cn_source:7",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_08",
+    "source_group": "cn_source:7",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_09",
+    "source_group": "cn_source:7",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn07_10",
+    "source_group": "cn_source:7",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn18_01",
+    "source_group": "cn_source:18",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn18_02",
+    "source_group": "cn_source:18",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn18_03",
+    "source_group": "cn_source:18",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn18_04",
+    "source_group": "cn_source:18",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn18_05",
+    "source_group": "cn_source:18",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn18_06",
+    "source_group": "cn_source:18",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn18_07",
+    "source_group": "cn_source:18",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn18_08",
+    "source_group": "cn_source:18",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn18_09",
+    "source_group": "cn_source:18",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn18_10",
+    "source_group": "cn_source:18",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn21_01",
+    "source_group": "cn_source:21",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn21_02",
+    "source_group": "cn_source:21",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn21_03",
+    "source_group": "cn_source:21",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn21_04",
+    "source_group": "cn_source:21",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn21_05",
+    "source_group": "cn_source:21",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn21_06",
+    "source_group": "cn_source:21",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn21_07",
+    "source_group": "cn_source:21",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn21_08",
+    "source_group": "cn_source:21",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn21_09",
+    "source_group": "cn_source:21",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn21_10",
+    "source_group": "cn_source:21",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn22_01",
+    "source_group": "cn_source:22",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn22_02",
+    "source_group": "cn_source:22",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn22_03",
+    "source_group": "cn_source:22",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn22_04",
+    "source_group": "cn_source:22",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn22_05",
+    "source_group": "cn_source:22",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn22_06",
+    "source_group": "cn_source:22",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn22_07",
+    "source_group": "cn_source:22",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn22_08",
+    "source_group": "cn_source:22",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn22_09",
+    "source_group": "cn_source:22",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_01",
+    "source_group": "cn_source:23",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_02",
+    "source_group": "cn_source:23",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_03",
+    "source_group": "cn_source:23",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_04",
+    "source_group": "cn_source:23",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_05",
+    "source_group": "cn_source:23",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_06",
+    "source_group": "cn_source:23",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_07",
+    "source_group": "cn_source:23",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "retrieval-practice-generator__cn23_08",
+    "source_group": "cn_source:23",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn24_01",
+    "source_group": "cn_source:24",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn24_02",
+    "source_group": "cn_source:24",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn24_03",
+    "source_group": "cn_source:24",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn24_04",
+    "source_group": "cn_source:24",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn24_05",
+    "source_group": "cn_source:24",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn24_06",
+    "source_group": "cn_source:24",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn24_07",
+    "source_group": "cn_source:24",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn24_08",
+    "source_group": "cn_source:24",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn24_09",
+    "source_group": "cn_source:24",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn25_01",
+    "source_group": "cn_source:25",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn26_01",
+    "source_group": "cn_source:26",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn26_02",
+    "source_group": "cn_source:26",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn26_03",
+    "source_group": "cn_source:26",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn26_04",
+    "source_group": "cn_source:26",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn26_05",
+    "source_group": "cn_source:26",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn26_06",
+    "source_group": "cn_source:26",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn26_07",
+    "source_group": "cn_source:26",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn26_08",
+    "source_group": "cn_source:26",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn26_09",
+    "source_group": "cn_source:26",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn27_01",
+    "source_group": "cn_source:27",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn27_02",
+    "source_group": "cn_source:27",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn27_03",
+    "source_group": "cn_source:27",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn27_04",
+    "source_group": "cn_source:27",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn27_05",
+    "source_group": "cn_source:27",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn27_06",
+    "source_group": "cn_source:27",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn27_07",
+    "source_group": "cn_source:27",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn27_08",
+    "source_group": "cn_source:27",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn28_01",
+    "source_group": "cn_source:28",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn28_02",
+    "source_group": "cn_source:28",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn28_03",
+    "source_group": "cn_source:28",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn28_04",
+    "source_group": "cn_source:28",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_01",
+    "source_group": "cn_source:29",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_02",
+    "source_group": "cn_source:29",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_03",
+    "source_group": "cn_source:29",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_04",
+    "source_group": "cn_source:29",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_05",
+    "source_group": "cn_source:29",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_06",
+    "source_group": "cn_source:29",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_07",
+    "source_group": "cn_source:29",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_08",
+    "source_group": "cn_source:29",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "hinge-question-designer__cn29_09",
+    "source_group": "cn_source:29",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn30_01",
+    "source_group": "cn_source:30",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn30_02",
+    "source_group": "cn_source:30",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn30_03",
+    "source_group": "cn_source:30",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn30_04",
+    "source_group": "cn_source:30",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn30_05",
+    "source_group": "cn_source:30",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn30_06",
+    "source_group": "cn_source:30",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn31_01",
+    "source_group": "cn_source:31",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn31_02",
+    "source_group": "cn_source:31",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn31_03",
+    "source_group": "cn_source:31",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn31_04",
+    "source_group": "cn_source:31",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn31_05",
+    "source_group": "cn_source:31",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn31_06",
+    "source_group": "cn_source:31",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn31_07",
+    "source_group": "cn_source:31",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn31_08",
+    "source_group": "cn_source:31",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_01",
+    "source_group": "cn_source:35",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_02",
+    "source_group": "cn_source:35",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_03",
+    "source_group": "cn_source:35",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_04",
+    "source_group": "cn_source:35",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_05",
+    "source_group": "cn_source:35",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "self-efficacy-builder-sequence__cn35_06",
+    "source_group": "cn_source:35",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_01",
+    "source_group": "cn_source:43",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_02",
+    "source_group": "cn_source:43",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_03",
+    "source_group": "cn_source:43",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_04",
+    "source_group": "cn_source:43",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_05",
+    "source_group": "cn_source:43",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn43_06",
+    "source_group": "cn_source:43",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn50_01",
+    "source_group": "cn_source:50",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn50_02",
+    "source_group": "cn_source:50",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn50_03",
+    "source_group": "cn_source:50",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn50_04",
+    "source_group": "cn_source:50",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn50_05",
+    "source_group": "cn_source:50",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn50_06",
+    "source_group": "cn_source:50",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn50_07",
+    "source_group": "cn_source:50",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn50_08",
+    "source_group": "cn_source:50",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn50_09",
+    "source_group": "cn_source:50",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn50_10",
+    "source_group": "cn_source:50",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn51_01",
+    "source_group": "cn_source:51",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn51_02",
+    "source_group": "cn_source:51",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn51_03",
+    "source_group": "cn_source:51",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn51_04",
+    "source_group": "cn_source:51",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn51_05",
+    "source_group": "cn_source:51",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn51_06",
+    "source_group": "cn_source:51",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn51_07",
+    "source_group": "cn_source:51",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn51_08",
+    "source_group": "cn_source:51",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn51_09",
+    "source_group": "cn_source:51",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn51_10",
+    "source_group": "cn_source:51",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_01",
+    "source_group": "cn_source:52",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_02",
+    "source_group": "cn_source:52",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_03",
+    "source_group": "cn_source:52",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_04",
+    "source_group": "cn_source:52",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_05",
+    "source_group": "cn_source:52",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_06",
+    "source_group": "cn_source:52",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_07",
+    "source_group": "cn_source:52",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_08",
+    "source_group": "cn_source:52",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_09",
+    "source_group": "cn_source:52",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "project-brief-designer__cn52_10",
+    "source_group": "cn_source:52",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_01",
+    "source_group": "cn_source:53",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_02",
+    "source_group": "cn_source:53",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_03",
+    "source_group": "cn_source:53",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_04",
+    "source_group": "cn_source:53",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_05",
+    "source_group": "cn_source:53",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_06",
+    "source_group": "cn_source:53",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_07",
+    "source_group": "cn_source:53",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_08",
+    "source_group": "cn_source:53",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_09",
+    "source_group": "cn_source:53",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn53_10",
+    "source_group": "cn_source:53",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_01",
+    "source_group": "cn_source:54",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_02",
+    "source_group": "cn_source:54",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_03",
+    "source_group": "cn_source:54",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_04",
+    "source_group": "cn_source:54",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_05",
+    "source_group": "cn_source:54",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_06",
+    "source_group": "cn_source:54",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_07",
+    "source_group": "cn_source:54",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_08",
+    "source_group": "cn_source:54",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_09",
+    "source_group": "cn_source:54",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "backwards-design-unit-planner__cn54_10",
+    "source_group": "cn_source:54",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn55_01",
+    "source_group": "cn_source:55",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn55_02",
+    "source_group": "cn_source:55",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn55_03",
+    "source_group": "cn_source:55",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn55_04",
+    "source_group": "cn_source:55",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn55_05",
+    "source_group": "cn_source:55",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn55_06",
+    "source_group": "cn_source:55",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn55_07",
+    "source_group": "cn_source:55",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn55_08",
+    "source_group": "cn_source:55",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn55_09",
+    "source_group": "cn_source:55",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn55_10",
+    "source_group": "cn_source:55",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_01",
+    "source_group": "cn_source:56",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_02",
+    "source_group": "cn_source:56",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_03",
+    "source_group": "cn_source:56",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_04",
+    "source_group": "cn_source:56",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_05",
+    "source_group": "cn_source:56",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_06",
+    "source_group": "cn_source:56",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_07",
+    "source_group": "cn_source:56",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_08",
+    "source_group": "cn_source:56",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_09",
+    "source_group": "cn_source:56",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "socratic-questioning-sequence-generator__cn56_10",
+    "source_group": "cn_source:56",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn57_01",
+    "source_group": "cn_source:57",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn57_02",
+    "source_group": "cn_source:57",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn57_03",
+    "source_group": "cn_source:57",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn57_04",
+    "source_group": "cn_source:57",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn57_05",
+    "source_group": "cn_source:57",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn57_06",
+    "source_group": "cn_source:57",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn57_07",
+    "source_group": "cn_source:57",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn57_08",
+    "source_group": "cn_source:57",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn57_09",
+    "source_group": "cn_source:57",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn57_10",
+    "source_group": "cn_source:57",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_01",
+    "source_group": "cn_source:59",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_02",
+    "source_group": "cn_source:59",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_03",
+    "source_group": "cn_source:59",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_04",
+    "source_group": "cn_source:59",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_05",
+    "source_group": "cn_source:59",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_06",
+    "source_group": "cn_source:59",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_07",
+    "source_group": "cn_source:59",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_08",
+    "source_group": "cn_source:59",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_09",
+    "source_group": "cn_source:59",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "adaptive-hint-sequence-designer__cn59_10",
+    "source_group": "cn_source:59",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn60_01",
+    "source_group": "cn_source:60",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn60_02",
+    "source_group": "cn_source:60",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn60_03",
+    "source_group": "cn_source:60",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn60_04",
+    "source_group": "cn_source:60",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn60_05",
+    "source_group": "cn_source:60",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn60_06",
+    "source_group": "cn_source:60",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn60_07",
+    "source_group": "cn_source:60",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn60_08",
+    "source_group": "cn_source:60",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn60_09",
+    "source_group": "cn_source:60",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "lesson-builder__cn60_10",
+    "source_group": "cn_source:60",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_01",
+    "source_group": "cn_source:62",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_02",
+    "source_group": "cn_source:62",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_03",
+    "source_group": "cn_source:62",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_04",
+    "source_group": "cn_source:62",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_05",
+    "source_group": "cn_source:62",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_06",
+    "source_group": "cn_source:62",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_07",
+    "source_group": "cn_source:62",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_08",
+    "source_group": "cn_source:62",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_09",
+    "source_group": "cn_source:62",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn62_10",
+    "source_group": "cn_source:62",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_01",
+    "source_group": "cn_source:63",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_02",
+    "source_group": "cn_source:63",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_03",
+    "source_group": "cn_source:63",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_04",
+    "source_group": "cn_source:63",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_05",
+    "source_group": "cn_source:63",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_06",
+    "source_group": "cn_source:63",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_07",
+    "source_group": "cn_source:63",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_08",
+    "source_group": "cn_source:63",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_09",
+    "source_group": "cn_source:63",
+    "partition": "evaluation_candidate_only"
+  },
+  {
+    "task_id": "differentiation-adapter__cn63_10",
+    "source_group": "cn_source:63",
+    "partition": "evaluation_candidate_only"
+  }
+]

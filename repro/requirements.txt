@@ -1,0 +1,3 @@
+# Offline audit tools use stdlib. This pins the tested execution API only.
+# The runner records the full installed dependency/source fingerprint per run.
+benchflow==0.6.7

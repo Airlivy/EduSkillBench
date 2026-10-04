@@ -1,0 +1,792 @@
+{
+  "date": "2026-10-02",
+  "method": "逐条按真实题面、背景、全部生效条目及评分提示进行工程裁决；不是人工学科专家认证。",
+  "source_candidates_sha256": "fa15f0101c6671a0631c04b3d415a2f8c6313db4b770beaf29b3ab56adae6533",
+  "release_manifest_sha256": "1fb184336efa007ad17b2fc4e3d3480511e327a2eec0d35929da4e1e37819a57",
+  "total": 197,
+  "accepted_and_fixed": 16,
+  "no_change_required": 181,
+  "pending": 0,
+  "modified_cases": 14,
+  "expert_certified": false,
+  "execution_only_update": "题库文字未变；评分增加反证定位与实质错误等级一致性检查；旧内容对照为历史记录。",
+  "current_contrasts": 42,
+  "passed_contrasts": 42,
+  "contrast_results": [
+    {
+      "task_id": "lesson-builder__cn02_09",
+      "variant": "off_topic",
+      "targets": [
+        "D3",
+        "D4"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D3": 2,
+        "D4": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "0b85294ae53a97fd02bd883a172bf1050cf8ad5d589b31435417b7c5331118b2",
+      "answer_sha256": "c94f0549f8b2f41f99000fc51f00966d967bcd735c10eb783e1365739cd0e309"
+    },
+    {
+      "task_id": "lesson-builder__cn18_06",
+      "variant": "off_topic",
+      "targets": [
+        "D3"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "6455c2f2e3dc04422a3065888ffe811daa70a2bf87f13bc0f7315fd2328b5834",
+      "answer_sha256": "c94f0549f8b2f41f99000fc51f00966d967bcd735c10eb783e1365739cd0e309"
+    },
+    {
+      "task_id": "lesson-builder__cn01_10",
+      "variant": "wrong",
+      "targets": [
+        "D4"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "420dcd74b0e1ff840edeaea243f668525b8174c49dfdcb9adf864e14c5b7136c",
+      "answer_sha256": "924cdc98d4f8697a9b397e3a59a856b4be92a364bc06948a2113394a3a94fb74"
+    },
+    {
+      "task_id": "lesson-builder__cn01_06",
+      "variant": "off_topic",
+      "targets": [
+        "D3"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "a65e123ef6c6024968176d06f9af9233c8f465ae3ed3c9c3f001ea1f331a482b",
+      "answer_sha256": "c94f0549f8b2f41f99000fc51f00966d967bcd735c10eb783e1365739cd0e309"
+    },
+    {
+      "task_id": "lesson-builder__cn02_09",
+      "variant": "wrong",
+      "targets": [
+        "D3",
+        "D4"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D3": 2,
+        "D4": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "0b85294ae53a97fd02bd883a172bf1050cf8ad5d589b31435417b7c5331118b2",
+      "answer_sha256": "8e0180f65096bacea9727874a9620f7702fd473503279a7ebeacd7acdbb28511"
+    },
+    {
+      "task_id": "lesson-builder__cn18_06",
+      "variant": "wrong",
+      "targets": [
+        "D3"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "6455c2f2e3dc04422a3065888ffe811daa70a2bf87f13bc0f7315fd2328b5834",
+      "answer_sha256": "55d45602576b0e316622ffca8b860999165a16b7737f618cd6fb63ceab1a9726"
+    },
+    {
+      "task_id": "lesson-builder__cn01_07",
+      "variant": "off_topic",
+      "targets": [
+        "D1"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "89e12d32fb05381c2180c5b1a227699ab1b203655d0028474efcde7d9d626217",
+      "answer_sha256": "c94f0549f8b2f41f99000fc51f00966d967bcd735c10eb783e1365739cd0e309"
+    },
+    {
+      "task_id": "lesson-builder__cn01_06",
+      "variant": "wrong",
+      "targets": [
+        "D3"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "a65e123ef6c6024968176d06f9af9233c8f465ae3ed3c9c3f001ea1f331a482b",
+      "answer_sha256": "ab1314eb02ea499c3bcfc7caea927219b01873cc804f45e7cd1fdcdbd2396136"
+    },
+    {
+      "task_id": "lesson-builder__cn02_09",
+      "variant": "correct",
+      "targets": [
+        "D3",
+        "D4"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 0,
+        "D3": 0,
+        "D4": 0
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "0b85294ae53a97fd02bd883a172bf1050cf8ad5d589b31435417b7c5331118b2",
+      "answer_sha256": "50e2b52f20dae14decb42def27e739ddbff0f096ae6e3697bdf3ec9a21d71e90"
+    },
+    {
+      "task_id": "lesson-builder__cn01_07",
+      "variant": "correct",
+      "targets": [
+        "D1"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 0,
+        "D2": 0,
+        "D3": 0,
+        "D4": 0
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "89e12d32fb05381c2180c5b1a227699ab1b203655d0028474efcde7d9d626217",
+      "answer_sha256": "4b1d540eedc5344ade24d872ed6d121032aa7cf1c9040d9dcef81548f3fcb198"
+    },
+    {
+      "task_id": "lesson-builder__cn01_07",
+      "variant": "wrong",
+      "targets": [
+        "D1"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "89e12d32fb05381c2180c5b1a227699ab1b203655d0028474efcde7d9d626217",
+      "answer_sha256": "4ea92300d8c8c2d4dbfb9c6759c7f334efec32947f4b4421dea5ea9493f7133e"
+    },
+    {
+      "task_id": "lesson-builder__cn18_06",
+      "variant": "correct",
+      "targets": [
+        "D3"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 0,
+        "D2": 0,
+        "D3": 0,
+        "D4": 0
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "6455c2f2e3dc04422a3065888ffe811daa70a2bf87f13bc0f7315fd2328b5834",
+      "answer_sha256": "c28c99a6d5664d26bd29c3a14243f4e757eb283e0fde0aa6bb881528cf4978f1"
+    },
+    {
+      "task_id": "lesson-builder__cn01_10",
+      "variant": "off_topic",
+      "targets": [
+        "D4"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "420dcd74b0e1ff840edeaea243f668525b8174c49dfdcb9adf864e14c5b7136c",
+      "answer_sha256": "c94f0549f8b2f41f99000fc51f00966d967bcd735c10eb783e1365739cd0e309"
+    },
+    {
+      "task_id": "lesson-builder__cn01_06",
+      "variant": "correct",
+      "targets": [
+        "D3"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 0,
+        "D2": 0,
+        "D3": 0,
+        "D4": 0
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "a65e123ef6c6024968176d06f9af9233c8f465ae3ed3c9c3f001ea1f331a482b",
+      "answer_sha256": "1ccab8368252f9b780e63660c2731189074ecf6ccb25e0a0a25842b27df95d68"
+    },
+    {
+      "task_id": "lesson-builder__cn01_10",
+      "variant": "correct",
+      "targets": [
+        "D4"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 0,
+        "D2": 0,
+        "D3": 0,
+        "D4": 0
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "420dcd74b0e1ff840edeaea243f668525b8174c49dfdcb9adf864e14c5b7136c",
+      "answer_sha256": "8513f3d769822df4c12a9a603c38c23fd85811d937061253a4822fafd7b91674"
+    },
+    {
+      "task_id": "lesson-builder__cn30_06",
+      "variant": "correct",
+      "targets": [
+        "D2"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D2": 0,
+        "D3": 1,
+        "D4": 0,
+        "D5": 0
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "1ac8fa3106d9f5d8c3b2f373bf7df4b6aea3eeba1577869699d048f5007aae92",
+      "answer_sha256": "ebe395defd41f63e8e094c606bc1bb200d5f411ce13f0a5327428fce30585df3"
+    },
+    {
+      "task_id": "lesson-builder__cn31_01",
+      "variant": "off_topic",
+      "targets": [
+        "D5"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2,
+        "D5": 2,
+        "D6": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "65ff979f10b37ad363f461116cd904ab8da59497c61ebfc4b47b40c69c954798",
+      "answer_sha256": "c94f0549f8b2f41f99000fc51f00966d967bcd735c10eb783e1365739cd0e309"
+    },
+    {
+      "task_id": "lesson-builder__cn30_06",
+      "variant": "wrong",
+      "targets": [
+        "D2"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2,
+        "D5": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "1ac8fa3106d9f5d8c3b2f373bf7df4b6aea3eeba1577869699d048f5007aae92",
+      "answer_sha256": "b64b6fef5d0377ec94426e6cf4b49fbac2c967acc3ebb08624d9df729fd6b84a"
+    },
+    {
+      "task_id": "lesson-builder__cn30_06",
+      "variant": "off_topic",
+      "targets": [
+        "D2"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2,
+        "D5": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "1ac8fa3106d9f5d8c3b2f373bf7df4b6aea3eeba1577869699d048f5007aae92",
+      "answer_sha256": "c94f0549f8b2f41f99000fc51f00966d967bcd735c10eb783e1365739cd0e309"
+    },
+    {
+      "task_id": "lesson-builder__cn31_01",
+      "variant": "correct",
+      "targets": [
+        "D5"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 0,
+        "D4": 1,
+        "D5": 0,
+        "D6": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "65ff979f10b37ad363f461116cd904ab8da59497c61ebfc4b47b40c69c954798",
+      "answer_sha256": "4ee38c5b6ea3640bddc41e9e80232b54fdd349e26b681d278195c558d3f2e723"
+    },
+    {
+      "task_id": "lesson-builder__cn51_03",
+      "variant": "off_topic",
+      "targets": [
+        "D3"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 3,
+        "D3": 3,
+        "D5": 3,
+        "D6": 3,
+        "D7": 3
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "a89fea952bea446f6f240d06c014023c1d1487961d8ed84463e524c01932b612",
+      "answer_sha256": "c94f0549f8b2f41f99000fc51f00966d967bcd735c10eb783e1365739cd0e309"
+    },
+    {
+      "task_id": "lesson-builder__cn31_01",
+      "variant": "wrong",
+      "targets": [
+        "D5"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2,
+        "D5": 2,
+        "D6": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "65ff979f10b37ad363f461116cd904ab8da59497c61ebfc4b47b40c69c954798",
+      "answer_sha256": "f87dee10e2a7061eeb779b709d0c55ed69ce351117e51c8ca19f9502e46947e5"
+    },
+    {
+      "task_id": "lesson-builder__cn51_03",
+      "variant": "correct",
+      "targets": [
+        "D3"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 0,
+        "D3": 0,
+        "D5": 0,
+        "D6": 0,
+        "D7": 0
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "a89fea952bea446f6f240d06c014023c1d1487961d8ed84463e524c01932b612",
+      "answer_sha256": "ad9564fae220fe6cc6a080ffa5345cf8b1228f2185266ae52f0b2b2422f693a8"
+    },
+    {
+      "task_id": "project-brief-designer__cn52_04",
+      "variant": "wrong",
+      "targets": [
+        "D5"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 3,
+        "D5": 3,
+        "D7": 3
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "fd404700d62115ec1103ced1e5ec7f4e911d45612644dead95dc097a08fd9d79",
+      "answer_sha256": "6a080686a2ec43b2f4c5581af3a7a6e667edc6b942286484915580792c744484"
+    },
+    {
+      "task_id": "project-brief-designer__cn52_02",
+      "variant": "off_topic",
+      "targets": [
+        "D1"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 3,
+        "D3": 3,
+        "D4": 3,
+        "D5": 3,
+        "D7": 3
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "66183f31feb80da9c676fb1d3501b56ab3009174d0a11fb031d2ce02a13c81f8",
+      "answer_sha256": "c94f0549f8b2f41f99000fc51f00966d967bcd735c10eb783e1365739cd0e309"
+    },
+    {
+      "task_id": "lesson-builder__cn51_03",
+      "variant": "wrong",
+      "targets": [
+        "D3"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 3,
+        "D3": 3,
+        "D5": 3,
+        "D6": 3,
+        "D7": 3
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "a89fea952bea446f6f240d06c014023c1d1487961d8ed84463e524c01932b612",
+      "answer_sha256": "2114112c2343edd1e5cc6b2a1583d08ad76751f32fceaf721da64fc20e0f9509"
+    },
+    {
+      "task_id": "lesson-builder__cn51_06",
+      "variant": "wrong",
+      "targets": [
+        "D4"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 3,
+        "D3": 3,
+        "D4": 3,
+        "D5": 3,
+        "D6": 3,
+        "D7": 3
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "d4b3d1f5f318062b0b11e6104610636f18bf90e839abd27fb2ebd4a06aa55f6b",
+      "answer_sha256": "5d1ce73628b9ac9bec6d718445a6e62bf7a7388a5864c681e7bcd72ac5fd15ee"
+    },
+    {
+      "task_id": "project-brief-designer__cn52_02",
+      "variant": "wrong",
+      "targets": [
+        "D1"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 3,
+        "D3": 3,
+        "D4": 3,
+        "D5": 3,
+        "D7": 3
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "66183f31feb80da9c676fb1d3501b56ab3009174d0a11fb031d2ce02a13c81f8",
+      "answer_sha256": "9ac6a8cd3e8edb8e5def0ba3f225a3750be3bc9a226c5050c3bb77423ccab45c"
+    },
+    {
+      "task_id": "project-brief-designer__cn52_04",
+      "variant": "correct",
+      "targets": [
+        "D5"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 0,
+        "D5": 0,
+        "D7": 0
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "fd404700d62115ec1103ced1e5ec7f4e911d45612644dead95dc097a08fd9d79",
+      "answer_sha256": "433b57d5b17b84b8cc2d70b1bbec9e70dac33ac45d05eed3b779297e6c4cbddd"
+    },
+    {
+      "task_id": "lesson-builder__cn51_06",
+      "variant": "off_topic",
+      "targets": [
+        "D4"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 3,
+        "D3": 3,
+        "D4": 3,
+        "D5": 3,
+        "D6": 3,
+        "D7": 3
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "d4b3d1f5f318062b0b11e6104610636f18bf90e839abd27fb2ebd4a06aa55f6b",
+      "answer_sha256": "c94f0549f8b2f41f99000fc51f00966d967bcd735c10eb783e1365739cd0e309"
+    },
+    {
+      "task_id": "lesson-builder__cn51_06",
+      "variant": "correct",
+      "targets": [
+        "D4"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 0,
+        "D3": 1,
+        "D4": 0,
+        "D5": 0,
+        "D6": 0,
+        "D7": 0
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "d4b3d1f5f318062b0b11e6104610636f18bf90e839abd27fb2ebd4a06aa55f6b",
+      "answer_sha256": "8abba1033eb4939ade9988f3fe451b5d45012b4d104c601e8e63baf62cb50435"
+    },
+    {
+      "task_id": "project-brief-designer__cn52_02",
+      "variant": "correct",
+      "targets": [
+        "D1"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 0,
+        "D3": 0,
+        "D4": 1,
+        "D5": 0,
+        "D7": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "66183f31feb80da9c676fb1d3501b56ab3009174d0a11fb031d2ce02a13c81f8",
+      "answer_sha256": "1b38d86944efc1c1d5d23ea55961c1a1ae0b308cd2f78c4e37889ba690e80340"
+    },
+    {
+      "task_id": "project-brief-designer__cn52_04",
+      "variant": "off_topic",
+      "targets": [
+        "D5"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 3,
+        "D5": 3,
+        "D7": 3
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "fd404700d62115ec1103ced1e5ec7f4e911d45612644dead95dc097a08fd9d79",
+      "answer_sha256": "c94f0549f8b2f41f99000fc51f00966d967bcd735c10eb783e1365739cd0e309"
+    },
+    {
+      "task_id": "differentiation-adapter__cn63_08",
+      "variant": "off_topic",
+      "targets": [
+        "D3"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D3": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "fc1a7d0cf279cebd289058fa0734c94b206a2da3829ed0d045a22223066ab25c",
+      "answer_sha256": "c94f0549f8b2f41f99000fc51f00966d967bcd735c10eb783e1365739cd0e309"
+    },
+    {
+      "task_id": "differentiation-adapter__cn63_08",
+      "variant": "correct",
+      "targets": [
+        "D3"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D3": 0
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "fc1a7d0cf279cebd289058fa0734c94b206a2da3829ed0d045a22223066ab25c",
+      "answer_sha256": "7e099702991b46fe2218b84deba0a47774778f9f0d80d329fe78423c6c844c6f"
+    },
+    {
+      "task_id": "differentiation-adapter__cn63_08",
+      "variant": "wrong",
+      "targets": [
+        "D3"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D3": 2
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "fc1a7d0cf279cebd289058fa0734c94b206a2da3829ed0d045a22223066ab25c",
+      "answer_sha256": "f3df40b7d898f8a513f86b02d87f6ad4bb470a05d4cfd81777e3107e16544ee0"
+    },
+    {
+      "task_id": "lesson-builder__cn57_03",
+      "variant": "wrong",
+      "targets": [
+        "D3"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 3,
+        "D3": 3,
+        "D4": 3,
+        "D5": 3,
+        "D6": 3,
+        "D7": 3
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "4d6c324292c4320ed990745214ecfcff6a0029e1b2c49f9ba0fc0c098a0553af",
+      "answer_sha256": "59769a7575510b55debbc44e545367ca522c3041aa886c1495a321dd64e7e5f9"
+    },
+    {
+      "task_id": "lesson-builder__cn60_04",
+      "variant": "off_topic",
+      "targets": [
+        "D1"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 3,
+        "D4": 3,
+        "D5": 3,
+        "D6": 3,
+        "D7": 3
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "677f7380fbe460e30dd8824414fed4e541ceb16c0603f707c55f0d44baf0b136",
+      "answer_sha256": "c94f0549f8b2f41f99000fc51f00966d967bcd735c10eb783e1365739cd0e309"
+    },
+    {
+      "task_id": "lesson-builder__cn60_04",
+      "variant": "wrong",
+      "targets": [
+        "D1"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 3,
+        "D4": 3,
+        "D5": 3,
+        "D6": 3,
+        "D7": 3
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "677f7380fbe460e30dd8824414fed4e541ceb16c0603f707c55f0d44baf0b136",
+      "answer_sha256": "e7839b4a89a2bfe3b0fdc02b9b96b5c9d7644445e5341058d01f383a92581a5b"
+    },
+    {
+      "task_id": "lesson-builder__cn57_03",
+      "variant": "correct",
+      "targets": [
+        "D3"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 0,
+        "D3": 0,
+        "D4": 0,
+        "D5": 0,
+        "D6": 0,
+        "D7": 0
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "4d6c324292c4320ed990745214ecfcff6a0029e1b2c49f9ba0fc0c098a0553af",
+      "answer_sha256": "4f34879b7f5f8b928878149c62d35b16ece2a24a9d790ab6f273fdbb3d42b1eb"
+    },
+    {
+      "task_id": "lesson-builder__cn57_03",
+      "variant": "off_topic",
+      "targets": [
+        "D3"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 3,
+        "D3": 3,
+        "D4": 3,
+        "D5": 3,
+        "D6": 3,
+        "D7": 3
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "4d6c324292c4320ed990745214ecfcff6a0029e1b2c49f9ba0fc0c098a0553af",
+      "answer_sha256": "c94f0549f8b2f41f99000fc51f00966d967bcd735c10eb783e1365739cd0e309"
+    },
+    {
+      "task_id": "lesson-builder__cn60_04",
+      "variant": "correct",
+      "targets": [
+        "D1"
+      ],
+      "status": "evaluated",
+      "passed": true,
+      "ranks": {
+        "D1": 0,
+        "D4": 0,
+        "D5": 0,
+        "D6": 0,
+        "D7": 0
+      },
+      "source_run": "results_v2/adjudication-contrasts-counterevidence-20261002",
+      "case_content_sha256": "677f7380fbe460e30dd8824414fed4e541ceb16c0603f707c55f0d44baf0b136",
+      "answer_sha256": "1b2d81e711e7a9bbb21332bb07560ffe1fd5b16fd18b7383cc7ed3c39f07973a"
+    }
+  ],
+  "historical_first_run": "41/42; unchanged answer rechecked only after clarifying cn31_01 rubric boundary."
+}

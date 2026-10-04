@@ -1,0 +1,26 @@
+{
+  "protocol": "source-native-v1",
+  "parent_release": "source-minimal-20261001",
+  "parent_manifest_sha256": "7ea4ef50bd75ff9690739f68baa793fbc5a83943621eb32b9704aa3e84254989",
+  "counts": {
+    "core": 42,
+    "advisory": 263,
+    "all": 305
+  },
+  "artifacts": {
+    "305题运行审阅.txt": "1ac46f224e73610a281560a3492b3309b7b8f380214dd9a1c974219be35b25df",
+    "README.md": "3ea7ea22441937bc967a4f0d35309802ea2efe13416e9f037d1fa209e16a6885",
+    "cases.json": "46883dbbb258130da864fff247e9dcec8a820dec9c00457710dc41add66e7a4c",
+    "release_gate.json": "95acbccff3c34b1f86c9188381e65a12d14dee937405e7c3fc885d853c501959",
+    "scope_and_changes.json": "845e2a2f6d51dc4f84f5691924787def47830c2fde6da490f072b4b9db13c9d0"
+  },
+  "code": {
+    "repro/source_protocol.py": "678e275cc32e8478f8196303bcd8681a665e28ce695beed9690642cc362fc1ed",
+    "repro/source_runner.py": "78d85283da40f432a3207da37249e375c8016cf86884018194ae4540b18dadfb",
+    "code/evaluation/build_source_native.py": "9a419e274935965c58c7fc66357b77c532a6c431b5a6fef4f33225aca616a5f1",
+    "repro/judge.py": "279b725f864d6a8fa6c73d480b1d530eee934d4d311ef7fef2db91a8cd8818d0",
+    "code/evaluation/content_fixes.py": "9471e2902df5ea8964f2de62e30b678de4ac92cb8e55eff912282b9e4ceb0c56",
+    "code/evaluation/source_content_fixes_20261001.json": "1fa8439d11334d4ea13551de7f0c2908c6ff5308b7192ce58e20c51dd8e8feb2"
+  },
+  "skill_files": {}
+}

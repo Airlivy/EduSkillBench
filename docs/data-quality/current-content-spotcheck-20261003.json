@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-03",
+  "scope": "Current dataset identity, prior mismatch cases and factual-anchor spot checks; not a new expert review of every question",
+  "cases_sha256": "ab0eeee5246679373d7ceb23bd87f80630c87698150d0fc49085ec7fc369f777",
+  "matches_formal_run": true,
+  "known_mismatches_checked": {
+    "lesson-builder__cn22_01": "Hyperbola question now uses concept-neutral context and criteria, not ellipse-specific requirements",
+    "lesson-builder__cn25_01": "Context explicitly aligned with 主元法, not Menelaus"
+  },
+  "factual_anchors_checked": {
+    "differentiation-adapter__01": "6+10+6=22, change 28 from 50",
+    "self-explanation-prompt-designer__03": "Flux .008 Wb, derivative .04 Wb/m, magnitude emf .12 V, current .06 A, counterclockwise; consistent"
+  },
+  "reference_answer_counts": {
+    "core_nonempty": 42,
+    "advisory_empty": 263
+  },
+  "remaining_concerns": [
+    {
+      "task_id": "lesson-builder__cn31_08",
+      "field": "criteria D6",
+      "finding": "Question concerns binomial coefficients and combinations; generic criterion examples include 隔板法 and 先分组再分配, which may invite irrelevant grading expectations. Needs scope tightening, not confirmed mathematical answer error."
+    }
+  ],
+  "data_tests": {
+    "passed": 41,
+    "total": 42,
+    "failure": "adjudication receipt tied to an old release manifest after execution-code changes; dataset itself matches running snapshot"
+  },
+  "dataset_modified": false,
+  "conclusion": "Previously identified topic mismatches corrected; no new basic factual error in checked anchors. Cannot certify all 305 semantically error-free."
+}

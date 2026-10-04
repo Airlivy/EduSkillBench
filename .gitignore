@@ -17,3 +17,19 @@ data/generation_meta.json
 .claude/
 .nodecache/
 *.zip
+
+# Rebuildable paper products; keep published PDFs and figure assets versioned.
+paper/build/
+paper/*.aux
+paper/*.out
+paper/*.toc
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/main.pdf
+
+# Local archives and cleanup manifests; raw jobs and caches retain their paths.
+.local-artifacts/
+
+# Local model responses, request traces and frozen run snapshots
+results_v2/
