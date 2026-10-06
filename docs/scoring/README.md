@@ -4,7 +4,7 @@
 
 ## 从哪里看
 
-- [305题评分标准（含题目、背景）](305题评分标准.txt)：直接阅读本次实际使用的逐题检查项、权重和等级描述。
+- [305题评分标准（含题目、背景）](305题评分标准.txt)：直接阅读本次实际使用的逐题检查项、权重和等级描述；TXT仅规范化换行和行尾空白，机器输入以JSON为准。
 - [机器可读题库](../../data/releases/source-native-20261001/cases.json)：core 使用 rubric；advisory 使用 criteria 和 applicable_ids。保留修改记录；不是未经修改的来源原文。
 - [模型实际配置](judge_model.json)：评委名称、接口和解析后的参数，没有 API 密钥。
 - [正式运行配置](../../repro/api_config_formal.json)：作答与评分均使用 Chat；10000 token 输出上限、120秒总时限。评委 DeepSeek V4 Pro 关闭思考；其他模型的覆盖配置见文件。
