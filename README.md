@@ -295,3 +295,5 @@ Multi-turn execution and larger-scale evaluation are planned as future extension
 ## 评分脚本、模型与逐题标准
 
 本次正式实验的评分交付见 [评分说明](docs/scoring/README.md)，包括 [305题评分标准](docs/scoring/305题评分标准.txt)、评委模型配置、评分提示词、运行命令和论文统计口径。42题的加权通过分与263题的最高等级占比分开计算。
+
+评分公式与逐步例子见 [评分与计算方式：通俗完整版](docs/scoring/评分与计算方式_通俗完整版.md)。
