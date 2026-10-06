@@ -1,0 +1,20 @@
+{
+  "judge_model": "deepseek-v4-pro",
+  "endpoint": "https://ark.cn-beijing.volces.com/api/plan/v1/chat/completions",
+  "resolved_options": {
+    "thinking_mode": "disabled",
+    "max_output_tokens": 10000,
+    "timeouts": {
+      "headers": 45.0,
+      "idle": 45.0,
+      "content_idle": 60.0,
+      "total": 120.0
+    },
+    "api_protocol": "chat_completions"
+  },
+  "temperature": "not explicitly supplied",
+  "seed": "not explicitly supplied",
+  "weights": "Remote API model; no local trained weights",
+  "core_profile": "default binary-item prompt; fixed-pro-v2 not enabled by source_runner",
+  "advisory_profile": "source-native-v1"
+}

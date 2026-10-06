@@ -1,0 +1,8 @@
+{
+  "repro/judge.py": "dc61d528ed68c0c075af6106a25ce2e1e7e7e6848d9ec541e44412e5ed7deacf",
+  "repro/source_protocol.py": "3e5c9122789a7090e5ce847cc47a664838f99d5cbbbc1f794e86fd7e4a8202aa",
+  "repro/source_runner.py": "c8009caa42de2893d4a499b00ce079ddb059467f5e238ccb357b4e512550a4af",
+  "repro/paired_runner.py": "42995aed8bbc1326439d6185ebe9a237470e9f29a16a11d3e3252586bc3365da",
+  "repro/api_config_formal.json": "ed18bfebfe05d6047f86d29a5b3b36c1d6b7900ee1e7a0a7d524f835a3e26cd5",
+  "data/releases/source-native-20261001/cases.json": "ab0eeee5246679373d7ceb23bd87f80630c87698150d0fc49085ec7fc369f777"
+}
