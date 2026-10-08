@@ -23,7 +23,7 @@ def one(model,prompt,out):
 
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--out',type=Path,required=True);ap.add_argument('--execute',action='store_true');ap.add_argument('--api-config',type=Path,default=Path(__file__).resolve().parents[1]/'api_config.json');a=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--out',type=Path,required=True);ap.add_argument('--execute',action='store_true');ap.add_argument('--api-config',type=Path,default=Path(__file__).resolve().parents[1]/'api_config_formal.json');a=ap.parse_args()
     runner.load_api_config(a.api_config)
     _,cases,_=load_release();case=next(c for c in cases if c['task_id']=='hinge-question-designer__03')
     a.out.mkdir(parents=True,exist_ok=True)

@@ -1,6 +1,0 @@
-{
-  "max_output_tokens": 10000,
-  "total_timeout_seconds": 120,
-  "api_protocol": "chat_completions",
-  "thinking_mode": "disabled"
-}

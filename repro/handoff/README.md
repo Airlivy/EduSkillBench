@@ -1,4 +1,4 @@
-> **本轮补跑与重试：[固定配置说明](../FORMAL_CONFIG.md)。使用 `api_config_formal.json`，不要使用全关闭思考的试验配置。**
+> **本轮补跑与重试：[固定配置说明](../FORMAL_CONFIG.md)。统一使用 `api_config_formal.json`。**
 
 # 环境迁移与报错交接（2026-10-04）
 
@@ -30,7 +30,7 @@ python -m repro.paired_runner --out results_v2/new-machine-plan --api-config rep
 python -m repro.paired_runner --out results_v2/new-machine-formal --api-config repro/api_config_formal.json --env-file .env --workers 16 --execute
 ```
 
-正式配置为 Chat、输出额度 10000、单次请求总限时 120 秒。两个 DeepSeek 关闭思考；两个 GLM 和 Kimi 使用 low，因为此前服务端拒绝关闭思考参数。`repro/api_config.json` 是已知部分模型会拒绝的全关闭试验配置，不能代替正式配置。服务端可用模型和额度仍需新机器实际验证。
+正式配置为 Chat、输出额度 10000、单次请求总限时 120 秒。两个 DeepSeek 关闭思考；两个 GLM 和 Kimi 使用 low，因为此前服务端拒绝关闭思考参数。服务端可用模型和额度仍需新机器实际验证。
 
 总并发上限 16；保留思考的模型每个最多 2。首次正式执行先跑 20 个位置的 pilot，计入总数；门槛是每模型/条件及题库/条件都有成功位置，并非 20 个全部成功才继续。无额度、网络或格式故障仍可能让任务失败；不得把失败当成零分。
 
