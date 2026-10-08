@@ -33,3 +33,7 @@ paper/main.pdf
 
 # Local model responses, request traces and frozen run snapshots
 results_v2/
+
+# OS directory metadata
+.DS_Store
+Thumbs.db

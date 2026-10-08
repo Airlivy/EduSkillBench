@@ -1,8 +1,6 @@
-> **当前环境迁移入口（2026-10-04）：[交接说明](handoff/README.md)**。下面是保留的历史运行说明，其中旧时限、旧计数与旧入口不代表当前正式 Chat 实验。
+# 旧OpenCode／BenchFlow harness运行指南
 
-> **2026-10-01 当前入口：** [305题原标准适配版](../data/releases/source-native-20261001/README.md)。使用 `python3 -m repro source-run`；原文等级不再硬塞入旧布尔评分器。五个模型按“能关则关，不能关则low”配置；前42题原评分与后263题等级结果分开报告。
-
-# 当前五模型评测运行指南
+本文件保留旧版容器运行方式及当时的排查记录。当前正式Chat实验请使用[完整环境与Harness说明](FORMAL_CONFIG.md)，环境迁移与旧框架补丁见[交接说明](handoff/README.md)。下文历史状态、时限和结果数量不代表当前正式实验。
 
 统一使用 `python3 -m repro <命令>`，从仓库根目录运行。这里的 Python 应为当前要使用的环境；付费实验需要安装 BenchFlow 的解释器。默认不调用模型。
 
